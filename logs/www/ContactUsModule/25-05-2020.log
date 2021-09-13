@@ -1,0 +1,72 @@
+May 25 12:00:07 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : tonxab@outlook.com
+SUBJECT     : Contact from tonxab@outlook.com
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+
+May 25 12:11:21 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : windut@yandex.com
+SUBJECT     : Contact from windut@yandex.com
+==================
+
+May 25 12:11:21 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info@fsholdings.co.id
+SUBJECT     : Contact from windut@yandex.com
+==================
+
+May 25 12:11:22 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : admin@fsholdings.co.id
+SUBJECT     : Contact from windut@yandex.com
+==================
+
+May 25 12:11:22 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : rusman.salem@fsholdings.co.id
+SUBJECT     : Contact from windut@yandex.com
+==================
+
+May 25 12:11:22 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : yoelin.anugrah@fsholdings.co.id
+SUBJECT     : Contact from windut@yandex.com
+==================
+
+May 25 12:11:22 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info_product@fsholdings.co.id
+SUBJECT     : Contact from windut@yandex.com
+==================
+

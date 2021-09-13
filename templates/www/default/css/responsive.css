@@ -1,0 +1,317 @@
+/*
+/* Version: 1.0.0
+*/
+/*-------- css code for responsive layout  --------*/
+
+/*  To make Responsive
+---------------------------------------------------------------------- /
+*   1 - media screen and (max-width: 1199px)
+*   2 - media screen and (max-width: 991px)
+*   3 - media screen and (max-width: 767px)
+*   4 - media screen and (max-width: 680px)
+*   5 - media screen and (max-width: 480px)
+*
+---------------------------------------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+	#z7 {
+		width: 40%;
+	}
+}
+/*  1 - media screen and (max-width: 1199px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 1199px) {
+	.menu-right-part {
+		top: 0;
+	    right: 0;
+	    float: right;
+	    position: relative;
+	}
+	.menuzord-brand {
+		margin: 0px 30px 0 0;
+	}
+	.menuzord-menu {
+		width: 100%;
+		display: inline-block;
+	}
+
+
+	.footer-menu,
+	.copyright {
+		text-align: center;
+	}
+	.copyright-text {
+		float: none;
+	}
+	#z7.tp-caption {
+		width: 30%;
+	}
+}
+/*  1 - media screen and (max-width: 1199px) End
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px){
+	.home a.menuzord-brand{
+		margin: 18px 8px 18px 0;
+	}
+}
+
+/*  2 - media screen and (max-width: 991px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 991px) { /* for medium device */
+	.big-sale-img {
+	    margin-top: 30px;
+	}
+	.list-single-item {
+		margin-bottom: 0;
+	}
+	.content-img img {
+		float: none;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+	.footer-menu ul li a {
+	    padding: 5px 15px;
+	}
+	.accordion-widget {
+	    padding-left: 0;
+	    margin-top: 30px;
+	}
+	.comtact-info-area {
+	    margin-top: 30px;
+	    margin-bottom: 50px;
+	}
+	.single-news {
+	    display: inline-block;
+	    margin-bottom: 30px;
+	}
+	.menuzord .showhide {
+	    width: 60px;
+	    height: 46px;
+	    padding: 13px 0 0;
+	    display: block !important;
+	    float: right;
+	    text-decoration: none;
+	    outline: 0;
+	    -webkit-tap-highlight-color: transparent;
+	}
+	.menuzord-responsive .showhide {
+	    margin-right: 0;
+	    margin-top: 10px;
+	}
+	.menuzord .showhide em {
+	    width: 20px;
+	    height: 2px;
+	    float: right;
+	    background: #fff;
+	}
+	.home .menuzord .showhide em {
+	    background: #191a1f;
+	}
+	.menu-right-part {
+	    top: 20px;
+	}
+	a.account {
+	    display: none;
+	}
+	.menu-right-part .search-ecomm-menu-btn a {
+		right: 40px;
+	}
+	.menuzord.red .menuzord-menu .active:after,
+	.fleets-section .tab-wrap li.active:after {
+		display: none;
+	}
+	.menuzord-responsive .menuzord-brand {
+	    margin: 15px 30px 10px 20px;
+	}
+	.menuzord.red .menuzord-menu ul.dropdown li a,
+	.menuzord-menu>li>a {
+		color: #000;
+	}
+	ul.menuzord-menu.menuzord-right.menuzord-indented.scrollable {
+		top: 50px;
+		z-index: 1;
+	    margin-top: 13px;
+		position: absolute;
+	    background-color: #fff;
+	}
+	.menuzord.red .menuzord-menu>li.active>a,
+	.menuzord.red .menuzord-menu>li:hover>a {
+		color: #3768dc;
+	}
+	.home .menu-right-part .social-btn a,
+	.home .menuzord .showhide em  {
+		color: #111272;
+	}
+	.home .menuzord.sticky .menu-right-part {
+	    top: 17px;
+	}
+	.banner-text h2 {
+		font-size: 46px;
+	}
+	.serve-section .section-head p {
+		margin-top: 30px;
+		max-width: none;
+		text-align: left;
+	}
+	.car-details .feature-lsit ul {
+		width: 100%;
+	}
+	.single-news {
+	    display: block;
+	    margin-bottom: 30px;
+		text-align: center;
+	}
+	.single-news img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.responsive-device-menu {
+		height: auto;
+		left: 0;
+		width:100%;
+		margin-left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 2147483647;
+	}
+	.responsive-device-menu .menuzord{
+		padding: 5px 0 12px 0;
+		margin-left: 0;
+	}
+	.home-dark .menuzord{
+		padding-left: 0;
+	}
+	ul.menuzord-menu.menuzord-right.menuzord-indented.scrollable {
+	  top: 60px;
+	  right: 0
+	}
+	.big-sale .section-head p {
+
+	  width: 100%;
+	}
+	.big-sale .section-head p {
+
+	  width: 100%;
+	}
+	#fleets{
+		padding-bottom: 0;
+	}
+	
+}
+/*  2 - media screen and (max-width: 991px) End
+---------------------------------------------------------------------- */
+
+
+/*  3 - media screen and (max-width: 767px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 767px){ /*For Mobile Device*/
+	.quote-info a{
+		color: #fff;
+		font-size: 12px;
+		line-height: 10px;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+
+	.quote-info	p {
+		   font-size: 24px;
+		   font-style: italic;
+		   line-height: 38px;
+		   margin-bottom: 10px;
+		   margin-top: 45px;
+		   max-width: 580px;
+		   margin-left: auto;
+		   margin-right: auto;
+	   }
+}
+/*  3 - media screen and (max-width: 767px) End
+---------------------------------------------------------------------- */
+
+
+/*  4 - media screen and (max-width: 680px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 680px){
+	.home .menu-right-part {
+		display: none;
+	}
+	.banner-section .banner-text {
+	  padding: 200px 50px 150px;
+	}
+	.banner-text h3 {
+	  font-size: 30px;
+	  margin: 0;
+	}
+	.banner-text h2 {
+	  font-size: 30px;
+	   margin: 0;
+	}
+	.header .social-btn, .header .phone, .header .mail {
+
+	  display: none;
+	}
+
+
+}
+/*  4 - media screen and (max-width: 680px) End
+---------------------------------------------------------------------- */
+
+
+/*  5 - media screen and (max-width: 480px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 480px){
+	.name-price span.price,
+	.name-price .name {
+		float: none;
+		display: block;
+	}
+	.name-price .name {
+		margin-bottom: 10px;
+	}
+	.page-container-404 h1 {
+		font-size: 48px;
+	}
+	.page-container-404 h2 {
+		font-size: 36px;
+	}
+	.menu-right-part {
+		display: none;
+	}
+	.banner-section .banner-text {
+	  padding-top: 100px;
+	  padding-bottom: 50px;
+	  text-align: center;
+	}
+	.home .slider-section {
+	  padding:0 !important;
+	}
+	.tp-banner a.custom-btn {
+	  font-family: "Oswald",sans-serif !important;
+	  font-size: 10px !important;
+	  padding: 12px 32px !important;
+	}
+	.section-head h2 {
+	  color: #111217;
+	  font-size: 25px;
+	}
+
+}
+/*  5 - media screen and (max-width: 360px) End
+---------------------------------------------------------------------- */
+@media screen and (max-width: 360px){
+	.banner-section .banner-text {
+	  padding: 40px 50px 0px;
+	}
+	.banner-text h3 {
+	  font-size: 25px;
+	  margin: 0;
+	}
+	.banner-text h2 {
+	  font-size: 25px;
+	  margin: 0;
+	}
+	.tparrows{
+		display: none !important;
+	}
+}

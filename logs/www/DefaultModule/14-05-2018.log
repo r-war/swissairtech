@@ -1,0 +1,22 @@
+May 14 16:53:36 DefaultModule [error] Syntax Error in template "templates/www/default\core\header.tpl"  on line 76 "&lt;img src=&quot;{aConfig.web_logo}&quot; alt=&quot;Consulting&quot;&gt;"  - Unexpected ".", expected one of: "}" , " "
+===================
+Server Addr: 127.0.0.1
+Server Host: fsholding.cms
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36
+===================
+#0 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(58, '.')
+#2 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(58, '.')
+#3 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<!DOCTYPE html>...')
+#4 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 C:\xampp5\htdocs\fsholding\templates_c\www\default\a93eb856d51fe41f95addc301c9fbd21debfb028.file.default.tpl.php(31): Smarty_Internal_Template->getSubTemplate('core/header.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#8 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_5af945cc2219f1_33666952(Object(Smarty_Internal_Template))
+#9 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#10 C:\xampp5\htdocs\fsholding\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#11 C:\xampp5\htdocs\fsholding\classes\core\Application.php(308): Application->executeModule(Object(DefaultModule))
+#12 C:\xampp5\htdocs\fsholding\index.php(10): Application->process()
+#13 {main}
+******************************************************

@@ -1,0 +1,13 @@
+Oct 24 12:54:38 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : no_reply@irqmail.com
+SUBJECT     : Contact from no_reply@irqmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: no_reply@irqmail.com
+==================
+

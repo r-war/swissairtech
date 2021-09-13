@@ -1,0 +1,3265 @@
+/* ==================================================================
+
+The Limo - Multipage HTML5 Template
+
+File:           CSS Base
+Version:        1.0
+Last change:    22/06/16
+Author:         getuxui
+
+
+/*  - Table of Content
+==================================================================*/
+/*
+* 2 = Global Area
+* 3 = Home Page 1
+* 4 = Home Page 2
+* 5 = List Page
+* 6 = List Page 2
+* 7 = Service Page
+* 8 = Service Details Page
+* 9 = Blog Page
+* 10 = Single Page
+* 11 = Car Details Page
+* 12 = Construction Page
+* 13 = Contact Page
+* 14 = About Page
+* 15 = 404 Page
+*/
+/*  - End of Table of Content
+==================================================================*/
+
+
+
+/*  - 2 Global Area
+-------------------------------------------------------------------------*/
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0;
+  color: #9297a3;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+.main-menu-container{
+    overflow: hidden;
+}
+a {
+   text-decoration: none;
+   display: inline-block;
+}
+.form-control:focus,
+button:visited,
+button.active,
+button:hover,
+button:focus,
+a:hover,
+a:focus,
+a:visited,
+a.active{
+   outline: none;
+   text-decoration: none;
+}
+.form-control {
+  box-shadow: none;
+}
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   text-transform: uppercase;
+   font-family: 'Oswald', sans-serif;
+}
+h1 {
+   color: #fff;
+   font-size: 40px;
+}
+h2 {
+   color: #111217;
+   font-size: 48px;
+}
+h4 {
+   color: #111217;
+   font-size: 20px;
+}
+hr {
+  margin: 0;
+  border-top: 1px solid #e5e5e5;
+}
+/*  - Color
+------------------------------*/
+.white {
+  color: #fff !important;
+}
+.base {
+  color: #3a6ee8 !important;
+}
+.gray {
+  color: #a9a9a9 !important;
+}
+.black {
+  color: #111217 !important;
+}
+.bold {
+  font-weight: 700 !important;
+}
+/*  - Color End
+------------------------------*/
+
+/*  - BG Color
+------------------------------*/
+.dark-bg {
+   background-color: #f5f5f5;
+}
+.white-bg {
+   background-color: #fff;
+}
+.base-bg {
+  background-color: #3a6ee8;
+}
+.black-bg {
+  background-color: #111217;
+}
+/*  - BG Color End
+------------------------------*/
+#z2{
+    z-index: 2;
+}
+#z2-2{
+    z-index: 2;
+}
+#z2-3{
+    z-index: 2;
+}
+#z3{
+    z-index: 3;
+}
+#z3-2{
+    z-index: 3;
+}
+#z3-3{
+    z-index: 3;
+}
+#z4{
+    z-index: 3;
+}
+#z7{
+    z-index: 7;
+}
+#z14{
+    z-index: 14;
+}
+#z15{
+    z-index: 15;
+}
+#z16{
+    z-index: 16;
+}
+#z16-2{
+    z-index: 16;
+}
+#slider-layer-bg{
+    background-color:#b2c4cc;
+}
+/*  - Section Head
+=========================================================*/
+.section-head h2 {
+  color: #111217;
+  font-size: 48px;
+  margin-bottom: 17px;
+}
+.section-head h2 span {
+  color: #3a6ee8;
+}
+.section-head p {
+  max-width: 510px;
+  margin: 0 auto;
+}
+.section-content {
+   width: 100%;
+   display: inline-block;
+}
+/*  - End of Section Head
+=========================================================*/
+
+
+
+/*  - Page Head
+=========================================================*/
+.page-head .section-padding {
+   padding-top: 85px;
+   padding-bottom: 75px;
+}
+.page-head {
+   background-size: cover;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+}
+.page-head .overlay {
+   background-color: rgba(0, 0, 0, .6);
+}
+.page-head span {
+   color: #fff;
+   position: relative;
+}
+.page-head span a {
+  color: #b18f6a;
+  padding-left: 35px;
+}
+.page-head span .after:after {
+  top: 9px;
+  left: 12px;
+  width: 7px;
+  height: 7px;
+}
+/*  - End Of Page Head
+=========================================================*/
+
+/*  - Margin Padding
+------------------------------*/
+p.margin-bottom-0 {
+   margin-bottom: 0;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.padding-right-zero {
+   padding-right: 0px;
+}
+.padding-left-zero {
+   padding-left: 0px;
+}
+.padding-left-15 {
+  padding-left: 15px;
+}
+.section-padding {
+   padding-top: 100px;
+   padding-bottom: 90px;
+}
+.padding-top100 {
+  padding-top: 100px;
+}
+.padding-bottom100 {
+  padding-bottom: 100px;
+}
+.padding-bottom55 {
+  padding-bottom: 55px;
+}
+.padding-bottom40 {
+  padding-bottom: 40px;
+}
+.padding-bottom15 {
+  padding-bottom: 15px;
+}
+.no-margin{
+	margin:0!important;
+}
+/*  - Padding End
+------------------------------*/
+.icon {
+   width: 30px;
+   height: 30px;
+   float: left;
+   display: inline-block;
+}
+.mm-small-box {
+   display: block;
+   overflow: hidden;
+}
+.mm-absolute-img {
+    position: absolute;
+}
+.slider-section {
+   overflow: hidden;
+}
+.font-oswald {
+   font-family: 'Oswald', sans-serif;
+}
+.overlay {
+   background-color: rgba(0, 0, 0, .3);
+}
+.border-dashed {
+  border: 1px dashed #ebebeb;
+}
+.after {
+  position: relative;
+}
+.after:after {
+  top: 0;
+  left: 0;
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  border: 1px solid #fff;
+}
+.bold {
+   font-weight: 700 !important;
+}
+.normal {
+   font-weight: 400 !important;
+}
+.colmd4 {
+   max-width: 370px;
+   margin: 0 auto 30px auto;
+}
+.colmd3 {
+   max-width: 272px;
+   margin: 0 auto 30px auto;
+}
+.colmd4 img,
+.colmd3 img {
+  width: 100%;
+}
+.indor-planet,
+section {
+  overflow: hidden;
+}
+.home-dark .navbar-fixed-top{
+    position: fixed !important;
+    background:#000;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.home-dark .navbar-fixed-top .menuzord{
+    padding: 0 0 0 30px;
+}
+.home-dark .navbar-fixed-top .menu-right-part{
+    top:17px;
+}
+/*  - Social Button
+-------------------------------*/
+.social-btn {
+  display: inline-block;
+}
+.social-btn li {
+  float: left;
+}
+.social-btn a {
+   width: 30px;
+   height: 30px;
+   color: #000;
+   margin-right: 8px;
+   line-height: 30px;
+   text-align: center;
+   display: inline-block;
+}
+.home-dark .social-btn a {
+   width: 30px;
+   height: 30px;
+   color: #fff;
+   margin-right: 8px;
+   line-height: 30px;
+   text-align: center;
+   display: inline-block;
+}
+.social-btn a:hover {
+   color: #3a6ee8;
+}
+/*  - Link Button
+-------------------------------*/
+button.custom-btn,
+span.custom-btn,
+.custom-btn {
+   color: #fff;
+   font-weight: 700;
+   padding: 12px 40px;
+   display: inline-block;
+   text-transform: uppercase;
+}
+.custom-btn,
+input.black {
+  background-color: #191a1f;
+}
+a.custom-btn.base,
+input.base {
+  background-color: #3a6ee8;
+}
+a.more-btn {
+   color: #3a6ee8;
+   font-size: 11px;
+   margin-top: 18px;
+   font-weight: 700;
+   display: inline-block;
+   text-transform: uppercase;
+}
+.custom-btn:hover {
+  color: #fff;
+  background-color: #3a6ee8;
+}
+/*  - Overflow Hidden
+-------------------------------*/
+.project-section {
+  overflow: hidden;
+}
+/*  - Transition
+-------------------------------*/
+.item-head h4.title,
+.single-post h2,
+a.custom-btn,
+.item-head,
+input,
+a {
+   -webkit-transition: all .3s ease;
+   transition: all .3s ease;
+}
+/*  - 2 Global Area End
+-------------------------------------------------------------------------*/
+
+
+
+/*============================================================================================================*/
+/*  --------------------------------------------- 3 Home Page 1 --------------------------------------------  */
+/*============================================================================================================*/
+
+/*  - banner Section
+============================================================================*/
+.banner-section {
+  background-repeat: no-repeat;
+  background-image: url(../../images/background.jpg);
+}
+.banner-section .banner-text {
+  padding: 200px 50px 300px;
+}
+.banner-text h3,
+.banner-text h2,
+.banner-text p {
+  color: #fff;
+}
+.banner-text h2 {
+  font-size: 72px;
+  margin: 40px 0;
+}
+.banner-text h3 {
+  font-size: 48px;
+}
+.header {
+  width: 100%;
+  padding: 35px 55px;
+  display: inline-block;
+}
+.header .social-btn,
+.header .phone,
+.header .mail {
+  color: #fff;
+  float: right;
+  margin-left: 30px;
+  display: inline-block;
+}
+/*  - End Of banner Section
+============================================================================*/
+
+
+
+/*  - next-section
+============================================================================*/
+.next-section {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.next-section .btn {
+  color: #ffffff;
+  background: transparent;
+  border-color: transparent;
+  font-size: 1em;
+  margin: 0;
+  position: relative;
+}
+button#go-to-next {
+  outline: none;
+  border: 2px solid #b1aeae;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+/*  - next-section End
+============================================================================*/
+
+
+/*  - Main Menu
+============================================================================*/
+.menuzord, .menuzord * {
+    font-family: inherit;
+}
+.home .menuzord-menu>li>a {
+  color: #111217;
+}
+.menuzord-menu>li>a {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  padding: 26px 14px;
+}
+a.menuzord-brand {
+ color: #fff;
+}
+.menu-right-part .social-btn {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.menuzord.red .menuzord-menu>li.active>a,
+.menuzord.red .menuzord-menu>li:hover>a {
+  color: #fff;
+}
+.menu-right-part .search-ecomm-menu-btn a span.badge {
+  right: -7px;
+}
+.menuzord.red .menuzord-menu>li.active>a,
+.menuzord.red .menuzord-menu>li:hover>a {
+  color: #fff;
+}
+.menuzord.red .menuzord-menu ul.dropdown li:hover>a {
+  color: #111217;
+}
+.home .menuzord.red .menuzord-menu ul.dropdown li:hover>a,
+.home .menuzord.red .menuzord-menu>li.active>a,
+.home .menuzord.red .menuzord-menu>li:hover>a {
+  color: #111217;
+}
+.menuzord.red .menuzord-menu .active,
+.fleets-section .tab-wrap li.active {
+  position: relative;
+}
+.menuzord.red .menuzord-menu .active:after,
+.fleets-section .tab-wrap li.active:after {
+  top: 50%;
+  left: 0;
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #969799;
+}
+.fleets-section .tab-wrap li.active:after {
+  height: 2px;
+}
+a.menuzord-brand {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+}
+.home a.menuzord-brand {
+  color: #111217;
+  padding-left: 20px;
+}
+/*  - End Of Main Menu
+============================================================================*/
+
+
+
+
+/*  - Slider Section
+============================================================================*/
+.menu-in-slider {
+  position: relative;
+}
+.home .main-menu {
+
+  z-index: 99;
+   -webkit-transition: .5s;
+   transition: .5s;
+
+}
+.home-dark .menuzord {
+  padding: 30px;
+  margin:0;
+  z-index: 9999;
+  background: transparent;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: transparent;
+}
+.home .menuzord {
+  padding: 30px 0;
+  margin: 0 60px -140px 60px;
+  z-index: 9999;
+  background: transparent;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: #f4f4f4;
+}
+.menuzord-menu.menuzord-right {
+  float: none;
+}
+.menuzord.sticky {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  padding: 15px 15px;
+  background-color: #000;
+}
+
+.menuzord.sticky .menuzord-menu>li>a {
+  padding: 6px 16px;
+}
+.menuzord.sticky .menuzord-brand {
+  margin: 0px 30px 0 0;
+}
+.home .menuzord.sticky {
+  position: absolute;
+  background-color: transparent;
+}
+.home .menuzord.sticky .menuzord-menu>li>a {
+    padding: 25px 16px;
+}
+.home .menuzord.sticky .menuzord-brand {
+    margin: 16px 30px 0 0;
+}
+.home .menuzord.sticky .menu-right-part {
+    top: 35px;
+}
+.home .main-menu {
+    z-index: 9999;
+}
+.home .main-menu.menu-fix .menuzord.sticky {
+  height: auto;
+  background-color: #f4f4f4 !important;
+}
+.home .main-menu.menu-fix .social-btn a {
+  color: #111217;
+}
+/* - Menu right part
+----------------------------------------------*/
+.menu-right-part {
+  top: 50px;
+  right: 30px;
+  position: absolute;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.menuzord.sticky .menu-right-part {
+  top: 16px;
+}
+.menu-right-part .social-btn {
+  margin-right: 100px;
+}
+.menu-right-part .social-btn,
+.search-ecomm-menu-btn {
+  float: left;
+  text-align: right;
+}
+.menu-right-part .search-ecomm-menu-btn a {
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+}
+.home .menu-right-part .search-ecomm-menu-btn .searchbox-icon,
+.home .menu-right-part .search-ecomm-menu-btn a {
+  color: #111217;
+}
+.searchbox {
+  position: relative;
+  width: 0%;
+  height: 0;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+  display: none;
+  opacity: 0;
+}
+.searchbox.searchbox-open {
+  display: block;
+  height: 50px;
+  opacity: 1;
+}
+.searchbox-input {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  font-size: 20px;
+  border: none;
+  padding: 0px 25px 0px 20px;
+  background-color: transparent;
+}
+.searchbox-input::-webkit-input-placeholder {
+  color: #9297a3;
+}
+.searchbox-input:-moz-placeholder {
+ color: #9297a3;
+}
+.searchbox-input::-moz-placeholder {
+ color: #9297a3;
+}
+.searchbox-input:-ms-input-placeholder {
+ color: #9297a3;
+}
+.searchbox-icon,
+.searchbox-submit {
+  top: 7px;
+  right: 80px;
+  color: #fff;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  background: transparent;
+  position: absolute;
+  font: normal normal normal 18px FontAwesome;
+}
+.home-dark .search-ecomm-menu-btn a.account,
+.home-dark i.icon.ion-bag {
+  color: #fff;
+  font-size: 22px;
+}
+.searchbox-open {
+  width: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: -60px;
+  background-color: #fff;
+  z-index: 1;
+}
+.searchbox-open input[type=search] {
+  border: 1px solid #000;
+}
+.byline {
+  position: absolute;
+  top: 150px;
+  left: 30%;
+  text-align: center;
+  font-size: 18px;
+}
+.byline a {
+  text-decoration: none;
+  color: #d74b4b;
+}
+
+/* - Ecommerce
+---------------------------------*/
+.menu-right-part .icon {
+  padding-top: 3px;
+}
+.menu-right-part .search-ecomm-menu-btn a span.badge {
+  font-size: 8px;
+  right: -7px;
+  bottom: -3px;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  text-align: left;
+  background-color: #3a6ee8;
+}
+/* - Menu
+-------------------------------*/
+.search-ecomm-menu-btn div.submenu {
+  top: 50px;
+  right: 0;
+  z-index: 100;
+  width: 135px;
+  display: none;
+  background: #fff;
+  position: absolute;
+  padding-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.search-ecomm-menu-btn .dropdown  li a {
+  color: #555555;
+  display: block;
+  font-family: arial;
+  font-weight: bold;
+  padding: 6px 15px;
+  cursor: pointer;
+  text-decoration:none;
+}
+.search-ecomm-menu-btn .dropdown li a:hover {
+  background:#155FB0;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.search-ecomm-menu-btn a.account {
+  font-size: 25px;
+  line-height: 16px;
+  color: #fff;
+  z-index: 110;
+  padding: 11px 0 0 20px;
+  margin: -11px 0 0 -10px;
+  text-decoration: none;
+  background: url(icons/arrow.png) 116px 17px no-repeat;
+  cursor:pointer;
+}
+.home .search-ecomm-menu-btn a.account {
+  color: #555;
+}
+.search-ecomm-menu-btn .root {
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  font-size: 11px;
+  padding: 11px 0 0 0px;
+  border-top:1px solid #dedede;
+}
+ul.root a {
+  width: 100%;
+  text-align: left;
+  color: #000 !important;
+}
+/* - end of Menu right part
+----------------------------------------------*/
+.home .slider-section {
+  padding: 0 60px;
+  background-color: #000;
+  box-shadow: -130px -115px 180px #000;
+}
+.home .slider-section .carousel-inner {
+  background-position: 50% 50%;
+  background-image: url(../../images/home-light/slider/1.jpg);
+}
+.home .slider-section .item {
+  padding: 370px 0 340px 0;
+}
+.home .slider-content {
+    max-width: 480px;
+}
+.home .slider-section h2 {
+  font-size: 90px;
+  margin-bottom: 15px;
+}
+.home .slider-section p {
+  margin-bottom: 35px;
+}
+/* - Carousel Overwrit
+------------------------------------------------*/
+.home .slider-section .carousel-indicators {
+  left: 20%;
+  bottom: 150px !important;
+}
+.carousel-indicators .active,
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    background-color: transparent;
+    border: 1px solid #3a6ee8;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    background-color: #3a6ee8;
+}
+/*  Carousel Control
+---------------------------------------*/
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+#main-slider .carousel-indicators {
+  bottom: 20px;
+}
+.carousel-indicators .active,
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  background-color: #fff;
+}
+.carousel-indicators li {
+  background-color: #ffffff;
+}
+.carousel-indicators .active {
+  background-color: #3a6ee8;
+  border-color: #3a6ee8;
+}
+.slide-arow {
+  color: #4e4f4f;
+  background-color: #d1d3d3;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 5px 13px;
+  opacity: 0;
+}
+.slide-arow {
+  font-size: 6em;
+  margin-top: -0.8em;
+  color: #FFF;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  position: absolute;
+  top: 65%;
+  background-color:transparent;
+}
+.slide-arow span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid #535353;
+  border-top: 1px solid #535353;
+}
+.slide-arow.left {
+  left: 0%;
+
+    -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+}
+.slide-arow.right {
+  right: 0%;
+    -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+}
+.slide-arow.right,
+.slide-arow.left,
+.slide-arow span {
+  -webkit-transition: all .25s ease;
+        transition: all .25s ease;
+}
+
+/*  - hover area
+---------------------------------*/
+
+#main-slider:hover .slide-arow {
+  -webkit-opacity: 1;
+     -moz-opacity: 1;
+      -ms-opacity: 1;
+       -o-opacity: 1;
+          opacity: 1;
+}
+#main-slider:hover .slide-arow.left {
+  left: 2%;
+}
+#main-slider:hover .slide-arow.right {
+  right: 2%;
+}
+#main-slider .slide-arow:hover span {
+  border-left: 1px solid #efd524;
+  border-top: 1px solid #efd524;
+}
+/*  - End Of Slider Section
+============================================================================*/
+
+
+
+/*  - fleets-section Section
+============================================================================*/
+.tab-wrap {
+    margin-top: 20px;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs {
+  border: none;
+  background-color: transparent;
+}
+.nav-tabs>li {
+    float: none;
+    margin: 10px 15px;
+    display: inline-block;
+}
+.nav-tabs>li>a {
+  padding: 0;
+  color: #111217;
+  font-size: 15px;
+  border: none;
+}
+.nav-tabs>li>a:hover,
+.nav>li>a:focus,
+.nav>li>a:hover {
+  border-color: transparent;
+  background-color: transparent;
+}
+.product-tab-img {
+  height: 290px;
+  padding: 50px 0;
+}
+/*  - End Of fleets-section Section
+============================================================================*/
+
+
+
+
+/*  - Big Sale Section
+============================================================================*/
+.big-sale .section-head h2 {
+  max-width: 275px;
+  margin: 50px auto 0;
+}
+.big-sale .section-head p {
+  max-width: 240px;
+  margin: 30px auto 30px;
+}
+/*  - End of Big Sale Section
+============================================================================*/
+
+
+
+
+/*  - Quote Section
+============================================================================*/
+.quote-section {
+   color: #fff;
+   overflow: hidden;
+   background-size: cover;
+   background-position: 50% 25%;
+   background-repeat: no-repeat;
+   background-image: url(../../images/testi-section.jpg);
+}
+.quote-section .overlay {
+    background-color: rgba(0, 0, 0, .7);
+}
+.quote-text-wrap {
+   margin: 0 auto;
+   max-width: 975px;
+}
+.quote-text-wrap .quote-info a {
+   color: #fff;
+   font-size: 16px;
+   margin-top: 10px;
+   line-height: 10px;
+   text-transform: uppercase;
+}
+.quote-info p {
+   font-size: 48px;
+   margin-top: 45px;
+   line-height: 60px;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+/*  - Quote Section
+======================================================*/
+.quote-section .owl-pagination {
+    display: none;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  color: #ffffff;
+  font-size: 48px;
+  background: transparent;
+}
+.owl-next,
+.owl-prev {
+    position: absolute;
+    top: 50%;
+}
+.owl-prev {
+  right: -20px;
+}
+.owl-next {
+  left: -20px;
+}
+/*  - End Quote Section
+============================================================================*/
+
+
+
+
+/*  - Service Section
+============================================================================*/
+.service-section .single-item {
+  margin-bottom: 70px;
+}
+.service-section .icon {
+  margin-right: 30px;
+}
+.service-section .mm-small-box {
+  padding-right: 22px;
+}
+/*  - End of Service Section
+============================================================================*/
+
+
+
+
+/*  - Latest News
+============================================================================*/
+.post-item {
+    display: inline-block;
+}
+.news-section .mm-small-box {
+  padding: 23px 25px 23px 0;
+}
+.news-section .mm-small-box span {
+  display: block;
+  padding-top: 8px;
+}
+.mm-small-box h4 a {
+  color: #fff;
+}
+/*  - End of Latest News
+============================================================================*/
+
+
+
+/*  - Contact Section
+============================================================================*/
+.contact-section h2 {
+  color: #fff;
+}
+.contact-section {
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  background-image: url(../../images/bg/contact-bg.jpg);
+}
+.form-control {
+  float: left;
+  color: #000;
+  height: 55px;
+  font-size: 13.99px;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+.message-box .form-control {
+  height: 320px;
+  padding: 20px;
+}
+.submit-box {
+    display: inline-block;
+    margin-top: 15px;
+    width: 100%;
+}
+.submit-box input {
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+}
+/*  - End Of Contact Section
+============================================================================*/
+
+
+
+
+/*  - Guys Section
+============================================================================*/
+.guys-section h2 {
+  font-size: 30px;
+}
+.guys-section p {
+  max-width: 590px;
+  margin: 35px auto;
+}
+.guys-section .social-btn a {
+  color: #111217;
+  border: 1px solid #333;
+}
+.guys-section .social-btn a:hover {
+  color: #fff;
+  border-color: #3a6ee8;
+  background-color: #3a6ee8;
+}
+/*  - End Of Guys Section
+============================================================================*/
+
+
+
+
+
+/*  - Footer Area
+============================================================================*/
+
+/*  - Footer Top
+-------------------------------------------*/
+.footer-widget {
+   padding: 60px 0 30px;
+}
+h2.rounded {
+   color: #111217;
+   font-size: 24px;
+}
+/*  - Contact List Widget
+--------------------------------*/
+.list-items li {
+   margin-bottom: 20px;
+}
+.list-items .icon {
+   width: 25px;
+   height: 25px;
+   font-size: 30px;
+   margin-right: 10px;
+}
+.list-items .mm-small-box {
+  position: relative;
+  padding-left: 15px;
+  margin-left: 10px;
+  display: block;
+  overflow: hidden;
+}
+.footer-widget .list-items .mm-small-box:before {
+   top: 6px;
+   left: 0;
+   width: 1px;
+   content: '';
+   height: 100%;
+   position: absolute;
+   background-color: #232428;
+}
+/*  - Contact Form Widget
+--------------------------------*/
+.contact-form .form-control {
+   height: 50px;
+   border: none;
+   border-radius: 0;
+   box-shadow: none;
+   padding: 10px 12px;
+   margin-bottom: 15px;
+   background-color: transparent;
+   border-bottom: 1px solid #232428;
+}
+.contact-form textarea.form-control {
+   height: 116px;
+   border: 1px solid #232428;
+}
+.textarea-box button.custom-btn {
+   color: #808080;
+   font-size: 13px;
+   margin-top: 10px;
+   padding: 6px 12px;
+   text-transform: none;
+   border: 2px solid #232428;
+   background-color: transparent;
+}
+.textarea-box button.custom-btn:hover {
+  border-color: #3a6ee8;
+}
+.contact-form input::-webkit-input-placeholder {
+   color: #808080 !important;
+}
+.form-control:focus {
+   box-shadow: none;
+}
+.contact-form .form-control:focus {
+   border-color: rgb(121, 121, 121);
+}
+.contact-form input:-moz-placeholder { /* Firefox 18- */
+   color: #808080 !important;
+}
+
+.contact-form input::-moz-placeholder {  /* Firefox 19+ */
+   color: #808080 !important;
+}
+
+.contact-form input:-ms-input-placeholder {
+   color: #808080 !important;
+}
+.contact-form textarea::-webkit-input-placeholder {
+   color: #808080 !important;
+}
+
+.contact-form textarea:-moz-placeholder { /* Firefox 18- */
+   color: #808080 !important;
+}
+
+.contact-form textarea::-moz-placeholder {  /* Firefox 19+ */
+   color: #808080 !important;
+}
+
+.contact-form textarea:-ms-input-placeholder {
+   color: #808080 !important;
+}
+/*  - Footer Bottom
+-------------------------------------------*/
+.copyright {
+   background-color: #242424;
+}
+.copyright p {
+   font-size: 13px;
+   padding-top: 30px;
+}
+.copyright p a {
+   color: #808080;
+}
+.footer-menu {
+    text-align: right;
+}
+.footer-menu ul li {
+   display: inline-block;
+}
+.footer-menu ul li a {
+   color: #808080;
+   font-size: 11px;
+   padding: 30px 15px;
+   display: inline-block;
+   text-transform: uppercase;
+}
+.footer-menu ul li a:hover {
+   color: #3a6ee8;
+}
+.footer-menu ul li:last-child a {
+   padding-right: 0;
+}
+.copyright-footer {
+   color: #111217;
+   background-color: #e5e5e5;
+}
+.copyright-footer p {
+  margin: 25px 0;
+}
+.copyright-text {
+  float: left;
+}
+/*  - End Footer Area
+============================================================================*/
+/*============================================================================================================*/
+/*  ------------------------------------------ End Of Home Page 1 ------------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  -------------------------------------------- 4 Home Page 2 ---------------------------------------------  */
+/*============================================================================================================*/
+body.home-dark {
+  background-color: #111217;
+}
+.home-dark .section-head {
+  width: 100%;
+  display: inline-block;
+}
+.home-dark .section-head h2 {
+  color: #fff;
+}
+.menu-right-part .search-ecomm-menu-btn .submenu a {
+  color: #fff;
+  margin: 0 8px;
+  padding: 0 8px;
+  font-size: 12px !important;
+}
+.home-dark div#main-menu {
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    -webkit-transition:.5s;
+    transition:.5s;
+
+}
+.home-dark .searchbox-icon {
+  top: 5px;
+}
+.home-dark .search-ecomm-menu-btn a {
+  position: relative;
+}
+/*  - Slider Section
+============================================================================*/
+.home-dark .slider-section .item-bg1 {
+  background-image: url(../../images/home-dark/slider-bg.jpg);
+}
+.home-dark .slider-section .item-bg2 {
+  background-image: url(../../images/home-dark/slider-bg.jpg);
+}
+.home-dark .slider-section .item-bg3 {
+  background-image: url(../../images/home-dark/slider-bg.jpg);
+}
+.home-dark .slider-section .item-bg1,
+.home-dark .slider-section .item-bg2,
+.home-dark .slider-section .item-bg3 {
+  background-size: cover;
+}
+.home-dark .slider-section h2 {
+  font-size: 140px;
+}
+.home-dark .slider-section h3 {
+  font-size: 72px;
+  font-family: 'Oswald', sans-serif;
+}
+.home-dark .slider-section h4 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.home-dark .slider-text {
+  padding: 300px 0 200px;
+}
+/*  - End Of Slider Section
+============================================================================*/
+
+
+
+
+/*  - View Our Fleets Section
+============================================================================*/
+.home-dark ul.nav.nav-tabs {
+  margin-bottom: 40px;
+}
+.home-dark .nav-tabs>li>a {
+  color: #fff;
+}
+.fleets-section .colmd4 {
+  padding-bottom: 30px;
+}
+.fleets-section .colmd4.white-bg {
+  background-color: #fff;
+}
+.fleets-section .colmd4.gray-bg {
+  background-color: #333437;
+}
+.home-dark .product-tab-img {
+  height: 290px;
+}
+.home-dark .fleets-section .link {
+  text-align: center;
+}
+/*  - End Of View Our Fleets Section
+============================================================================*/
+
+
+/*  - contact Section
+=========================================================*/
+.home-dark .contact-section {
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+  background-position: 100% 150%;
+  background-image: url(../../images/home-dark/contact/1.png);
+}
+.home-dark .contact-section .message-box .form-control {
+  height: 290px;
+}
+.home-dark .contact-section .section-head h3 {
+  font-size: 42px;
+  text-transform: none;
+}
+/*  - End Of contact Section
+=========================================================*/
+
+
+
+/*  - Google map Area
+=========================================================*/
+.google-map-container {
+    width:100%;
+    height:630px;
+    background-color: #dddddd;
+}
+.gm-style-iw {
+  color: #808080;
+  max-width: 210px;
+}
+/*  - End of Google map Area
+=========================================================*/
+.copyright-footer.black-bg {
+  color: #fff;
+  padding: 50px 0 35px;
+  background-color: #000;
+}
+.home-dark .copyright-footer p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/*============================================================================================================*/
+/*  ------------------------------------------ End Of Home Page 2 ------------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  ------------------------------------------ 5 Limo List Page --------------------------------------------  */
+/*============================================================================================================*/
+
+/*  - Limo breatcume
+=========================================================*/
+.limo-breatcume {
+  background-size: cover;
+  background-image: url(../../images/list/breatcume-bg.jpg);
+}
+.limo-breatcume h2 {
+  color: #fff;
+  padding: 0 15px;
+  margin-top: 40px;
+}
+.limo-breatcume p {
+  color: #f5f5f5;
+  padding: 0 15px;
+  padding-top: 170px;
+}
+/*  - End Of Limo breatcume
+=========================================================*/
+
+
+
+
+/*  - Limo Listing
+=========================================================*/
+.list-single-item {
+  width: 100%;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.car-info {
+  background-color: #fff;
+  padding: 30px 25px 45px;
+}
+.name-price {
+  width: 100%;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.name-price .name {
+  float: left;
+  color: #444547;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.name-price span.price {
+  float: right;
+  color: #252525;
+  font-size: 24px;
+}
+.name-price span.price sub {
+  bottom: 0;
+  font-size: .55em;
+}
+.feature-lsit li {
+  font-size: 16px;
+  padding: 3px 0;
+  position: relative;
+  padding-left: 20px;
+}
+.feature-lsit li:after {
+  top: 3px;
+  left: 0;
+  content: "\f36f";
+  position: absolute;
+  font-family: "Ionicons";
+}
+.list-single-item .link {
+  margin-top: 45px;
+}
+.list-single-item a.custom-btn {
+  background-color: #111217;
+}
+.list-single-item a.custom-btn:hover {
+  background-color: #3a6ee8;
+}
+/*  - End Of Limo Listing
+=========================================================*/
+
+
+
+
+/*  - Select Section
+=========================================================*/
+.select-section {
+  background-color: #3a6ee8;
+}
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.select-styled {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 7px 15px;
+  border: 1px solid #618bed;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.select-styled:after {
+  width: 0;
+  height: 0;
+  top: 12px;
+  right: 25px;
+  content: "\f103";
+  position: absolute;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.select-styled:hover {
+  color: #ffffff;
+  border-color: #111217;
+  background-color: #111217;
+}
+.select-styled:hover:after {
+  border-color: #ffffff transparent transparent transparent;
+}
+.select-styled:active, .select-styled.active {
+  color: #ffffff;
+  background-color: #111217;
+}
+.select-styled:active:after, .select-styled.active:after {
+  top: 9px;
+  border-color: transparent transparent #fff transparent;
+}
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #111217;
+}
+.select-options li {
+  margin: 0;
+  padding: 8px 0;
+  text-indent: 15px;
+  border-top: 1px solid #ffffff;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+.select-options li:hover {
+  color: #000;
+  background: #F5F2F2;
+}
+.select-options li[rel="hide"] {
+  display: none;
+}
+a.select-btn {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid #fff;
+}
+/*  - End Of Select Section
+=========================================================*/
+
+/*============================================================================================================*/
+/*  ------------------------------------------ End Of Limo List Page ---------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  ------------------------------------------- 6 Limo List 2 Page -----------------------------------------  */
+/*============================================================================================================*/
+.limo-list-2 .name-price .name {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.limo-list-2 .name-price span.price,
+.limo-list-2 .name-price .name {
+  float: none;
+  display: block;
+}
+.limo-list-2 .list-single-item .link {
+    margin-top: 30px;
+}
+/*  - Pagination
+=========================================================*/
+.pagination-list {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.pagination {
+    height: 36px;
+    margin: 0;
+}
+.pagination ul {
+    padding-left: 0;
+}
+.pagination li {
+    display: inline-block;
+}
+.pagination a {
+  color: #999999;
+  float: left;
+  padding: 0 5px;
+  margin: 0 5px;
+  line-height: 25px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent
+}
+.pagination a:hover,
+.pagination .active a {
+  color: #111217;
+  border-color: #3a6ee8;
+}
+.pagination .active a {
+    /*color: #ffffff;*/
+    cursor: default;
+}
+/*  - Pagination End
+=========================================================*/
+
+/*============================================================================================================*/
+/*  ----------------------------------------- End Of Limo List 2 Page --------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  ------------------------------------------ 7 Limo Service Page -----------------------------------------  */
+/*============================================================================================================*/
+.car-details .menuzord,
+.contact .menuzord,
+.gallery .menuzord,
+.service .menuzord {
+  background-color: #000;
+}
+
+/* 9 - Portfolio
+=========================================================*/
+section#limo-service,
+section#limo-gallery {
+    display: inline-block;
+    width: 100%;
+    padding-top:250px;
+}
+#service-container,
+#gallery-container {
+  max-width: 1445px;
+  margin: 0 auto 0 auto;
+}
+.service-item .item,
+.gallery-item .item {
+  background: #000;
+  float: left;
+  margin: 0 2px 25px;
+  overflow: hidden;
+  height: 330px;
+  width: 30%;
+}
+.service-item .item img,
+.gallery-item .item img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  -webkit-transition: all .3s  ease;
+  transition: all .3s  ease;
+}
+.gallery-item .item .overlay,
+.service-item .item .overlay {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .5);
+   -webkit-transition: all .3s  ease;
+  transition: all .3s  ease;
+}
+.gallery-item .item:hover .overlay,
+.service-item .item:hover .overlay {
+  height: 100%;
+}
+.gallery-item span.link-btn,
+.gallery-item a.zoom,
+.service-item a {
+  bottom: 5%;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -webkit-transition: all .3s  ease;
+  transition: all .3s  ease;
+}
+.gallery-item span,
+.gallery-item a {
+  opacity: 0;
+}
+.service-item a {
+  left: 50%;
+}
+.gallery-item a.zoom {
+  left: 50%;
+  bottom: 40px;
+}
+.gallery-item span.link-btn {
+  left: 47%;
+}
+.gallery-item .item:hover a.zoom {
+  bottom: 48%;
+  opacity: 1;
+}
+.gallery-item .item:hover span.link-btn {
+  bottom: 35%;
+  opacity: 1;
+}
+.service-item .item:hover a {
+  bottom: 50%;
+  opacity: 1;
+  margin-bottom: -10px;
+}
+.service-item .item img {
+  border: transparent;
+  -webkit-transition: -webkit-transform .3s  ease;
+  transition: -webkit-transform .3s  ease;
+  transition: transform .3s  ease;
+  transition: transform .3s  ease, -webkit-transform .3s  ease;
+}
+.service-item .item-w2 {
+  width: 60%;
+}
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform, opacity;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+.galleryFilter {
+  clear: both;
+  margin:auto;
+  padding: 0 0 40px 0;
+  text-align: center;
+  width: auto;
+}
+.galleryFilter a {
+  border: 1px solid transparent;
+  color: #9297a3;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0 5px;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+.features-item .item {
+  position: relative;
+}
+.galleryFilter a,
+.features-item .item:after {
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.service .copyright {
+  color: #111217;
+  background-color: #e5e5e5;
+}
+.service .footer-menu ul li a {
+  color: #111217;
+}
+.service .footer-menu ul li a:hover {
+  color: #3a6ee8;
+}
+div#gallery-container {
+    margin-top: 10px;
+}
+/*============================================================================================================*/
+/*  ---------------------------------------- End Of Limo Service Page --------------------------------------  */
+/*============================================================================================================*/
+
+
+
+/*============================================================================================================*/
+/*  ---------------------------------------- 8 Service Details Page ----------------------------------------  */
+/*============================================================================================================*/
+/* - Widget Area
+======================================================*/
+.service-details .sidebar {
+  padding-right: 0;
+}
+.service-details .sidebar .widget {
+  background-color: #f7f7f7;
+}
+/* - Feature List
+=======================================*/
+.service-details .sidebar .feature-list {
+  padding: 10px 20px;
+}
+.service-details .sidebar .feature-list li a {
+  width: 100%;
+  padding: 20px 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ececec;
+}
+.service-details .sidebar .feature-list li:last-child a {
+  border: none;
+}
+/* - Add Widget
+=======================================*/
+.add-widget {
+  position: relative;
+}
+.add-widget .overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.add-widget h3 {
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  padding-top: 100px;
+  position: absolute;
+  width:100%;
+}
+/* - Clients Logo Widget
+=======================================*/
+.clients-widget {
+  padding: 10px 0 0 10px;
+}
+.clients-widget img {
+  width: 112px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* - Content Area
+======================================================*/
+.content-img {
+  margin-top: 36px;
+  margin-bottom: 50px;
+}
+.content-img img {
+  width: 450px;
+  float: left;
+  margin-right: 30px;
+}
+.content-img-details {
+  display: block;
+  overflow: hidden;
+  padding-top:33px;
+  padding-bottom:100px;
+}
+.single-post article .content-img-details ul {
+  padding: 0 15px;
+}
+.single-post article .content-img-details ul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 3px 10px;
+}
+.single-post article .content-img-details ul li:after {
+  top: 5px;
+  left: -15px;
+  color: #3a6ee8;
+  content: '\f00c';
+  position: absolute;
+  font: normal 14px FontAwesome;
+}
+
+/* - This Service Details
+-------------------------------------------------*/
+.this-section .colmd3 {
+  margin: 0 6px 0 6px;
+}
+.this-section .item-content .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.this-section a.custom-btn {
+  color: #111217;
+  padding: 12px 15px;
+  background-color: #fff;
+}
+.service-details .item-info i {
+  font-size: 28px;
+  line-height: 30px;
+}
+/*============================================================================================================*/
+/*  -------------------------------------- End Of Service Details Page -------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  ------------------------------------------- 9 Limo Blog Page -------------------------------------------  */
+/*============================================================================================================*/
+
+/* 9 - Single Post
+=========================================================*/
+.post-container .single-post {
+    padding-bottom: 50px;
+}
+.single-post h2 {
+  font-size: 24px;
+}
+.single-post article {
+  padding-top: 33px;
+}
+.post-container .entry-meta {
+  color: #999999;
+  padding-top: 18px;
+  padding-bottom: 35px;
+}
+.post-container .entry-meta span {
+  padding: 0 15px;
+  text-transform: uppercase;
+  border-right: 1px solid #a7a7a7;
+}
+.entry-meta span:first-child {
+  padding-left: 0;
+}
+.entry-meta span:last-child {
+  border-right: none;
+}
+.single-post article a.more-btn,
+.entry-meta a {
+  color: #999999;
+}
+.entry-meta a:hover {
+  color: #000000;
+}
+.single-post article a.more-btn:hover,
+.single-post h2:hover {
+  color: #3a6ee8;
+}
+/* 9 - Single Post End
+=========================================================*/
+
+/*  - Sidebar
+=========================================================*/
+.sidebar {
+    padding-right: 30px;
+}
+.sidebar ul {
+    list-style: none;
+}
+.sidebar .widget {
+    margin-bottom: 40px;
+    display: block;
+    overflow: hidden;
+}
+.single-post h2.rounded,
+.sidebar h2.rounded {
+    color: #323232;
+    font-size: 24px;
+    display: table;
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-transform: none;
+}
+
+/*  - Blog Search
+=========================================================*/
+.blog-search-bar {
+    margin-bottom: 40px;
+}
+.blog-search-bar .form-control {
+    height: 44px;
+    font-size: 1em;
+    margin-bottom: 0;
+    padding-right: 40px;
+}
+button, html input[type=button],
+input[type=reset],
+input[type=submit] {
+    outline: none;
+}
+
+/*  - Blog Search End
+=========================================================*/
+
+/*  - Blog Categories
+=========================================================*/
+
+.blog-categories ul {
+    list-style: none;
+}
+.cat-list li a {
+    color: #737d8b;
+    font-size: 1.2857em;
+    padding: 8px 0 10px 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+.cat-list li a:after {
+  top: 16px;
+  left: 0;
+  content: '';
+  position: absolute;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #414141;
+  border-bottom: 5px solid transparent;
+}
+.cat-list li a:hover {
+    color: #36d7b7;
+    padding-left: 25px;
+}
+/*  - Blog Categories End
+=========================================================*/
+
+/*  - Latest Tweets
+=========================================================*/
+.tweets p {
+  margin: 14px 0;
+}
+.tweets a {
+  color: #efd524;
+  text-decoration: none;
+}
+.tweets a.link {
+  display: block;
+  color: #3a6ee8 !important;
+}
+.tweets a.d {
+  color: #cccccc !important;
+  display: block;
+  text-transform: uppercase;
+}
+/*  - Latest Tweets End
+=========================================================*/
+
+/*  - Latest Post
+=========================================================*/
+.sidebar .widget .post-img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+.sidebar .widget .post-details {
+    display: block;
+    overflow: hidden;
+}
+.sidebar .widget .post-details p {
+    padding-right: 5px;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.sidebar .widget p.entry-meta {
+    font-style: italic;
+}
+.sidebar .widget .post-details p span {
+    color: #b3b3b3;
+    padding-left: 5px;
+}
+.sidebar .widget a {
+    color: #333333;
+}
+.sidebar .widget a.custom-btn {
+  color: #fff;
+}
+.sidebar .widget a.custom-btn:hover {
+  color: #fff;
+}
+.post-details .entry-meta a,
+.tag-list a {
+    color: #999999 !important;
+}
+.sidebar .widget .post-details a span:hover,
+.sidebar .single-post .entry-meta a:hover,
+.auther-message .auther span:hover,
+.auther-message .auther a:hover,
+.comments-txt .auther a:hover,
+.comments-txt .reply a:hover,
+.sidebar .widget a:hover {
+    color: #3a6ee8;
+}
+.sidebar .message {
+    width: 100%;
+}
+.sidebar .message a {
+    color: #141518;
+    padding-bottom: 10px;
+    display: block;
+}
+.sidebar .latest-post .inner-item {
+    margin: 0 0 30px 0;
+}
+.sidebar .latest-post .inner-item:last-child {
+    margin: 0;
+}
+/*  - Popular Post End
+=========================================================*/
+
+/*  - Tag Clouds
+=========================================================*/
+.tag-list a {
+  color: #999999;
+  float: left;
+  padding: 0 5px;
+}
+.tag-list a:hover {
+    color: #3a6ee8 !important;
+}
+/*  - Tag Clouds End
+=========================================================*/
+
+
+/*  - Sidebar Images Gallery
+=========================================================*/
+.sidebar .single-gallery {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #36d7b7;
+}
+/*  - Sidebar Images Gallery End
+=========================================================*/
+/*  - Sidebar End
+==================================================================================*/
+/*============================================================================================================*/
+/*  ----------------------------------------- End Of Limo Blog Page ----------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  ----------------------------------------- 10 Limo Single Page ------------------------------------------  */
+/*============================================================================================================*/
+.single-post b {
+  width: 100%;
+  color: #000000;
+  margin-bottom: 35px;
+  display: inline-block;
+}
+.single-post article ul {
+  padding: 20px 15px;
+  list-style: inherit;
+}
+.single-post article p.quote {
+  font-size: 18px;
+  padding: 30px 50px;
+  font-style: italic;
+  background-color: #f6f6f6;
+  border-left: 5px solid #3a6ee8;
+  margin-top: 45px;
+}
+.single-post .share-area {
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 50px;
+  display: inline-block;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.single-post .tag-list {
+  width: 100%;
+  display: inline-block;
+}
+.single-post .social-btn span,
+.single-post .tag-list span {
+  width: 50px;
+  float: left;
+  display: inline-block;
+}
+.single-post .social-btn {
+  display: block;
+}
+.single-post .social-btn a {
+  width: 20px;
+  height: 20px;
+  color: #999999;
+}
+.single-post .social-btn a:hover {
+  color: #3a6ee8;
+}
+.author-bio {
+  margin-top: 12px;
+  margin-bottom: 15px;
+  padding: 30px 30px 30px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.author-bio-info .author-img {
+  float: left;
+  margin-top: 0;
+  margin-right: 30px;
+}
+.author-bio-txt {
+  padding: 40px;
+  display: block;
+  overflow: hidden;
+  background-color: #f6f6f6;
+}
+.author-bio-txt .author-name {
+  color: #333333;
+  margin-bottom: 30px;
+}
+/* - Related Post
+================================================*/
+.related-post h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.related-post .entry-meta {
+  padding-bottom: 0;
+}
+.related-post .entry-meta span {
+  font-size: 12px;
+}
+
+/* - Comments List
+================================================*/
+.post-comments-area h4 {
+  margin: 40px 0;
+}
+.post-comments-area .comments-img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.comments-img:after {
+  top: 13px;
+  right: -30px;
+  content: '';
+  position: absolute;
+  border-top: 12px solid transparent;
+  border-right: 15px solid #f6f6f6;
+  border-bottom: 12px solid transparent;
+}
+.comments-txt {
+  padding: 20px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  background-color: #f6f6f6;
+}
+.comments-txt p {
+    margin: 0;
+}
+.comments-txt p.auther a {
+    color: #333333;
+}
+.comments-txt p.auther span {
+    color: #9297a3;
+    font-size: 12px;
+}
+
+/* - Comments Form
+================================================*/
+.comments-form h4 {
+  margin: 40px 0 10px;
+}
+.comments-form form {
+  margin-top: 30px;
+}
+.comments-form .form-control {
+  height: 50px;
+}
+.comments-form .message-box .form-control {
+    height: 180px;
+}
+.comments-form .submit-box {
+  width: auto;
+}
+.comments-form .submit-box input {
+  color: inherit;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.comments-form .submit-box input:hover {
+  color: #fff;
+  background-color: #3a6ee8;
+}
+/*============================================================================================================*/
+/*  ----------------------------------------- End Of Limo Single Page --------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  ------------------------------------------ 11 Car Details Page -----------------------------------------  */
+/*============================================================================================================*/
+.car-details {
+  background-size: cover;
+  background-image: url(../../images/car-details/car-details-bg.jpg);
+}
+.car-details .page-container .name-price .name {
+  color: #283c5a;
+  font-size: 36px;
+}
+.car-details .feature-lsit {
+  width: 100%;
+  display: inline-block;
+}
+.list-single-item .description h3,
+.car-details .feature-lsit h3 {
+  color: #252525;
+  font-size: 24px;
+  text-transform: none;
+}
+.car-details .feature-lsit ul {
+  width: 50%;
+  float: left;
+}
+.list-single-item .description h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.car-details-slider {
+  position: relative;
+  margin-bottom: 35px;
+}
+.car-model {
+  text-align: center;
+  padding: 60px 40px 80px;
+  background-color: #cccccc;
+}
+.car-model img {
+  width: 360px;
+  height: 248px;
+}
+.feature-lsit h3 {
+  margin-bottom: 15px;
+}
+.car-details .owl-controls.clickable {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+.car-details .owl-pagination {
+  display: inline-block;
+}
+.car-details .owl-controls .owl-page {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  float: left;
+  background-color: #e3e3e4;
+}
+.car-details .owl-controls .owl-page.active {
+  background-color: #111217;
+}
+.car-details .owl-buttons {
+  display: none;
+}
+/* - Sidebar Widget Area
+======================================================*/
+.widget {
+  margin-bottom: 45px;
+}
+.widget.price-rate {
+  padding: 45px 35px;
+  background-color: #fff;
+}
+h2.rounded {
+  color: #111217;
+}
+/* - widget.price-rate Area
+=======================================*/
+.car-details .sidebar  {
+  padding-bottom: 50px;
+}
+.car-details .sidebar .name-price {
+  margin: 0;
+  padding: 25px 0;
+}
+.border-botton1px {
+  border-bottom: 1px solid #e9eaed;
+}
+.car-details .sidebar .name-price span.price {
+  color: #9297a3;
+  font-size: 14px;
+}
+.car-details .sidebar .name-price .name sub {
+  font-size: 50%;
+}
+.car-details .sidebar .link {
+  margin-top: 30px;
+}
+.car-details .owl-carousel .owl-wrapper-outer {
+  margin-bottom: 30px;
+}
+/* - Related Car
+=======================================*/
+.related-car .single-item {
+  width: 100%;
+  margin-bottom: 15px;
+  display: inline-block;
+  background-color: #fff;
+}
+.related-car .single-item .icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  background-color: #fff;
+}
+.related-car .single-item .icon img {
+  max-width: 100%;
+}
+.related-car .single-item .mm-small-box {
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.related-car .single-item .mm-small-box h4 {
+  color: #111217;
+  -webkit-transition: all .1s ease;
+}
+.related-car .single-item a.more-btn {
+  color: #9297a3;
+  margin-top: 5px;
+}
+.related-car .single-item:hover {
+  background-color: #3a6ee8;
+}
+.related-car .single-item:hover h4 {
+  color: #fff;
+}
+.related-car .single-item:hover a.more-btn {
+  color: #fff;
+}
+
+/* - Instagrame
+=======================================*/
+.img-gallery .instagrame {
+  width: 100%;
+  display: inline-block;
+  padding: 30px 20px 30px 30px;
+}
+.img-gallery ul li {
+  width: 57px;
+  float: left;
+  height: 57px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.img-gallery ul li img {
+  width: 100%;
+}
+/*============================================================================================================*/
+/*  ---------------------------------------- End Of Car Details Page ---------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+/*============================================================================================================*/
+/*  ---------------------------------------- 12 Construction Page ------------------------------------------  */
+/*============================================================================================================*/
+.construction {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../images/bg/construction-bg.jpg);
+}
+.construction .overlay {
+  background-color: rgba(58, 110, 232, 0.95);
+}
+.construction-wrap {
+  color: #fff;
+  padding: 230px 15px;
+}
+.construction-wrap h1 {
+  max-width: 825px;
+  margin: 0 auto;
+}
+.construction-wrap h1 img {
+  width: 100%;
+}
+.construction-wrap h2 {
+  color: #fff;
+  font-size: 31px;
+  margin-bottom: 30px;
+}
+.construction-wrap p {
+  margin-bottom: 30px;
+}
+/*  - Countdown
+===========================================*/
+#clockdiv {
+  font-weight: 100;
+  text-align: center;
+  display: inline-block;
+}
+#clockdiv > .single-timer-box {
+  width: 130px;
+  border-radius: 3px;
+  display: inline-block;
+  border-right: 1px dashed #d7d7d7;
+}
+#clockdiv > .single-timer-box:last-child {
+  border-right: none;
+}
+#clockdiv div > span {
+  padding: 15px;
+  color: #fff;
+  font-size: 41.74px;
+  display: inline-block;
+}
+.smalltext {
+  color: #111217;
+  padding-top: 5px;
+}
+.construction .contact-form h2 {
+  margin-bottom: 15px;
+}
+.construction .copyright p {
+  padding-bottom: 30px;
+}
+/*  - Construction Form
+===========================================*/
+.construction-wrap .contact-form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.construction-wrap .contact-form .form-control {
+  border-bottom: 1px solid #9297a3;
+}
+.construction-wrap button.custom-btn {
+  font-size: 13.54px;
+  padding: 12px 30px;
+  font-weight: 500;
+  border: 1px solid #d0daf1;
+  background-color: transparent;
+}
+.construction input::-webkit-input-placeholder {
+  color: #ffffff !important;
+}
+.construction input:-moz-placeholder { /* Firefox 18- */
+  color: #ffffff !important;
+}
+.construction input::-moz-placeholder {  /* Firefox 19+ */
+  color: #ffffff !important;
+}
+.construction input:-ms-input-placeholder {
+  color: #ffffff !important;
+}
+
+/*============================================================================================================*/
+/*  ---------------------------------------- End Of Construction Page --------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+
+
+
+
+
+/*============================================================================================================*/
+/*  ------------------------------------------ 13 Contact us Page ------------------------------------------  */
+/*============================================================================================================*/
+
+/*  - Google map Area
+=========================================================*/
+.google-map-container {
+    width:100%;
+    height:630px;
+    background-color: #dddddd;
+}
+.gm-style-iw {
+  color: #808080;
+  max-width: 210px;
+}
+
+/*  - Main Contact Area
+=========================================================*/
+.main-contact-form {
+    padding-top: 30px;
+}
+.main-contact-form h4 {
+  margin-bottom: 10px;
+}
+.main-contact-form p {
+  margin-bottom: 30px;
+}
+.main-contact-form .form-control {
+  border: none;
+  background-color: #f4f4f4;
+}
+.main-contact-form .message-box .form-control {
+    height: 180px;
+}
+/*  - Contact Info Icon Area
+=========================================================*/
+.contact .single-icon-item {
+  margin-bottom: 25px;
+}
+.contact .single-icon-item .icon {
+  border: none;
+  line-height: 0;
+  width: 30px;
+}
+.contact .single-icon-item h5 {
+  text-transform: none;
+}
+.contact .single-icon-item p {
+  margin: 0;
+}
+
+/*  - Opening Hour Area
+=========================================================*/
+.opening-hour {
+  padding: 10px 20px;
+  border: 1px solid #ebebeb;
+}
+.opening-hour h4 {
+  padding-top: 8px;
+  padding-bottom: 18px;
+  text-transform: none;
+}
+.opening-hour li {
+  padding: 2px 0;
+}
+.opening-hour span {
+  float: right;
+}
+.opening-hour li:hover {
+  color: #3a6ee8;
+}
+/*============================================================================================================*/
+/*  ----------------------------------------- End Of Contact us Page ---------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+
+/*============================================================================================================*/
+/*  ---------------------------------------------- 14 About Page -------------------------------------------  */
+/*============================================================================================================*/
+
+/* - About Breatcume
+=========================================================*/
+.service-details .limo-breatcume,
+.about .limo-breatcume {
+    background-size: cover;
+    background-image: url(../../images/about/about-breatcume-bg.jpg );
+}
+.service-details .limo-breatcume .overlay,
+.about .limo-breatcume .overlay {
+  background-color: rgba(0, 0, 0, .7);
+}
+/* - About Breatcume
+=========================================================*/
+
+/* - About Breatcume
+=========================================================*/
+.best-service-section .icon {
+  float: none;
+}
+.best-service-section .mm-small-box {
+  padding: 0 35px;
+}
+.best-service-section .mm-small-box h4 {
+  margin: 25px 0 20px;
+}
+/* - About Breatcume
+=========================================================*/
+
+/*  - Team
+=========================================================*/
+.item-content {
+  position: relative;
+  overflow: hidden;
+}
+.item-content .overlay {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  color: #ffffff;
+  overflow: hidden;
+  opacity: 0;
+  background-color: rgba(58, 110, 232, .8);
+  -webkit-transform: translate(260px, -100px) rotate(180deg);
+  transform: translate(260px, -100px) rotate(180deg);
+
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+}
+.item-info {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+}
+.item-content h4 a {
+  color: #fff;
+  font-size: 24px;
+}
+.item-content h4 {
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.item-content:hover h4 {
+   -webkit-transform: translateY(0px);
+   transform: translateY(0px);
+
+   -webkit-transition-delay: 0.5s;
+   transition-delay: 0.5s;
+}
+.item-content p {
+  max-width: 230px;
+  margin: 0 auto;
+  padding-top: 12px;
+
+  -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.item-content:hover p {
+  -webkit-transform: translateX(0px);
+   transform: translateX(0px);
+
+   -webkit-transition-delay: 0.4s;
+   transition-delay: 0.4s;
+}
+.item-content:hover .overlay {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+/* - End of Team Section
+=========================================================*/
+
+/*  - Pricing Section
+=========================================================*/
+
+.pricing-section .colmd3 {
+  padding: 30px;
+  background-color: #fff;
+}
+.item-head {
+  border-bottom: 1px solid #c6c6c6;
+}
+.item-head h4.title {
+  margin-top: 0;
+  color: #323232;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.item-head h4.title sub {
+  color: #9297a3;
+  text-transform: none;
+}
+.item-head p {
+  color: #9297a3;
+  margin-bottom: 20px;
+}
+.currency-price-time {
+  color: #000;
+  position: relative;
+  padding: 10px 0 25px;
+}
+.currency-price-time sub {
+  font-size: 16px;
+}
+span.currency,
+span.number {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+.item-head sub {
+    bottom: 0;
+}
+.item-head sup {
+    top: -1.3em;
+    font-size: 15px;
+}
+.item-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.item-list ul {
+  list-style: none;
+  padding-left: 16px;
+}
+.item-list ul li {
+  padding: 5px;
+  position: relative;
+}
+.item-list ul.list {
+  color: #656565;
+}
+.item-list ul.list li:before {
+  top: 10px;
+  left: -15px;
+  color: #3a6ee8;
+  position: absolute;
+  font: normal 14px FontAwesome;
+}
+.item-list ul.list li:before {
+  content: "\f00c";
+}
+.pricing-section .link {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.pricing-section .link a.custom-btn {
+  color: #111217;
+  padding: 12px 36px;
+  border: 1px solid #111217;
+  background-color: transparent;
+}
+/*  - Hover Area
+===========================================*/
+.pricing-section .colmd3:hover .item-head h4.title {
+  color: #3a6ee8;
+}
+.pricing-section .colmd3:hover .item-head {
+  border-bottom: 1px solid #3a6ee8;
+}
+.pricing-section .colmd3:hover a.custom-btn {
+  color: #fff;
+  border-color: #3a6ee8;
+  background-color: #3a6ee8;
+}
+/*  - Pricing Section End
+=========================================================*/
+
+/*  - history Section
+=========================================================*/
+.history-container .section-head {
+  text-align: left;
+  padding-bottom: 20px;
+}
+/*  - Counter Up
+===========================================*/
+.history-container .title {
+  width: 100%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.history-container .title h2 {
+  float: left;
+  font-size: 140px;
+  margin-right: 10px;
+}
+.history-container .title p {
+  padding-top: 53px;
+  line-height: 45px;
+  font-size: 48px;
+  margin-left: 5px;
+}
+.history-container h3 {
+  display: table;
+  font-size: 60px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #acacac;
+}
+.history-container img {
+  width: 70px;
+  height: 30px;
+}
+/*  - Accordion
+===========================================*/
+.accordion-widget {
+    padding-left: 15px;
+}
+h4.panel-title {
+  text-transform: none;
+}
+.panel-default {
+  border: none;
+}
+.panel-group .panel {
+  margin-bottom: 15px;
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid #111217;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border: none;
+}
+.panel-heading {
+  position: relative;
+  padding: 0;
+  border-radius: 0;
+}
+.accordion-widget p {
+  margin: 0;
+}
+.panel-heading a {
+  color: #fff;
+  display: block;
+  font-size: 1em;
+  background: #15161c;
+  text-decoration: none;
+  padding: 15px 15px 15px 35px;
+}
+.panel-heading a:after{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: "\f101";
+    font: normal normal normal 12px/1 FontAwesome;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.panel-heading a.collapsed:after {
+  content: "\f103";
+  border: 1px solid #111217;
+}
+.panel-heading a.collapsed {
+  color: #111217;
+  background: #f5f5f5;
+}
+.accordion-img img {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+/*  - Accordion End
+===========================================*/
+
+/*  - End Of history Section
+=========================================================*/
+
+/*  - Quote Section
+=========================================================*/
+
+.about .quote-section {
+  background-position: 50% 63%;
+  background-image: url(../../images/about//quote-bg.jpg);
+}
+.about .quote-section .overlay {
+    background-color: rgba(0, 0, 0, .7);
+}
+/*  - End Of Quote Section
+=========================================================*/
+/*============================================================================================================*/
+/*  -------------------------------------------- End Of About Page -----------------------------------------  */
+/*============================================================================================================*/
+
+
+
+
+
+/*============================================================================================================*/
+/*  ------------------------------------------------- 404 Page ---------------------------------------------  */
+/*============================================================================================================*/
+section#page-404 {
+    position: relative;
+    background-image: url(../../images/bg/404.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom-right-img,
+.bottom-left-img,
+.top-right-img,
+.top-left-img {
+  z-index: -1;
+  position: absolute;
+}
+.top-left-img {
+  top: 0;
+  left: 0;
+}
+.bottom-left-img {
+  left: 0;
+  bottom: 0;
+}
+.bottom-right-img {
+  right: 0;
+  bottom: 0;
+}
+.top-right-img {
+  top: 0;
+  right: 0;
+}
+.page-container-404 {
+  z-index: 1;
+  padding: 60px 0;
+  max-width: 1175px;
+  margin: 195px auto;
+  background-color: rgba(58, 110, 232, .85);
+}
+.page-container-404 h1 {
+  font-size: 200px;
+}
+.page-container-404 h2 {
+  color: #fff;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+.page-container-404 p {
+  color: #fff;
+}
+.page-container-404 p a {
+  color: #212121;
+}
+.page-container-404 .newslatter form {
+    max-width: 300px;
+    margin: 40px auto;
+    position: relative;
+}
+.page-container-404 .newslatter .submit-btn {
+  color: #ebebeb;
+  font-size: 18px;
+  background-image: none;
+}
+.page-container-404 .newslatter form input {
+  color: #ebebeb;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #ebebeb;
+  background-color: transparent;
+}
+.page-404-wrapper .newslatter form button {
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+}
+.page-container-404 .newslatter input::-webkit-input-placeholder {
+   color: #ebebeb !important;
+}
+.page-container-404 .newslatter input:-moz-placeholder { /* Firefox 18- */
+   color: #ebebeb !important;
+}
+.page-container-404 .newslatter input::-moz-placeholder {  /* Firefox 19+ */
+   color: #ebebeb !important;
+}
+.page-container-404 .newslatter input:-ms-input-placeholder {
+   color: #ebebeb !important;
+}
+
+/*============================================================================================================*/
+/*  ------------------------------------------- End Of 404 Page Page ---------------------------------------  */
+/*============================================================================================================*/
+
+.pd0{
+    padding: 0 !important;
+}
+.top17{
+    top:17px;
+}
+.home-main-menu-fix{
+    position:fixed;
+    left:0;
+    margin-left:-60px;
+    margin-right:60px;
+    height: auto;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2147483647;
+}
+.home-main-menu-fix .menu-right-part{
+    top:15px;
+}
+.home-main-menu-fix .menuzord{
+    padding: 0;
+}
+.home-main-menu-unfix{
+    position:static;
+    margin-left:0;
+    margin-right:120px;
+    height: auto;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 2147483647;
+}
+.position-fixed{
+    position:fixed;
+}
+.home-dark .scroll-padding{
+    padding: 0 0 0 30px;
+}
+.common-style .main-menu{
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.common-style .main-menu .menuzord-menu{
+    margin-top:0px;
+}
+.common-style .main-menu a.menuzord-brand{
+    margin-top:20px;
+    text-transform: uppercase;
+}
+.common-style .main-menu .menuzord{
+    background: transparent;
+}
+.common-style .main-menu .menuzord .menu-right-part{
+    top: 20px;
+}
+.common-style .main-menu .menuzord .menu-right-part .social-btn a i{
+    color:#fff;
+}
+.common-style .main-menu.fixed-nav{
+    position:fixed;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #000;
+    z-index: 999;
+}
+.common-style-black .main-menu{
+    background: #000 !important;
+}
+.colmd4 .single-item-middle .icon img{
+    padding-top: 12px;
+}
+.single-post article p{
+	margin-bottom:12px;
+}
+.post-thumb{
+	padding-top:6px;
+}
+.all-steps{
+	padding-top:28px;
+}
+.single-post article .all-steps p{
+	margin-bottom:25px;
+}
+.single-post article .all-steps .no-margin{
+	color:#323232;
+}

@@ -1,0 +1,100 @@
+Jun 11 11:44:25 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : wojtek.marolnki@interia.pl
+SUBJECT     : Contact from wojtek.marolnki@interia.pl
+==================
+
+Jun 11 11:44:25 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info@fsholdings.co.id
+SUBJECT     : Contact from wojtek.marolnki@interia.pl
+==================
+
+Jun 11 11:44:26 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : admin@fsholdings.co.id
+SUBJECT     : Contact from wojtek.marolnki@interia.pl
+==================
+
+Jun 11 11:44:26 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : yoelin.anugrah@fsholdings.co.id
+SUBJECT     : Contact from wojtek.marolnki@interia.pl
+==================
+
+Jun 11 11:44:26 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info_product@fsholdings.co.id
+SUBJECT     : Contact from wojtek.marolnki@interia.pl
+==================
+
+Jun 11 16:20:01 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : milan.fegan@gmail.com
+SUBJECT     : Contact from milan.fegan@gmail.com
+==================
+
+Jun 11 16:20:01 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info@fsholdings.co.id
+SUBJECT     : Contact from milan.fegan@gmail.com
+==================
+
+Jun 11 16:20:01 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : admin@fsholdings.co.id
+SUBJECT     : Contact from milan.fegan@gmail.com
+==================
+
+Jun 11 16:20:01 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : yoelin.anugrah@fsholdings.co.id
+SUBJECT     : Contact from milan.fegan@gmail.com
+==================
+
+Jun 11 16:20:01 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info_product@fsholdings.co.id
+SUBJECT     : Contact from milan.fegan@gmail.com
+==================
+

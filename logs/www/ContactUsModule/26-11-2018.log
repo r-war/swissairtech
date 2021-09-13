@@ -1,0 +1,13 @@
+Nov 26 13:04:09 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : info.sha-cn@nilfisk.com
+SUBJECT     : Contact from info.sha-cn@nilfisk.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: info.sha-cn@nilfisk.com
+==================
+

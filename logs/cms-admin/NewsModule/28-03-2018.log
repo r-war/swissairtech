@@ -1,0 +1,26 @@
+Mar 28 17:10:38 NewsModule [error]  [wrapped: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news.SHORT_DESCRIPTION' in 'field list']
+===================
+Server Addr: 127.0.0.1
+Server Host: innergy.cms
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+p: cms-admin
+x: news
+mode: article
+===================
+#0 C:\xampp5\htdocs\innergy\classes\orm\om\BaseNewsPeer.php(301): BasePeer::doSelect(Object(Criteria), Object(DebugPDO))
+#1 C:\xampp5\htdocs\innergy\classes\orm\om\BaseNewsPeer.php(271): BaseNewsPeer::doSelectStmt(Object(Criteria), NULL)
+#2 [internal function]: BaseNewsPeer::doSelect(Object(Criteria))
+#3 C:\xampp5\htdocs\innergy\classes\propel\util\PropelPager.php(299): call_user_func(Array, Object(Criteria))
+#4 C:\xampp5\htdocs\innergy\classes\propel\util\PropelPager.php(280): PropelPager->doRs()
+#5 C:\xampp5\htdocs\innergy\classes\orm\om\BaseNewsPeer.php(745): PropelPager->getResult()
+#6 C:\xampp5\htdocs\innergy\classes\orm\NewsPeer.php(35): BaseNewsPeer::getList(Object(Criteria), Object(Sortable), NULL, Object(PropelPager), 20)
+#7 C:\xampp5\htdocs\innergy\classes\orm\NewsPeer.php(45): NewsPeer::getAll(Object(Parameter), Object(Sortable), NULL, Object(PropelPager), 20)
+#8 C:\xampp5\htdocs\innergy\classes\modules\cms-admin\NewsModule.php(86): NewsPeer::getByType('article', Object(Parameter), Object(Sortable), NULL, Object(PropelPager))
+#9 C:\xampp5\htdocs\innergy\classes\modules\cms-admin\NewsModule.php(73): NewsModule->prepareNews()
+#10 C:\xampp5\htdocs\innergy\classes\core\AbstractModule.php(485): NewsModule->doBuildTemplate()
+#11 C:\xampp5\htdocs\innergy\classes\core\Application.php(375): AbstractModule->doProcess()
+#12 C:\xampp5\htdocs\innergy\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#13 C:\xampp5\htdocs\innergy\index.php(10): Application->process()
+#14 {main}
+******************************************************

@@ -1,0 +1,26 @@
+Sep 14 09:44:02 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : patsyFum@gmail.com
+SUBJECT     : Contact from patsyFum@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: patsyFum@gmail.com
+==================
+
+Sep 14 12:02:05 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : pfarramt.bezau@aon.at
+SUBJECT     : Contact from pfarramt.bezau@aon.at
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: pfarramt.bezau@aon.at
+==================
+

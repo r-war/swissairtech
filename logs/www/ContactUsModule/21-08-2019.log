@@ -1,0 +1,13 @@
+Aug 21 11:04:56 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : info@deximinvestmentsolutionsukltd.com
+SUBJECT     : Contact from info@deximinvestmentsolutionsukltd.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: info@deximinvestmentsolutionsukltd.com
+==================
+

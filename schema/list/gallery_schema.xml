@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="gallery">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="language"
+			required="true"
+			type="CHAR"
+			size="2"/>
+		<column
+			name="parent_id"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="index"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="code"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="mode"
+			required="false"
+			type="VARCHAR"
+			size="100"/>			
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="description"
+			required="false"
+			type="LONGVARCHAR"/>	
+			
+		<unique name="code_unique">
+				<unique-column name="language"></unique-column>
+	  		<unique-column name="code"></unique-column>
+		</unique>
+
+		<validator column="code">
+			<rule
+				name="unique"
+				message="unique-name" />
+		</validator>
+
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-category_name" />
+			<rule
+				name="maxLength"
+				value="255"
+				message="max_length-category_name-${value}" />
+		</validator>		
+	
+	</table>
+	
+	<table name="gallery_picture">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="gallery_id"
+			required="true"
+			type="INTEGER"
+			size="10"/>			
+		<column
+			name="index"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="picture"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="name"
+			required="false"
+			type="VARCHAR"
+			size="255"/>		
+		<column
+			name="description"
+			required="false"
+			type="VARCHAR"
+			size="255"/>
+				
+		<validator column="picture">
+			<rule
+				name="required"
+				message="required-picture" />
+		</validator>
+	</table>
+		
+</database>

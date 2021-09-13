@@ -1,0 +1,26 @@
+Mar 06 00:51:10 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : ghinilambor700@yahoo.com
+SUBJECT     : Contact from ghinilambor700@yahoo.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: ghinilambor700@yahoo.com
+==================
+
+Mar 06 17:07:58 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : ktnatnutrition@gmail.com
+SUBJECT     : Contact from ktnatnutrition@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: ktnatnutrition@gmail.com
+==================
+

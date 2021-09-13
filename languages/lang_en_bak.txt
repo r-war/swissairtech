@@ -1,0 +1,53 @@
+//PAGE LIST
+displaying = Displaying
+to = to
+from = from
+items = items
+page = Page
+go = Go
+options = Options
+# = #
+file_type = File Type
+please_select = Please Select
+
+//FEEDBACK
+invalid = Invalid %s
+required = %s is required
+failed = %s "$s" failed to be %s<br/>($s)
+failed_info = %s "$s" failed to be %s
+failed_no_info = %s failed to be %s
+succeed = "$s" has been %s
+succeed_no_info = %s has been %s
+unique = %s has been used
+not_allowed = %s "$s" is not allowed
+file_upload = File
+already_no_info = %s already %s
+not_enough = Not Enough %s
+not_match = %s not match
+must_agree = You must Agree with %s
+max_number = Maximum number for %s are %s items
+max_length = Maximum characters for %s are %s characters
+max_value = Maximum value of %s is %s
+max_words = Maximum characters for %s are %s characters
+min_length = Minimum characters for %s are %s characters
+min_value = Minimum value of %s is %s
+required_season = %s on season %s is required
+already_no_info = %s already %s
+existed = %s is existed
+not_existed = %s is not existed
+confirm_delete = Are you sure want to DELETE: 
+confirm_delete_checked = Are you sure want to DELETE ALL the checked items
+size_not_match = Size %s not match. It must be %s x %s pixel
+
+//COMMON WORDS
+add_new = Add New
+close = Close
+delete = Delete
+delete_checked = Delete Checked Items
+deleted = deleted
+edit = Edit
+form = Form
+moved = moved
+save = Save
+saved = saved
+uploaded = uploaded

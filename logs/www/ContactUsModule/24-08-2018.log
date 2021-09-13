@@ -1,0 +1,20 @@
+Aug 24 11:45:46 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivwar25@gmail.com
+SUBJECT     : Contact from rivwar25@gmail.com
+==================
+
+Aug 24 11:45:46 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivwar25@gmail.com
+==================
+

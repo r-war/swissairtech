@@ -1,0 +1,12 @@
+Oct 17 21:19:59 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : mmmorganmorris1@gmail.com
+SUBJECT     : Contact from mmmorganmorris1@gmail.com
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+

@@ -1,0 +1,20 @@
+Jun 22 15:08:33 DefaultModule [error]  [wrapped: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away]
+===================
+Server Addr: 103.14.212.5
+Server Host: www.fsholdings.co.id
+Remote Addr: 66.207.85.71
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36 OPR/53.0.2907.106
+===================
+#0 /home/fsholdingsco/public_html/classes/orm/om/BaseNewsPeer.php(301): BasePeer::doSelect(Object(Criteria), Object(DebugPDO))
+#1 /home/fsholdingsco/public_html/classes/orm/om/BaseNewsPeer.php(271): BaseNewsPeer::doSelectStmt(Object(Criteria), NULL)
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseNewsPeer.php(749): BaseNewsPeer::doSelect(Object(Criteria), NULL)
+#3 /home/fsholdingsco/public_html/classes/orm/NewsPeer.php(35): BaseNewsPeer::getList(Object(Criteria), NULL, -1, NULL, 5)
+#4 /home/fsholdingsco/public_html/classes/orm/NewsPeer.php(44): NewsPeer::getAll(Object(Parameter), NULL, -1, NULL, 5)
+#5 /home/fsholdingsco/public_html/classes/interceptors/www/DefaultInterceptor.php(17): NewsPeer::getByType('news', Object(Parameter), NULL, -1, NULL, 5)
+#6 /home/fsholdingsco/public_html/classes/core/AbstractInterceptor.php(123): DefaultInterceptor->doProcessInteceptor()
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(577): AbstractInterceptor->doProcess()
+#8 /home/fsholdingsco/public_html/classes/core/Application.php(340): Application->processInterceptor(Array)
+#9 /home/fsholdingsco/public_html/classes/core/Application.php(308): Application->executeModule(Object(DefaultModule))
+#10 /home/fsholdingsco/public_html/index.php(10): Application->process()
+#11 {main}
+******************************************************

@@ -1,0 +1,50 @@
+May 17 03:38:09 PageModule [error] Syntax Error in template "templates/www/default\core\footer.tpl"  on line 16 "{foreach $service as $service}" item variable 'service' may not be the same variable as at 'from'
+===================
+Server Addr: 127.0.0.1
+Server Host: fsholding.cms
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: about
+===================
+#0 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_compile_foreach.php(58): Smarty_Internal_TemplateCompilerBase->trigger_template_error('item variable '...', 16)
+#1 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(439): Smarty_Internal_Compile_Foreach->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#2 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(227): Smarty_Internal_TemplateCompilerBase->callTagCompiler('foreach', Array, Array)
+#3 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templateparser.php(2483): Smarty_Internal_TemplateCompilerBase->compileTag('foreach', Array)
+#4 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r51()
+#5 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(51)
+#6 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\r\n             ...')
+#7 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('        <!--# f...')
+#8 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#9 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#10 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#11 C:\xampp5\htdocs\fsholding\templates_c\www\default\a93eb856d51fe41f95addc301c9fbd21debfb028.file.default.tpl.php(35): Smarty_Internal_Template->getSubTemplate('core/footer.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#12 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_5af945cc2219f1_33666952(Object(Smarty_Internal_Template))
+#13 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#14 C:\xampp5\htdocs\fsholding\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#15 C:\xampp5\htdocs\fsholding\classes\core\Application.php(308): Application->executeModule(Object(PageModule))
+#16 C:\xampp5\htdocs\fsholding\index.php(10): Application->process()
+#17 {main}
+******************************************************
+May 17 03:38:19 PageModule [error] Syntax Error in template "templates/www/default\core\footer.tpl"  on line 150 "&lt;/html&gt;" unclosed {foreach} tag
+===================
+Server Addr: 127.0.0.1
+Server Host: fsholding.cms
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: about
+===================
+#0 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {forea...')
+#1 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('        <!--# f...')
+#2 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 C:\xampp5\htdocs\fsholding\templates_c\www\default\a93eb856d51fe41f95addc301c9fbd21debfb028.file.default.tpl.php(35): Smarty_Internal_Template->getSubTemplate('core/footer.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#6 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_5af945cc2219f1_33666952(Object(Smarty_Internal_Template))
+#7 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 C:\xampp5\htdocs\fsholding\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 C:\xampp5\htdocs\fsholding\classes\core\Application.php(308): Application->executeModule(Object(PageModule))
+#10 C:\xampp5\htdocs\fsholding\index.php(10): Application->process()
+#11 {main}
+******************************************************

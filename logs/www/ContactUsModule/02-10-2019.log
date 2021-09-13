@@ -1,0 +1,13 @@
+Oct 02 13:33:43 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : info1@revlight.com.sg
+SUBJECT     : Contact from info1@revlight.com.sg
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: info1@revlight.com.sg
+==================
+

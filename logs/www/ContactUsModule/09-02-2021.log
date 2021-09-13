@@ -1,0 +1,54 @@
+Feb 09 02:00:14 ContactUsModule [error] cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to www.google.com:443  (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+===================
+Server Addr: 103.14.212.5
+Server Host: fsholdings.co.id
+Remote Addr: 46.53.242.212
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4093.3 Safari/537.36
+x: contact-us
+fullname: CecilRep
+email: lebedevaelena248624@gmail.com
+phone: 86357591716
+type: General Enquiries
+message: <b>How to cure hepatitis C?</b> 
+Hepatitis C can often be treated successfully by taking medicines for several weeks. If the infection is diagnosed in the early stages, known as acute hepatitis, treatment may not need to begin straight away. Instead, you may have another blood test after a few months to see if your body fights off the virus. 
+<a href=https://bit.ly/pharmacy2021><img src="https://i.imgur.com/K8nCObu.png"></a> 
+<b>We recommend visiting a trusted pharmacy in your city! 
+Click on the link! </b> 
+ 
+<a href=https://today.uic.edu/?s=%F0%9F%92%8A%20Buy%20Copegus%20$6.08%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Ribavirin)>ribavirin rash</a>|
+<a href=https://rock101.com/?s=%F0%9F%92%8A%20Buy%20Copegus%20$6.08%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Ribavirin)>ribavirin for hantavirus</a>|
+ 
+<a href=https://grad.ucla.edu/?s=%F0%9F%92%8A%20Buy%20Daklinza%20$19.32%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Daclatasvir)>daclatasvir and velpatasvir</a>|
+<a href=https://www.littlerockfamily.com/search?q=%F0%9F%92%8A%20Buy%20Daklinza%20$19.32%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Daclatasvir)>daclatasvir cena</a>|
+ 
+<a href=https://www.enterprises.csus.edu/?s=%F0%9F%92%8A%20Buy%20Harvoni%20$59.52%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Ledipasvir%20/%20Saofosbuvir)>sofosbuvir que contiene</a>|
+<a href=http://srctc.com/?s=%F0%9F%92%8A%20Buy%20Harvoni%20$59.52%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Ledipasvir%20/%20Saofosbuvir)>ledipasvir maroc</a>|
+ 
+<a href=https://lib.calpoly.edu/?s=%F0%9F%92%8A%20Buy%20Sovaldi%20$34.37%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Sofosbuvir)>sovaldi india buy</a>|
+<a href=https://news.illinoisstate.edu/?s=%F0%9F%92%8A%20Buy%20Sovaldi%20$34.37%20per%20pill-cheap%20price%20without%20prescriptions%20online%20on%20bit.ly/pharmacy2021%20%20%F0%9F%9A%9A%20Free%20Delivered%20|%F0%9F%8E%AF%20Order%20now%20(Sofosbuvir)>sofosbuvir fda bioequivalence</a>|
+
+send: 1
+g-recaptcha-response: 
+===================
+#0 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(150): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(103): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#6 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#7 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#8 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#9 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Client.php(275): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#10 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#11 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Client.php(129): GuzzleHttp\Client->requestAsync('post', 'https://www.goo...', Array)
+#12 /home/fsholdingsco/public_html/vendor/guzzlehttp/guzzle/src/Client.php(87): GuzzleHttp\Client->request('post', 'https://www.goo...', Array)
+#13 /home/fsholdingsco/public_html/classes/modules/www/ContactUsModule.php(60): GuzzleHttp\Client->__call('post', Array)
+#14 /home/fsholdingsco/public_html/classes/modules/www/ContactUsModule.php(60): GuzzleHttp\Client->post('https://www.goo...', Array)
+#15 /home/fsholdingsco/public_html/classes/modules/www/ContactUsModule.php(18): ContactUsModule->contactUs()
+#16 /home/fsholdingsco/public_html/classes/core/AbstractModule.php(485): ContactUsModule->doBuildTemplate()
+#17 /home/fsholdingsco/public_html/classes/core/Application.php(375): AbstractModule->doProcess()
+#18 /home/fsholdingsco/public_html/classes/core/Application.php(308): Application->executeModule(Object(ContactUsModule))
+#19 /home/fsholdingsco/public_html/index.php(10): Application->process()
+#20 {main}
+******************************************************

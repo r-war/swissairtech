@@ -1,0 +1,12 @@
+Apr 12 10:50:29 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : petrkudriashov1987@fluxbeiborg.bizml.ru
+SUBJECT     : Contact from petrkudriashov1987@fluxbeiborg.bizml.ru
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+

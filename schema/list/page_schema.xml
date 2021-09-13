@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="page">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="sort_order"
+			required="false"
+			type="INTEGER"
+			size="10"
+			defaultValue="0"/>
+		<column
+			name="language"
+			required="true"
+			type="VARCHAR"
+			size="2"
+			defaultValue="en"/>
+		<column
+			name="type"
+			required="true"
+			type="VARCHAR"
+			size="20"
+			defaultValue="page"/>
+		<column
+			name="date"
+			required="false"
+			type="TIMESTAMP"/>
+		<column
+			name="code"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="picture"
+			required="false"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="short_desc"
+			required="false"
+			type="LONGVARCHAR"/>
+		<column
+			name="description"
+			required="false"
+			type="LONGVARCHAR"/>
+			
+		<unique name="unique_page">
+			<!--<unique-column name="language"></unique-column>-->
+			<unique-column name="code"></unique-column>
+		</unique>
+
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-name" />
+		</validator>
+	</table>
+	
+	<table name="page_tab">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="page_id"
+			required="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="index"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="description"
+			required="false"
+			type="LONGVARCHAR"/>
+
+		<foreign-key foreignTable="page" onDelete="cascade">
+			<reference
+				local="page_id"
+				foreign="id"/>
+		</foreign-key>
+	</table>
+</database>

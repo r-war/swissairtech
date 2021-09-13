@@ -1,0 +1,13 @@
+Aug 26 15:27:48 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : julie@intergotelecom.com
+SUBJECT     : Contact from julie@intergotelecom.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: julie@intergotelecom.com
+==================
+

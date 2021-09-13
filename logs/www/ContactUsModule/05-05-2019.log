@@ -1,0 +1,26 @@
+May 05 07:40:19 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : gunrussia@scryptmail.com
+SUBJECT     : Contact from gunrussia@scryptmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: gunrussia@scryptmail.com
+==================
+
+May 05 08:46:09 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : angelazeftbeabaday@gmail.com
+SUBJECT     : Contact from angelazeftbeabaday@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: angelazeftbeabaday@gmail.com
+==================
+

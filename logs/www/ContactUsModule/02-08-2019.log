@@ -1,0 +1,13 @@
+Aug 02 13:23:06 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : contact@fullbax.info
+SUBJECT     : Contact from contact@fullbax.info
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: contact@fullbax.info
+==================
+

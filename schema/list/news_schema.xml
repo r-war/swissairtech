@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="news">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="language"
+			required="true"
+			type="VARCHAR"
+			size="2"/>
+		<column
+			name="type"
+			required="true"
+			type="VARCHAR"
+			size="30"
+			defaultValue="news"/>			
+		<column
+			name="code"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="date"
+			required="true"
+			type="DATE"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="picture"
+			required="false"
+			type="VARCHAR"
+			size="255"/>			
+		<column
+			name="description"
+			required="false"
+			type="LONGVARCHAR"/>
+		<column
+			name="short_description"
+			required="false"
+			type="LONGVARCHAR"
+			/>
+		<unique name="unique_news">
+			<unique-column name="language"></unique-column>
+			<unique-column name="code"></unique-column>
+		</unique>
+		
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-name" />
+		</validator>
+	</table>
+</database>

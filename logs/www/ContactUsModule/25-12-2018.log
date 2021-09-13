@@ -1,0 +1,13 @@
+Dec 25 10:43:35 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : melblimos@gmail.com
+SUBJECT     : Contact from melblimos@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: melblimos@gmail.com
+==================
+

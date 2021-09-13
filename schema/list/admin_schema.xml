@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="admin_type">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="privileges"
+			required="false"
+			type="LONGVARCHAR"/>
+					
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-name" />
+		</validator>
+	</table>
+		
+	<table name="admin">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="type_id"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="date"
+			required="false"
+			type="TIMESTAMP"/>
+		<column
+			name="username"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="password"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="name"
+			required="false"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="email"
+			required="false"
+			type="VARCHAR"
+			size="255"/>			
+		<column
+			name="phone"
+			required="false"
+			type="VARCHAR"
+			size="255"/>			
+		<column
+			name="address"
+			required="false"
+			type="LONGVARCHAR"/>
+		<column
+			name="extra"
+			required="false"
+			type="LONGVARCHAR"/>
+		
+		<foreign-key foreignTable="admin_type" onDelete="setnull">
+			<reference
+				local="type_id"
+				foreign="id"/>
+		</foreign-key>
+
+		<unique name="username_unique">
+	  		<unique-column name="username"/>
+		</unique>
+
+		<validator column="username">
+			<rule
+				name="required"
+				message="required-username" />
+			<rule
+				name="unique"
+				message="unique-username" />
+		</validator>
+		<validator column="password">
+			<rule
+				name="required"
+				message="required-password" />
+		</validator>
+	</table>
+</database>

@@ -1,0 +1,20 @@
+May 16 15:45:55 DefaultModule [error] Syntax Error in template "templates/www/default\DefaultModule.tpl"  on line 465 "" unclosed {foreach} tag
+===================
+Server Addr: 127.0.0.1
+Server Host: fsholding.cms
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36
+===================
+#0 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {forea...')
+#1 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('\r\n        <!--#...')
+#2 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 C:\xampp5\htdocs\fsholding\templates_c\www\default\a93eb856d51fe41f95addc301c9fbd21debfb028.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('DefaultModule.t...', NULL, NULL, NULL, NULL, Array, 0)
+#6 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_5af945cc2219f1_33666952(Object(Smarty_Internal_Template))
+#7 C:\xampp5\htdocs\fsholding\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 C:\xampp5\htdocs\fsholding\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 C:\xampp5\htdocs\fsholding\classes\core\Application.php(308): Application->executeModule(Object(DefaultModule))
+#10 C:\xampp5\htdocs\fsholding\index.php(10): Application->process()
+#11 {main}
+******************************************************

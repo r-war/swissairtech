@@ -1,0 +1,13 @@
+Feb 01 11:12:44 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : chris.mac01@gmail.com
+SUBJECT     : Contact from chris.mac01@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: chris.mac01@gmail.com
+==================
+

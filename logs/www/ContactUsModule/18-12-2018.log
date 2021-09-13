@@ -1,0 +1,13 @@
+Dec 18 08:58:22 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : ola.ahlander@akvarieleasing.se
+SUBJECT     : Contact from ola.ahlander@akvarieleasing.se
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: ola.ahlander@akvarieleasing.se
+==================
+

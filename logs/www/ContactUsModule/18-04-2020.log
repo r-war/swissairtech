@@ -1,0 +1,60 @@
+Apr 18 12:47:42 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : no-reply@hilkom-digital.de
+SUBJECT     : Contact from no-reply@hilkom-digital.de
+==================
+
+Apr 18 12:47:42 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info@fsholdings.co.id
+SUBJECT     : Contact from no-reply@hilkom-digital.de
+==================
+
+Apr 18 12:47:42 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : admin@fsholdings.co.id
+SUBJECT     : Contact from no-reply@hilkom-digital.de
+==================
+
+Apr 18 12:47:42 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : rusman.salem@fsholdings.co.id
+SUBJECT     : Contact from no-reply@hilkom-digital.de
+==================
+
+Apr 18 12:47:43 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : yoelin.anugrah@fsholdings.co.id
+SUBJECT     : Contact from no-reply@hilkom-digital.de
+==================
+
+Apr 18 12:47:43 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : info_product@fsholdings.co.id
+SUBJECT     : Contact from no-reply@hilkom-digital.de
+==================
+

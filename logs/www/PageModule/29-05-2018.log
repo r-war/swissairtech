@@ -1,0 +1,143 @@
+May 29 22:12:14 PageModule [error] Syntax Error in template "templates/www/default/PageModule.tpl"  on line 42 "{&amp;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" unclosed {else} tag
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 114.124.179.23
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: about
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {else}...')
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_compile_foreach.php(224): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(429): Smarty_Internal_Compile_Foreachclose->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(227): Smarty_Internal_TemplateCompilerBase->callTagCompiler('foreachclose', Array, Array)
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(2518): Smarty_Internal_TemplateCompilerBase->compileTag('foreachclose', Array)
+#5 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r58()
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(58)
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\n        </sect...')
+#8 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="hea...')
+#9 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#10 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#11 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#12 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('PageModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#13 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#14 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#15 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#16 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(PageModule))
+#17 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#18 {main}
+******************************************************
+May 29 22:13:18 PageModule [error] Syntax Error in template "templates/www/default/PageModule.tpl"  on line 16 "{/foreach}" unknown tag "foreachclose"
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 114.124.176.39
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: about
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(406): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unknown tag "fo...', 16)
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(2518): Smarty_Internal_TemplateCompilerBase->compileTag('foreachclose', Array)
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r58()
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(58)
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\n        </sect...')
+#5 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="hea...')
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#8 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#9 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('PageModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#10 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#11 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#12 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#13 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(PageModule))
+#14 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#15 {main}
+******************************************************
+May 29 22:14:41 PageModule [error] Syntax Error in template "templates/www/default/PageModule.tpl"  on line 14 "" unclosed {if} tag
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 114.124.176.39
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: hello-world
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {if} t...')
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="hea...')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('PageModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(PageModule))
+#10 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#11 {main}
+******************************************************
+May 29 22:31:23 PageModule [error] Syntax Error in template "templates/www/default/PageModule.tpl"  on line 102 "*}" unclosed {if} tag
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 114.124.145.38
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: hello-world
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {if} t...')
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="hea...')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('PageModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(PageModule))
+#10 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#11 {main}
+******************************************************
+May 29 22:31:25 PageModule [error] Syntax Error in template "templates/www/default/PageModule.tpl"  on line 102 "*}" unclosed {if} tag
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 114.124.145.38
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: hello-world
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {if} t...')
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="hea...')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('PageModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(PageModule))
+#10 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#11 {main}
+******************************************************
+May 29 22:32:15 PageModule [error] Syntax Error in template "templates/www/default/PageModule.tpl"  on line 102 "*}" unclosed {if} tag
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 114.124.145.38
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: page
+id: hello-world
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {if} t...')
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="hea...')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('PageModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(PageModule))
+#10 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#11 {main}
+******************************************************

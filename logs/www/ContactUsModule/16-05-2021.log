@@ -1,0 +1,12 @@
+May 16 14:32:36 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : revers@o5o5.ru
+SUBJECT     : Contact from revers@o5o5.ru
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+

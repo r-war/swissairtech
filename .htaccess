@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	#General Rewrite
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^cms-admin/([0-9\w-]+)/([0-9\w-]+)/([0-9\w-]+)/?$ index.php?p=cms-admin&x=$1&id=$2&sid=$3 [QSA]
+	RewriteRule ^cms-admin/([0-9\w-]+)/([0-9\w-]+)/?$ index.php?p=cms-admin&x=$1&id=$2 [QSA]
+	RewriteRule ^cms-admin/([0-9\w-]+)/?$ index.php?p=cms-admin&x=$1 [QSA]
+	RewriteRule ^cms-admin/?$ index.php?p=cms-admin [QSA]
+	RewriteRule ^paypal/(.*)?$ index.php?p=centre&x=paypal&id=$1 [QSA]	
+	RewriteRule ^([0-9\w-]+)/([0-9\w-]+)/([0-9\w-]+)/?$ index.php?x=$1&id=$2&sid=$3 [QSA]
+	RewriteRule ^([0-9\w-]+)/([0-9\w-]+)/?$ index.php?x=$1&id=$2 [QSA]	
+	RewriteRule ^([0-9\w-]+)/?$ index.php?x=$1 [QSA,L]	
+</IfModule>

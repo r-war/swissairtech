@@ -1,0 +1,13 @@
+May 17 21:39:14 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : chiptuffer@yahoo.com
+SUBJECT     : Contact from chiptuffer@yahoo.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: chiptuffer@yahoo.com
+==================
+

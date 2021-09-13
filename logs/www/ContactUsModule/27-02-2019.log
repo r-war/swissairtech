@@ -1,0 +1,13 @@
+Feb 27 05:55:55 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : nka.karate@gmail.com
+SUBJECT     : Contact from nka.karate@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: nka.karate@gmail.com
+==================
+

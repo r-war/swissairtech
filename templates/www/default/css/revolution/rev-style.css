@@ -1,0 +1,170 @@
+
+/*  - Slider Setting 
+----------------------------------------------------*/
+.boxedcontainer {
+	max-width: 1170px; 
+	margin: auto; 
+	padding: 0px 30px;
+}
+.tp-banner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+
+}
+.tp-banner{
+	width:100%;
+	position:relative;
+}
+.tp-banner-fullscreen-container {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+.tp-banner h2 {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif !important;
+}
+.tp-banner h2 span {
+	color: #3a6ee8;
+}
+.tp-banner p {
+	color: #9297a3;
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 14px !important;
+	font-family: 'Open Sans', sans-serif;
+}
+.tp-banner a.custom-btn {
+	font-size: 14px !important;
+	padding: 12px 40px !important;
+	font-family: 'Oswald', sans-serif !important;
+}
+.home .tp-banner h2 {
+	font-size: 90px;
+}
+.home-dark .tp-banner h2 span {
+	font-size: 140px;
+}
+.home-dark .tp-banner h3 {
+	color: #fcfff5;
+	font-size: 72px;
+	text-transform: uppercase;
+}
+.home-dark .tp-banner h4 {
+	color: #fcfff5;
+	font-size: 48px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.tparrows:before {
+	font-size: 32px;
+	line-height: 24px;
+}
+.tp-bullets {
+	display: none;
+}
+.tp-arr-imgholder {
+	background-image: none !important;
+}
+
+/*  media screen and (max-width: 1199px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 1199px) { 
+
+	.home .tp-banner h2 {
+		font-size: 48px;
+	}
+	.home-dark .tp-banner h2 span {
+		font-size: 100px;
+	}
+	.home-dark .tp-banner h3 {
+	    font-size: 45px;
+	}
+	.home-dark .tp-banner h4 {
+		font-size: 22px;
+	}
+	.home-dark .tp-caption.skewfromright.limo-h2.customout.start {
+		top: 365.513px !important;
+	}
+}
+/*  media screen and (max-width: 1199px) End
+---------------------------------------------------------------------- */
+
+@media screen and (max-width: 991px) { 
+	.tp-caption.limo-h2.lfr.start {
+		top: 340.59px !important;
+	}
+}
+@media screen and (max-width: 991px) { 
+	.home-dark .tp-banner h2 span {
+	    font-size: 72px;
+	}
+	.tp-caption.limo-h2.lfr.start {
+		top: 340.59px !important;
+	}
+	.home-dark .tp-caption.large_bold_white.limo-h2.customin.ltl.start,
+	.home-dark .tp-caption.skewfromright.limo-h2.customout.start,
+	.home-dark .tp-caption.limo-h2.lfr.start {
+	    top: 285.513px !important;
+	}
+}
+
+/*  media screen and (max-width: 767px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 767px) { 
+
+	.tp-banner p {
+		display: none;
+	}
+	.home-dark .tp-caption.large_bold_white.limo-h2.customin.ltl.start,
+	.home-dark .tp-caption.skewfromright.limo-h2.customout.start,
+	.home-dark .tp-caption.limo-h2.lfr.start {
+	    top: 200.513px !important;
+	}
+}
+/*  media screen and (max-width: 767px) End
+---------------------------------------------------------------------- */
+
+
+/*  media screen and (max-width: 767px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 640px) { 
+
+	.home .tp-banner h2 {
+		font-size: 24px;
+	}
+	.tp-caption.hlimob-h2.customin.start,
+	.tp-caption.hlimo-h2.customin.start,
+	.tp-caption.link.customin.start {
+	    left: 76px !important;
+	}
+	.tp-caption.link.customin.start {
+	    top: 200px !important;
+	}
+	.home-dark .tp-banner h2 span {
+	    font-size: 48px;
+	}
+	.home-dark .tp-banner h3 {
+	    font-size: 34px;
+	}
+	.home-dark .tp-caption.large_bold_white.limo-h2.customin.ltl.start, 
+	.home-dark .tp-caption.skewfromright.limo-h2.customout.start, 
+	.home-dark .tp-caption.limo-h2.lfr.start {
+	    left: 160px !important;
+	    top: 167.513px !important;
+	}
+}
+/*  media screen and (max-width: 767px) End
+---------------------------------------------------------------------- */
+
+
+/*  media screen and (max-width: 767px)
+---------------------------------------------------------------------- */
+@media screen and (max-width: 640px) { 
+	.home-dark .tp-caption.large_bold_white.limo-h2.customin.ltl.start, 
+	.home-dark .tp-caption.skewfromright.limo-h2.customout.start, 
+	.home-dark .tp-caption.limo-h2.lfr.start {
+		display: none;
+	}
+}

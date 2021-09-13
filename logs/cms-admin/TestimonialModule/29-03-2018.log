@@ -1,0 +1,23 @@
+Mar 29 15:28:48 TestimonialModule [error] Unable to load template file 'ajax/LoginModule.tpl' in 'layout/blank.tpl'
+===================
+Server Addr: 127.0.0.1
+Server Host: innergy.cms
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+p: cms-admin
+x: testimonial
+_sort: 
+_page: 
+select: 1
+ajax: form
+===================
+#0 C:\xampp5\htdocs\innergy\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#1 C:\xampp5\htdocs\innergy\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/LoginModul...', NULL, NULL, NULL, NULL, Array, 0)
+#2 C:\xampp5\htdocs\innergy\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_5abb6a8694e3d2_43526938(Object(Smarty_Internal_Template))
+#3 C:\xampp5\htdocs\innergy\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#4 C:\xampp5\htdocs\innergy\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#5 C:\xampp5\htdocs\innergy\classes\core\Application.php(367): Application->executeModule(Object(LoginModule), true)
+#6 C:\xampp5\htdocs\innergy\classes\core\Application.php(308): Application->executeModule(Object(TestimonialModule))
+#7 C:\xampp5\htdocs\innergy\index.php(10): Application->process()
+#8 {main}
+******************************************************

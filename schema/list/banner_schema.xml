@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="banner" description="Banner Table">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="language"
+			required="true"
+			type="VARCHAR"
+			size="2"/>
+		<column
+			name="group"
+			required="false"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="index"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="picture"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="url"
+			required="false"
+			type="VARCHAR"
+			size="255"/>		
+		<column
+			name="new_tab"
+			required="false"
+			type="BOOLEAN"
+			size="1"
+			defaultValue="false"/>	
+		<column
+			name="name"
+			required="false"
+			type="VARCHAR"
+			size="255"/>		
+		<column
+			name="description"
+			required="false"
+			type="VARCHAR"
+			size="255"/>		
+				
+		<validator column="picture">
+			<rule
+				name="required"
+				message="required-picture" />
+		</validator>
+	</table>
+		
+</database>

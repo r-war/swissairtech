@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	<external-schema filename="list/system_schema.xml"/>
+	<external-schema filename="list/admin_schema.xml"/>
+	<external-schema filename="list/banner_schema.xml"/>
+	<external-schema filename="list/menu_schema.xml"/>
+	<external-schema filename="list/page_schema.xml"/>
+	<external-schema filename="list/video_schema.xml"/>
+	<external-schema filename="list/subscriber_schema.xml"/>
+	<external-schema filename="list/news_schema.xml"/>
+	<external-schema filename="list/gallery_schema.xml"/>
+	<external-schema filename="list/testimonial_schema.xml"/>
+	<external-schema filename="list/seo_schema.xml" />
+</database>

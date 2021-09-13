@@ -1,0 +1,13 @@
+Dec 13 10:13:42 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : victoria-charlotte2006@hotmail.co.uk
+SUBJECT     : Contact from victoria-charlotte2006@hotmail.co.uk
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: victoria-charlotte2006@hotmail.co.uk
+==================
+

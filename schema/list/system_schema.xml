@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="configuration">
+		<column
+			name="configuration_id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="domain"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="key_name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="value"
+			required="false"
+			type="LONGVARCHAR"/>
+			
+		<unique name="unique_configuration">
+			<unique-column name="domain"></unique-column>
+			<unique-column name="key_name"></unique-column>
+		</unique>
+
+		<validator column="key_name">
+			<rule
+				name="required"
+				message="required-key_name" />
+		</validator>
+	</table>
+</database>

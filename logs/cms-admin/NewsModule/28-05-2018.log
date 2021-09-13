@@ -1,0 +1,100 @@
+May 28 08:14:44 NewsModule [error] Syntax Error in template "templates/cms-admin/NewsModule.tpl"  on line 22 "{&lt;td&gt;{$oMod-&gt;getBaseDomain()}{$oMod-&gt;getBasePage('News',null,true)}{$oObj-&gt;getUrl()}&lt;/td&gt;"  - Unexpected "<"
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 182.30.201.61
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+p: cms-admin
+x: news
+mode: service
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(68, '<')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(68, '<')
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<script type="t...')
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 /home/itc2/public_html/fs-holding/templates_c/cms-admin/637d9f14d76b85624ddb6383783163c686d536c6.file.default.tpl.php(34): Smarty_Internal_Template->getSubTemplate('NewsModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#8 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afcf3e88f2487_91846013(Object(Smarty_Internal_Template))
+#9 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#10 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#11 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(NewsModule))
+#12 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#13 {main}
+******************************************************
+May 28 08:14:52 NewsModule [error] Syntax Error in template "templates/cms-admin/NewsModule.tpl"  on line 22 "{&lt;td&gt;{$oMod-&gt;getBaseDomain()}{$oMod-&gt;getBasePage('News',null,true)}{$oObj-&gt;getUrl()}&lt;/td&gt;"  - Unexpected "<"
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 182.30.201.61
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+p: cms-admin
+x: news
+mode: 
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(68, '<')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(68, '<')
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<script type="t...')
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 /home/itc2/public_html/fs-holding/templates_c/cms-admin/637d9f14d76b85624ddb6383783163c686d536c6.file.default.tpl.php(34): Smarty_Internal_Template->getSubTemplate('NewsModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#8 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afcf3e88f2487_91846013(Object(Smarty_Internal_Template))
+#9 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#10 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#11 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(NewsModule))
+#12 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#13 {main}
+******************************************************
+May 28 08:14:55 NewsModule [error] Syntax Error in template "templates/cms-admin/NewsModule.tpl"  on line 22 "{&lt;td&gt;{$oMod-&gt;getBaseDomain()}{$oMod-&gt;getBasePage('News',null,true)}{$oObj-&gt;getUrl()}&lt;/td&gt;"  - Unexpected "<"
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 182.30.201.61
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+p: cms-admin
+x: news
+mode: service
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(68, '<')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(68, '<')
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<script type="t...')
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 /home/itc2/public_html/fs-holding/templates_c/cms-admin/637d9f14d76b85624ddb6383783163c686d536c6.file.default.tpl.php(34): Smarty_Internal_Template->getSubTemplate('NewsModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#8 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afcf3e88f2487_91846013(Object(Smarty_Internal_Template))
+#9 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#10 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#11 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(NewsModule))
+#12 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#13 {main}
+******************************************************
+May 28 08:14:57 NewsModule [error] Syntax Error in template "templates/cms-admin/NewsModule.tpl"  on line 22 "{&lt;td&gt;{$oMod-&gt;getBaseDomain()}{$oMod-&gt;getBasePage('News',null,true)}{$oObj-&gt;getUrl()}&lt;/td&gt;"  - Unexpected "<"
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 182.30.201.61
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+p: cms-admin
+x: news
+mode: news
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(68, '<')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(68, '<')
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<script type="t...')
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 /home/itc2/public_html/fs-holding/templates_c/cms-admin/637d9f14d76b85624ddb6383783163c686d536c6.file.default.tpl.php(34): Smarty_Internal_Template->getSubTemplate('NewsModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#8 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afcf3e88f2487_91846013(Object(Smarty_Internal_Template))
+#9 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#10 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#11 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(NewsModule))
+#12 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#13 {main}
+******************************************************

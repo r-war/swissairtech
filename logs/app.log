@@ -1,0 +1,523 @@
+May 12 08:27:34 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+]
+#0 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 D:\HOIYEN\xampp\htdocs\cms\ketki\classes\core\Application.php(75): Application->handleBasePath()
+#8 D:\HOIYEN\xampp\htdocs\cms\ketki\index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 09 08:48:26 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'itc2_innergy']
+#0 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\ConfigurationPeer.php(26): BaseConfigurationPeer::doSelect(Object(Criteria))
+#5 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(299): ConfigurationPeer::getAll()
+#6 D:\HOIYEN\xampp\htdocs\cms\innergy\index.php(10): Application->process()
+#7 {main}
+******************************************************
+Jun 09 08:48:27 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'itc2_innergy']
+#0 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\ConfigurationPeer.php(26): BaseConfigurationPeer::doSelect(Object(Criteria))
+#5 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(299): ConfigurationPeer::getAll()
+#6 D:\HOIYEN\xampp\htdocs\cms\innergy\index.php(10): Application->process()
+#7 {main}
+******************************************************
+Jun 09 08:48:43 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'itc2_innergy']
+#0 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\ConfigurationPeer.php(26): BaseConfigurationPeer::doSelect(Object(Criteria))
+#5 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(299): ConfigurationPeer::getAll()
+#6 D:\HOIYEN\xampp\htdocs\cms\innergy\index.php(9): Application->process()
+#7 {main}
+******************************************************
+Jun 09 08:49:00 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'itc2_innergy']
+#0 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(75): Application->handleBasePath()
+#8 D:\HOIYEN\xampp\htdocs\cms\innergy\index.php(8): Application->start()
+#9 {main}
+******************************************************
+Jun 09 08:49:05 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'itc2_innergy']
+#0 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(75): Application->handleBasePath()
+#8 D:\HOIYEN\xampp\htdocs\cms\innergy\index.php(8): Application->start()
+#9 {main}
+******************************************************
+Jun 09 08:49:39 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'itc2_innergy']
+#0 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 D:\HOIYEN\xampp\htdocs\cms\innergy\classes\core\Application.php(75): Application->handleBasePath()
+#8 D:\HOIYEN\xampp\htdocs\cms\innergy\index.php(8): Application->start()
+#9 {main}
+******************************************************
+Oct 16 09:02:53 App [error] Unable to open PDO connection [wrapped: SQLSTATE[42000] [1044] Access denied for user 'innergy_user'@'localhost' to database 'innergy_cms']
+#0 /home/innergy/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/innergy/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/innergy/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/innergy/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/innergy/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/innergy/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Oct 16 09:03:12 App [error] Unable to open PDO connection [wrapped: SQLSTATE[42000] [1044] Access denied for user 'innergy_user'@'localhost' to database 'innergy_cms']
+#0 /home/innergy/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/innergy/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/innergy/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/innergy/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/innergy/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/innergy/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Oct 16 09:03:13 App [error] Unable to open PDO connection [wrapped: SQLSTATE[42000] [1044] Access denied for user 'innergy_user'@'localhost' to database 'innergy_cms']
+#0 /home/innergy/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/innergy/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/innergy/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/innergy/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/innergy/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/innergy/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Oct 16 09:03:18 App [error] Unable to open PDO connection [wrapped: SQLSTATE[42000] [1044] Access denied for user 'innergy_user'@'localhost' to database 'innergy_cms']
+#0 /home/innergy/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/innergy/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/innergy/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/innergy/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/innergy/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/innergy/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/innergy/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+May 15 08:03:01 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+]
+#0 C:\xampp5\htdocs\fsholding\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 C:\xampp5\htdocs\fsholding\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 C:\xampp5\htdocs\fsholding\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 C:\xampp5\htdocs\fsholding\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 C:\xampp5\htdocs\fsholding\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 C:\xampp5\htdocs\fsholding\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 C:\xampp5\htdocs\fsholding\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 C:\xampp5\htdocs\fsholding\classes\core\Application.php(75): Application->handleBasePath()
+#8 C:\xampp5\htdocs\fsholding\index.php(9): Application->start()
+#9 {main}
+******************************************************
+May 15 08:03:03 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+]
+#0 C:\xampp5\htdocs\fsholding\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 C:\xampp5\htdocs\fsholding\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 C:\xampp5\htdocs\fsholding\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 C:\xampp5\htdocs\fsholding\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 C:\xampp5\htdocs\fsholding\classes\orm\ConfigurationPeer.php(26): BaseConfigurationPeer::doSelect(Object(Criteria))
+#5 C:\xampp5\htdocs\fsholding\classes\core\Application.php(299): ConfigurationPeer::getAll()
+#6 C:\xampp5\htdocs\fsholding\index.php(10): Application->process()
+#7 {main}
+******************************************************
+Jul 07 12:24:12 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1045] Access denied for user 'fsholdi_user'@'localhost' (using password: YES)]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Feb 14 18:50:51 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] Connection refused]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+May 08 05:49:38 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 15:08:43 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 15:08:46 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 15:08:57 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 15:09:09 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 15:10:58 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 15:11:29 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 17:09:51 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 17:09:51 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 17:09:51 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 17:10:59 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 22 17:11:01 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:40:01 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:40:01 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:40:03 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:40:19 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:40:23 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:41:15 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:41:21 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 26 13:43:49 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Aug 10 04:50:55 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No such file or directory]
+#0 /home/fsholdingsco/public_html/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/fsholdingsco/public_html/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/fsholdingsco/public_html/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/fsholdingsco/public_html/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/fsholdingsco/public_html/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/fsholdingsco/public_html/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/fsholdingsco/public_html/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 13 20:00:51 App [error] Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'pete6969_vip'@'localhost' (using password: YES)]
+#0 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/pete6969/public_html/fsholdings.co.id/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/pete6969/public_html/fsholdings.co.id/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 13 20:03:20 App [error] Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'pete6969_vip'@'localhost' (using password: YES)]
+#0 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/pete6969/public_html/fsholdings.co.id/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/pete6969/public_html/fsholdings.co.id/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 13 20:03:21 App [error] Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'pete6969_vip'@'localhost' (using password: YES)]
+#0 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/pete6969/public_html/fsholdings.co.id/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/pete6969/public_html/fsholdings.co.id/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 13 20:03:22 App [error] Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'pete6969_vip'@'localhost' (using password: YES)]
+#0 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/pete6969/public_html/fsholdings.co.id/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/pete6969/public_html/fsholdings.co.id/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Jun 13 20:03:23 App [error] Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'pete6969_vip'@'localhost' (using password: YES)]
+#0 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(523): Propel::initConnection(Array, 'database')
+#1 /home/pete6969/public_html/fsholdings.co.id/classes/propel/Propel.php(538): Propel::getConnection('database', 'write')
+#2 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 /home/pete6969/public_html/fsholdings.co.id/classes/orm/om/BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 /home/pete6969/public_html/fsholdings.co.id/classes/orm/ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 /home/pete6969/public_html/fsholdings.co.id/classes/core/Application.php(75): Application->handleBasePath()
+#8 /home/pete6969/public_html/fsholdings.co.id/index.php(9): Application->start()
+#9 {main}
+******************************************************
+Sep 13 14:26:17 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1045] Access denied for user 'pete6969_vip'@'localhost' (using password: YES)]
+#0 D:\laragon\www\swissairtech\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\laragon\www\swissairtech\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 D:\laragon\www\swissairtech\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(75): Application->handleBasePath()
+#8 D:\laragon\www\swissairtech\index.php(9): Application->start()
+#9 {main}
+******************************************************
+Sep 13 14:26:59 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'db_swissairtech']
+#0 D:\laragon\www\swissairtech\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\laragon\www\swissairtech\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 D:\laragon\www\swissairtech\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(75): Application->handleBasePath()
+#8 D:\laragon\www\swissairtech\index.php(9): Application->start()
+#9 {main}
+******************************************************
+Sep 13 14:27:01 App [error] Unable to open PDO connection [wrapped: SQLSTATE[HY000] [1049] Unknown database 'db_swissairtech']
+#0 D:\laragon\www\swissairtech\classes\propel\Propel.php(523): Propel::initConnection(Array, 'database')
+#1 D:\laragon\www\swissairtech\classes\propel\Propel.php(538): Propel::getConnection('database', 'write')
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(264): Propel::getConnection('database', 'read')
+#3 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(246): BaseConfigurationPeer::doSelectStmt(Object(Criteria), NULL)
+#4 D:\laragon\www\swissairtech\classes\orm\om\BaseConfigurationPeer.php(229): BaseConfigurationPeer::doSelect(Object(Criteria), NULL)
+#5 D:\laragon\www\swissairtech\classes\orm\ConfigurationPeer.php(62): BaseConfigurationPeer::doSelectOne(Object(Criteria))
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(100): ConfigurationPeer::getValueByKey('template')
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(75): Application->handleBasePath()
+#8 D:\laragon\www\swissairtech\index.php(9): Application->start()
+#9 {main}
+******************************************************

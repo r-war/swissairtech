@@ -1,0 +1,15 @@
+{
+    "name": "hoiyen/innergy",
+    "description": "Ayurveda & Yoga",
+    "authors": [
+        {
+            "name": "hoiyen",
+            "email": "hoiyen.2000@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "3.2.8",
+        "guzzlehttp/guzzle": "6.2.3",
+        "respect/validation": "1.1.12"
+    }
+}

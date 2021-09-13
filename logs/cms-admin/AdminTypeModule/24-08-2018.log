@@ -1,0 +1,27 @@
+Aug 24 08:13:34 AdminTypeModule [error] Syntax Error in template "templates/cms-admin/core/header_menu.tpl"  on line 72 "{if $oLoginAdmin-&gt;isAuthorized(array('Banner'&lt;!--,'Gallery'--&gt;))}"  - Unexpected "--"
+===================
+Server Addr: 103.14.212.5
+Server Host: fsholdings.co.id
+Remote Addr: 182.30.84.28
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+p: cms-admin
+x: admin-type
+===================
+#0 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(25, '--')
+#2 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(25, '--')
+#3 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('<ul class="nav"...')
+#4 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 /home/fsholdingsco/public_html/templates_c/cms-admin/2a4cd6c0ac4c2255343ed18ff688ff41f1fe81cc.file.header.tpl.php(128): Smarty_Internal_Template->getSubTemplate('core/header_men...', NULL, NULL, NULL, NULL, Array, 0)
+#8 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5b42c9d1598309_61661340(Object(Smarty_Internal_Template))
+#9 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#10 /home/fsholdingsco/public_html/templates_c/cms-admin/637d9f14d76b85624ddb6383783163c686d536c6.file.default.tpl.php(26): Smarty_Internal_Template->getSubTemplate('core/header.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#11 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5b42c9d721bad8_90304836(Object(Smarty_Internal_Template))
+#12 /home/fsholdingsco/public_html/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#13 /home/fsholdingsco/public_html/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#14 /home/fsholdingsco/public_html/classes/core/Application.php(308): Application->executeModule(Object(AdminTypeModule))
+#15 /home/fsholdingsco/public_html/index.php(10): Application->process()
+#16 {main}
+******************************************************

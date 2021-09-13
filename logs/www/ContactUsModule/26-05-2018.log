@@ -1,0 +1,84 @@
+May 26 09:14:11 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : :25
+SENDER      : 
+FROM        : 
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+
+May 26 09:14:18 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : :25
+SENDER      : 
+FROM        : 
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+
+May 26 09:15:23 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+==================
+
+May 26 09:15:23 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+==================
+
+May 26 09:17:57 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+==================
+
+May 26 09:17:57 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+==================
+
+May 26 09:19:01 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+==================
+
+May 26 09:19:01 ContactUsModule [info] 
+SEND MAIL SUCCESS
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rivaldi@itconcept.sg
+SUBJECT     : Contact from rivaldi@itconcept.sg
+==================
+

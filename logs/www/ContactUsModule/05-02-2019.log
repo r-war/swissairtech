@@ -1,0 +1,13 @@
+Feb 05 11:01:35 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : salaamsolutionstherapy@gmail.com
+SUBJECT     : Contact from salaamsolutionstherapy@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: salaamsolutionstherapy@gmail.com
+==================
+

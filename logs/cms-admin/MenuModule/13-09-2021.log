@@ -1,0 +1,34 @@
+Sep 13 15:02:35 MenuModule [error] Unable to execute INSERT statement. [wrapped: SQLSTATE[HY000]: General error: 1364 Field 'language' doesn't have a default value]
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.44
+p: cms-admin
+x: menu
+mode: main
+ajax: form
+oMenu-index: 2
+oMenu-name: Products
+oMenu-type: 1
+oMenu-value: #
+pageType: 1
+productid: 
+pageName: 
+pageDescription: 
+moduleName: Default
+categoryId: 0
+promoId: 0
+save: 1
+===================
+#0 D:\laragon\www\swissairtech\classes\orm\om\BaseMenuPeer.php(587): BasePeer::doInsert(Object(Criteria), Object(DebugPDO))
+#1 D:\laragon\www\swissairtech\classes\orm\om\BaseMenu.php(638): BaseMenuPeer::doInsert(Object(Menu), Object(DebugPDO))
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseMenu.php(592): BaseMenu->doSave(Object(DebugPDO))
+#3 D:\laragon\www\swissairtech\classes\modules\cms-admin\MenuModule.php(196): BaseMenu->save()
+#4 D:\laragon\www\swissairtech\classes\modules\cms-admin\MenuModule.php(69): MenuModule->doSave()
+#5 D:\laragon\www\swissairtech\classes\core\AbstractModule.php(481): MenuModule->ajaxHandler('form')
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(375): AbstractModule->doProcess()
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(MenuModule))
+#8 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#9 {main}
+******************************************************

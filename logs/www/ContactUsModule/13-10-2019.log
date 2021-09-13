@@ -1,0 +1,13 @@
+Oct 13 00:49:11 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : rodgermeele@outlook.com
+SUBJECT     : Contact from rodgermeele@outlook.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: rodgermeele@outlook.com
+==================
+

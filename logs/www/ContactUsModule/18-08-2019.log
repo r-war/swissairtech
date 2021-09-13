@@ -1,0 +1,13 @@
+Aug 18 19:56:36 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : kgoody62@yahoo.com
+SUBJECT     : Contact from kgoody62@yahoo.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: kgoody62@yahoo.com
+==================
+

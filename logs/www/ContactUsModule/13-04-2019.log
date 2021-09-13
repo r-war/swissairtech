@@ -1,0 +1,13 @@
+Apr 13 18:58:25 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : pete-gvm-affiliate@gmail.com
+SUBJECT     : Contact from pete-gvm-affiliate@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: pete-gvm-affiliate@gmail.com
+==================
+

@@ -1,0 +1,12 @@
+Feb 04 12:26:04 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.fsholdings.co.id:25
+SENDER      : noreply@fsholdings.co.id
+FROM        : noreply@fsholdings.co.id
+TO          : yelena_malakhova_79@bk.ru
+SUBJECT     : Contact from yelena_malakhova_79@bk.ru
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+

@@ -1,0 +1,13 @@
+Jun 22 22:18:40 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : kelly.cruz@evrosis.com
+SUBJECT     : Contact from kelly.cruz@evrosis.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: kelly.cruz@evrosis.com
+==================
+

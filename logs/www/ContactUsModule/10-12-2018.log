@@ -1,0 +1,13 @@
+Dec 10 18:34:45 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : suzanna.carlsson@dansalliansen.se
+SUBJECT     : Contact from suzanna.carlsson@dansalliansen.se
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: suzanna.carlsson@dansalliansen.se
+==================
+

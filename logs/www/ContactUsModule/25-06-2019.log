@@ -1,0 +1,26 @@
+Jun 25 02:39:10 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : fax.promotion@consultant.com
+SUBJECT     : Contact from fax.promotion@consultant.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: fax.promotion@consultant.com
+==================
+
+Jun 25 07:07:34 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : gulfsrv94@gmail.com
+SUBJECT     : Contact from gulfsrv94@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: gulfsrv94@gmail.com
+==================
+

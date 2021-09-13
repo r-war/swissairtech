@@ -1,0 +1,28 @@
+May 25 19:52:55 NewsModule [error] Syntax Error in template "templates/www/default/NewsModule.tpl"  on line 77 "{/if}" unclosed {else} tag
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 182.30.199.113
+Browser: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Mobile Safari/537.36
+x: news
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {else}...')
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_compile_if.php(85): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(429): Smarty_Internal_Compile_Else->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(227): Smarty_Internal_TemplateCompilerBase->callTagCompiler('else', Array, Array)
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(2418): Smarty_Internal_TemplateCompilerBase->compileTag('else', Array)
+#5 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r37()
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(37)
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\n              ...')
+#8 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('        <!--# c...')
+#9 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#10 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#11 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#12 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('NewsModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#13 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#14 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#15 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#16 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(NewsModule))
+#17 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#18 {main}
+******************************************************

@@ -1,0 +1,39 @@
+Oct 08 03:54:27 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : cloudhosting@cyberservices.com
+SUBJECT     : Contact from cloudhosting@cyberservices.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: cloudhosting@cyberservices.com
+==================
+
+Oct 08 07:34:49 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : no_reply@nwcapital.com
+SUBJECT     : Contact from no_reply@nwcapital.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: no_reply@nwcapital.com
+==================
+
+Oct 08 15:57:34 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : magdalena.gaisbauer@daxner.at
+SUBJECT     : Contact from magdalena.gaisbauer@daxner.at
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: magdalena.gaisbauer@daxner.at
+==================
+

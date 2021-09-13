@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="seo">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="url"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="meta_title"
+			required="false"
+			type="LONGVARCHAR"/>
+		<column
+			name="meta_keywords"
+			required="false"
+			type="LONGVARCHAR"/>
+		<column
+			name="meta_description"
+			required="false"
+			type="LONGVARCHAR"/>
+				
+		<unique name="seo_url">
+	  		<unique-column name="url"/>
+		</unique>
+				
+		<validator column="url">
+			<rule
+				name="required"
+				message="required-url" />
+			<rule
+				name="unique"
+				message="existed-url" />
+		</validator>
+	</table>
+</database>

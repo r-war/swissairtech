@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="menu" description="Menu Table">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="language"
+			required="true"
+			type="VARCHAR"
+			size="2"/>
+		<column
+			name="parent_id"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="group"
+			required="false"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="index"
+			required="false"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="type"
+			required="true"
+			type="INTEGER"
+			size="1"
+			defaultValue="1"/>
+		<column
+			name="value"
+			required="false"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="new_tab"
+			required="false"
+			type="BOOLEAN"
+			size="1"
+			defaultValue="false"/>
+				
+		<foreign-key foreignTable="menu" onDelete="setnull">
+			<reference
+				local="parent_id"
+				foreign="id"/>
+		</foreign-key>
+						
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-name" />
+		</validator>
+	</table>
+		
+</database>

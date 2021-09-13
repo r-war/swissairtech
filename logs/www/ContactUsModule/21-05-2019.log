@@ -1,0 +1,13 @@
+May 21 22:40:31 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : ddggabogados@mail.com
+SUBJECT     : Contact from ddggabogados@mail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: ddggabogados@mail.com
+==================
+

@@ -1,0 +1,21 @@
+May 30 00:56:10 TestimonialModule [error] Syntax Error in template "templates/www/default/TestimonialModule.tpl"  on line 71 "&lt;!--# content #--&gt;" unclosed {if} tag
+===================
+Server Addr: 103.14.212.5
+Server Host: fs-holding.itc2.clientsdemo.net
+Remote Addr: 114.124.173.182
+Browser: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+x: testimonial
+===================
+#0 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {if} t...')
+#1 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('        <!--# c...')
+#2 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 /home/itc2/public_html/fs-holding/templates_c/www/default/a2e4814648534c51f1e7664f2d7c4e7d3004354f.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('TestimonialModu...', NULL, NULL, NULL, NULL, Array, 0)
+#6 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(180): content_5afced0d54d779_36603615(Object(Smarty_Internal_Template))
+#7 /home/itc2/public_html/fs-holding/classes/smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 /home/itc2/public_html/fs-holding/classes/core/Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 /home/itc2/public_html/fs-holding/classes/core/Application.php(308): Application->executeModule(Object(TestimonialModule))
+#10 /home/itc2/public_html/fs-holding/index.php(10): Application->process()
+#11 {main}
+******************************************************

@@ -1,0 +1,13 @@
+Aug 30 04:18:07 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : mpenobella@yahoo.com
+SUBJECT     : Contact from mpenobella@yahoo.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: mpenobella@yahoo.com
+==================
+

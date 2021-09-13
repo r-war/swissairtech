@@ -1,0 +1,13 @@
+Jan 25 20:51:01 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : 198851519@bk.ru
+SUBJECT     : Contact from 198851519@bk.ru
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: 198851519@bk.ru
+==================
+

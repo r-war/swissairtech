@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="video_subscriber">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="language"
+			required="true"
+			type="VARCHAR"
+			size="2"
+			default="en"/>
+		<column
+			name="date"
+			required="true"
+			type="TIMESTAMP"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="email"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="company"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="phone"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="active"
+			required="false"
+			type="BOOLEAN"
+			size="1"
+			defaultValue="true"/>
+						
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-name" />
+		</validator>
+		<validator column="email">
+			<rule
+				name="required"
+				message="required-email" />
+			<rule
+				name="class" 
+				class="propel.validator.EmailValidator"
+				message="invalid-email" />	
+		</validator>
+		<validator column="company">
+			<rule
+				name="required"
+				message="required-company" />
+		</validator>
+		<validator column="phone">
+			<rule
+				name="required"
+				message="required-phone" />
+		</validator>
+	</table>
+		
+	<table name="video">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="language"
+			required="true"
+			type="VARCHAR"
+			size="2"/>
+		<column
+			name="date"
+			required="false"
+			type="TIMESTAMP"/>
+		<column
+			name="date_closed"
+			required="false"
+			type="TIMESTAMP"/>
+		<column
+			name="code"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="picture"
+			required="false"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="description"
+			required="false"
+			type="LONGVARCHAR"/>
+			
+		<unique name="unique_page">
+			<unique-column name="language"></unique-column>
+			<unique-column name="code"></unique-column>
+		</unique>
+
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-name" />
+		</validator>
+	</table>	
+</database>

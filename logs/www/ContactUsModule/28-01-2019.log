@@ -1,0 +1,13 @@
+Jan 28 15:21:30 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.itc2.clientsdemo.net:25
+SENDER      : no-reply@itc2.clientsdemo.net
+FROM        : no-reply@itc2.clientsdemo.net
+TO          : traceyhwoodward@gmail.com
+SUBJECT     : Contact from traceyhwoodward@gmail.com
+ERROR #     : 2
+PROBLEMS    : - SMTP Error: Could not authenticate.
+              - SMTP Error: The following recipients failed: traceyhwoodward@gmail.com
+==================
+

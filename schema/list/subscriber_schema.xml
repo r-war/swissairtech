@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database 
+	name="database"
+	defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd/database.xsd">
+	
+	<table name="subscriber">
+		<column
+			name="id"
+			required="true"
+			primaryKey="true"
+			autoIncrement="true"
+			type="INTEGER"
+			size="10"/>
+		<column
+			name="date"
+			required="true"
+			type="TIMESTAMP"/>
+		<column
+			name="name"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="email"
+			required="true"
+			type="VARCHAR"
+			size="255"/>
+		<column
+			name="active"
+			required="false"
+			type="BOOLEAN"
+			size="1"
+			defaultValue="true"/>
+						
+		<validator column="name">
+			<rule
+				name="required"
+				message="required-name" />
+		</validator>
+		<validator column="email">
+			<rule
+				name="required"
+				message="required-email" />
+			<rule
+				name="class" 
+				class="propel.validator.EmailValidator"
+				message="invalid-email" />	
+		</validator>
+	</table>
+		
+</database>
