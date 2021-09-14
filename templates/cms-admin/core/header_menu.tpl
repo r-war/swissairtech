@@ -33,9 +33,6 @@
       {if in_array('Menu',$oLoginAdmin->getPrivilegesArray())}
       <li {if $oMod->getModule() == 'Menu' && $smarty.get.mode == 'main'}class="active"{/if}><a href="{$oMod->getBasePage('Menu','mode=main')}">Main Menu</a></li>
       {/if}
-      {if in_array('Menu',$oLoginAdmin->getPrivilegesArray())}
-      <li {if $oMod->getModule() == 'Menu' && $smarty.get.mode == 'quick-links'}class="active"{/if}><a href="{$oMod->getBasePage('Menu','mode=quick-links')}">Quick Links</a></li>
-      {/if}
       {*
       {if in_array('Menu',$oLoginAdmin->getPrivilegesArray())}
       <li {if $oMod->getModule() == 'Menu' && $smarty.get.mode == 'quick'}class="active"{/if}><a href="{$oMod->getBasePage('Menu','mode=quick')}">Header Links</a></li>
@@ -57,7 +54,7 @@
       <li {if $oMod->getModule() == 'News' && $smarty.get.mode == 'news'}class="active"{/if}><a href="{$oMod->getBasePage('News', 'mode=news')}">{loc k=news}</a></li>
       {/if}
       {if in_array('News',$oLoginAdmin->getPrivilegesArray())}
-      <li {if $oMod->getModule() == 'News' && $smarty.get.mode == 'service'}class="active"{/if}><a href="{$oMod->getBasePage('News', 'mode=service')}">Services</a></li>
+      <li {if $oMod->getModule() == 'News' && $smarty.get.mode == 'products'}class="active"{/if}><a href="{$oMod->getBasePage('News', 'mode=Products')}">Products</a></li>
       {/if}
 	    {if in_array('Event',$oLoginAdmin->getPrivilegesArray())}
 	    <li {if $oMod->getModule() == 'Event'}class="active"{/if}><a href="{$oMod->getBasePage('Event')}">{loc k=event}</a></li>
@@ -69,8 +66,8 @@
   </li>
   {/if}
   
-  {if $oLoginAdmin->isAuthorized(array('Banner'))}
-  <li class="dropdown {if in_array($oMod->getModule(),array('Banner','Gallery'))}active{/if}">
+  {if $oLoginAdmin->isAuthorized(array('Banner','News'))}
+  <li class="dropdown {if in_array($oMod->getModule(),array('Banner','Gallery', 'News'))}active{/if}">
   	<a class="dropdown-toggle" data-toggle="dropdown" href="{$oMod->getBasePage($oLoginAdmin->isAuthorized(array('Banner','Gallery')))}">
   		<i class="icon-picture"></i> Picture <b class="caret"></b>
 	</a>
@@ -79,7 +76,10 @@
 	    <li {if $oMod->getModule() == 'Banner' && !$smarty.get.mode}class="active"{/if}><a href="{$oMod->getBasePage('Banner')}">Sliding Banner</a></li>
 	    {/if*}
 	    {if in_array('Banner',$oLoginAdmin->getPrivilegesArray())}
-	    <li {if $oMod->getModule() == 'Banner' && ( $smarty.get.mode == 'sliding' || !$smarty.get.mode )}class="active"{/if}><a href="{$oMod->getBasePage('Banner','mode=sliding')}">Home Banner</a></li>
+	    <li {if $oMod->getModule() == 'News' && ( $smarty.get.mode == 'sliding' || !$smarty.get.mode )}class="active"{/if}><a href="{$oMod->getBasePage('News','mode=sliding')}">Home Banner</a></li>
+	    {/if}
+	    {if in_array('Banner',$oLoginAdmin->getPrivilegesArray())}
+	    <li {if $oMod->getModule() == 'Banner' && ( $smarty.get.mode == 'slider' || !$smarty.get.mode )}class="active"{/if}><a href="{$oMod->getBasePage('Banner','mode=slider')}">Home 2 Banner</a></li>
 	    {/if}
 	    {*if in_array('Gallery',$oLoginAdmin->getPrivilegesArray())}
 	    <li {if $oMod->getModule() == 'Gallery'}class="active"{/if}><a href="{$oMod->getBasePage('Gallery')}">Gallery</a></li>

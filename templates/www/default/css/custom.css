@@ -18,7 +18,9 @@
     height: 100%;
     z-index: -1;
 }
-
+.feature-lsit li:after {
+    content: '\f30f';
+}
 .service-section .single-item {
     margin-bottom: 70px;
 }

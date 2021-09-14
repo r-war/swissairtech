@@ -25,7 +25,8 @@ class DefaultModule extends AbstractCommonModule
 			"news_list" 		=> NewsPeer::getAll($param, null, -1, $param, 5),
 			
 			"testimonials" 		=> TestimonialPeer::getNewest(),
-			"banners" 			=> BannerPeer::getByGroup("sliding"),
+			"banners" 			=> BannerPeer::getByGroup("slider"),
+			'sliders'			=> NewsPeer::getByType('sliding', $this->doHandleParameter(), null, $this->getPageList(), $oPager, 10),
 			"source"			=> 'Default'
 		];
 		$this->aContext += $view;

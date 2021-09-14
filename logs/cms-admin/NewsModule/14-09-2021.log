@@ -1,0 +1,153 @@
+Sep 14 09:04:38 NewsModule [error] Unable to execute INSERT statement. [wrapped: SQLSTATE[HY000]: General error: 1364 Field 'language' doesn't have a default value]
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: news
+mode: sliding
+ajax: form
+oNews-name: SWISSAIR
+oNews-shortDescription: AIR PURIFIER
+oNews-description: We Protect The Air You Breathe
+oNews-type: sliding
+save: 1
+===================
+#0 D:\laragon\www\swissairtech\classes\orm\om\BaseNewsPeer.php(493): BasePeer::doInsert(Object(Criteria), Object(DebugPDO))
+#1 D:\laragon\www\swissairtech\classes\orm\om\BaseNews.php(653): BaseNewsPeer::doInsert(Object(News), Object(DebugPDO))
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseNews.php(619): BaseNews->doSave(Object(DebugPDO))
+#3 D:\laragon\www\swissairtech\classes\modules\cms-admin\NewsModule.php(135): BaseNews->save()
+#4 D:\laragon\www\swissairtech\classes\modules\cms-admin\NewsModule.php(43): NewsModule->doSave()
+#5 D:\laragon\www\swissairtech\classes\core\AbstractModule.php(481): NewsModule->ajaxHandler('form')
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(375): AbstractModule->doProcess()
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#8 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#9 {main}
+******************************************************
+Sep 14 09:05:01 NewsModule [error] Unable to execute INSERT statement. [wrapped: SQLSTATE[HY000]: General error: 1364 Field 'language' doesn't have a default value]
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: news
+mode: sliding
+ajax: form
+oNews-name: SWISSAIR
+oNews-shortDescription: 
+oNews-description: 
+oNews-type: sliding
+save: 1
+===================
+#0 D:\laragon\www\swissairtech\classes\orm\om\BaseNewsPeer.php(493): BasePeer::doInsert(Object(Criteria), Object(DebugPDO))
+#1 D:\laragon\www\swissairtech\classes\orm\om\BaseNews.php(653): BaseNewsPeer::doInsert(Object(News), Object(DebugPDO))
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseNews.php(619): BaseNews->doSave(Object(DebugPDO))
+#3 D:\laragon\www\swissairtech\classes\modules\cms-admin\NewsModule.php(135): BaseNews->save()
+#4 D:\laragon\www\swissairtech\classes\modules\cms-admin\NewsModule.php(43): NewsModule->doSave()
+#5 D:\laragon\www\swissairtech\classes\core\AbstractModule.php(481): NewsModule->ajaxHandler('form')
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(375): AbstractModule->doProcess()
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#8 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#9 {main}
+******************************************************
+Sep 14 09:51:09 NewsModule [error] Syntax Error in template "templates/cms-admin\ajax\NewsModule.tpl"  on line 53 "&lt;label class=&quot;control-label&quot;&gt;{loc k=date}&lt;/label&gt;" unclosed {else} tag
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: news
+mode: Products
+_sort: 
+_page: 
+ajax: form
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {else}...')
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compile_if.php(114): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(439): Smarty_Internal_Compile_Elseif->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(227): Smarty_Internal_TemplateCompilerBase->callTagCompiler('elseif', Array, Array)
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(2441): Smarty_Internal_TemplateCompilerBase->compileTag('elseif', Array, Array)
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r41()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(41)
+#7 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\n\t\t   \t\n\t\t   \t<...')
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('{if $sAjax == '...')
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#10 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#11 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#12 D:\laragon\www\swissairtech\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/NewsModule...', NULL, NULL, NULL, NULL, Array, 0)
+#13 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613f058dd8bd81_10000899(Object(Smarty_Internal_Template))
+#14 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#15 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#16 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#17 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#18 {main}
+******************************************************
+Sep 14 09:51:33 NewsModule [error] Syntax Error in template "templates/cms-admin\ajax\NewsModule.tpl"  on line 53 "&lt;label class=&quot;control-label&quot;&gt;{loc k=date}&lt;/label&gt;" unclosed {else} tag
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: news
+mode: Products
+_sort: 
+_page: 
+ajax: form
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {else}...')
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compile_if.php(114): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(439): Smarty_Internal_Compile_Elseif->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(227): Smarty_Internal_TemplateCompilerBase->callTagCompiler('elseif', Array, Array)
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(2441): Smarty_Internal_TemplateCompilerBase->compileTag('elseif', Array, Array)
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r41()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(41)
+#7 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\n\t\t   \t\n\t\t   \t<...')
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('{if $sAjax == '...')
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#10 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#11 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#12 D:\laragon\www\swissairtech\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/NewsModule...', NULL, NULL, NULL, NULL, Array, 0)
+#13 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613f058dd8bd81_10000899(Object(Smarty_Internal_Template))
+#14 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#15 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#16 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#17 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#18 {main}
+******************************************************
+Sep 14 09:51:41 NewsModule [error] Syntax Error in template "templates/cms-admin\ajax\NewsModule.tpl"  on line 53 "&lt;label class=&quot;control-label&quot;&gt;{loc k=date}&lt;/label&gt;" unclosed {else} tag
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: news
+mode: Products
+_sort: 
+_page: 
+ajax: form
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {else}...')
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compile_if.php(114): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(439): Smarty_Internal_Compile_Elseif->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(227): Smarty_Internal_TemplateCompilerBase->callTagCompiler('elseif', Array, Array)
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(2441): Smarty_Internal_TemplateCompilerBase->compileTag('elseif', Array, Array)
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r41()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(41)
+#7 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\n\t\t   \t\n\t\t   \t<...')
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('{if $sAjax == '...')
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#10 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#11 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#12 D:\laragon\www\swissairtech\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/NewsModule...', NULL, NULL, NULL, NULL, Array, 0)
+#13 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613f058dd8bd81_10000899(Object(Smarty_Internal_Template))
+#14 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#15 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#16 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#17 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#18 {main}
+******************************************************

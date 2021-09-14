@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2021-09-13 17:09:57
+<?php /* Smarty version Smarty-3.1.8, created on 2021-09-14 09:32:50
          compiled from "templates/cms-admin\ajax\BannerModule.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:24887613f23758f8ce3-82905323%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ddde6d2ead8cbcbc029043204366867a61e112ec' => 
     array (
       0 => 'templates/cms-admin\\ajax\\BannerModule.tpl',
-      1 => 1527250292,
+      1 => 1631586763,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_613f2375d771a9_14585514',
   'variables' => 
   array (
     'sAjax' => 0,
@@ -23,10 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'sUri' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_613f2375d771a9_14585514',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_613f2375d771a9_14585514')) {function content_613f2375d771a9_14585514($_smarty_tpl) {?><?php if (!is_callable('smarty_function_loc')) include 'D:\\laragon\\www\\swissairtech\\classes\\smarty\\plugins\\function.loc.php';
+if (!is_callable('smarty_function_fckeditor')) include 'D:\\laragon\\www\\swissairtech\\classes\\smarty\\plugins\\function.fckeditor.php';
 if (!is_callable('smarty_function_val')) include 'D:\\laragon\\www\\swissairtech\\classes\\smarty\\plugins\\function.val.php';
 ?><?php if ($_smarty_tpl->tpl_vars['sAjax']->value=='form'){?>
 	<form id="form" action="<?php echo $_smarty_tpl->tpl_vars['oMod']->value->getPage($_smarty_tpl->tpl_vars['oMod']->value->getModule(),('select=').($_smarty_tpl->tpl_vars['oBanner']->value->getPrimaryKey()));?>
@@ -57,6 +58,7 @@ if (!is_callable('smarty_function_val')) include 'D:\\laragon\\www\\swissairtech
 
 		     	<a href="#" data-toggle="tooltip" title="" data-original-title="Make sure size is fitted enough within the area used on this image" class="help"><i class="icon-question-sign"></i></a>
 		     </label>
+			 
 		     <div class="controls">
 		       <input type="file" class="" name="picture" id="picture"/>
 		       <span class="help-inline" style="margin-left: 50px"><a href="<?php echo $_smarty_tpl->tpl_vars['oBanner']->value->getPictureUrl();?>
@@ -76,15 +78,7 @@ if (!is_callable('smarty_function_val')) include 'D:\\laragon\\www\\swissairtech
 		       	</span>
 		     </div>
 		   </div>
-		   <div class="control-group">
-		     <label class="control-label"><?php echo smarty_function_loc(array('k'=>'url'),$_smarty_tpl);?>
-</label>
-		     <div class="controls">
-		       <input type="text" class="span12" name="oBanner-url" value="<?php echo $_smarty_tpl->tpl_vars['oBanner']->value->getUrl();?>
-" />
-           
-		     </div>
-		   </div>
+		              
 			<div class="control-group">
 		     <label class="control-label"><?php echo smarty_function_loc(array('k'=>'name'),$_smarty_tpl);?>
 </label>
@@ -93,12 +87,24 @@ if (!is_callable('smarty_function_val')) include 'D:\\laragon\\www\\swissairtech
 " class="span12"/>
 		     </div>
 		   </div>
+           
+		   <div class="control-group">
+		     <label class="control-label">Sub Heading</label>
+		     <div class="controls">
+		       <input type="text" class="span12" name="oBanner-url" value="<?php echo $_smarty_tpl->tpl_vars['oBanner']->value->getUrl();?>
+" />
+			   
+		     </div>
+		   </div>
+
 		   <div class="control-group">
 		     <label class="control-label"><?php echo smarty_function_loc(array('k'=>'description'),$_smarty_tpl);?>
 </label>
 		     <div class="controls">
-		     	<input type="text" name="oBanner-description" value="<?php echo $_smarty_tpl->tpl_vars['oBanner']->value->getDescription();?>
-" class="span12"/>
+			 <input type="hidden" id="fixDescription" value="1" />
+			 	<?php echo smarty_function_fckeditor(array('name'=>"description",'value'=>$_smarty_tpl->tpl_vars['oBanner']->value->getDescription()),$_smarty_tpl);?>
+
+				 
 		     </div>
 		   </div>
 		   <div class="clearfix"></div>

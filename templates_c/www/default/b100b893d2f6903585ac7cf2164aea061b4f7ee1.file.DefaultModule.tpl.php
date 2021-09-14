@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2021-09-13 17:21:17
+<?php /* Smarty version Smarty-3.1.8, created on 2021-09-14 09:30:27
          compiled from "templates/www/default\DefaultModule.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:8533613efd5f8ec603-43484363%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b100b893d2f6903585ac7cf2164aea061b4f7ee1' => 
     array (
       0 => 'templates/www/default\\DefaultModule.tpl',
-      1 => 1631528472,
+      1 => 1631586624,
       2 => 'file',
     ),
   ),
@@ -20,6 +20,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'aConfig' => 0,
+    'sliders' => 0,
+    'slider' => 0,
+    'banners' => 0,
+    'banner' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -27,7 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div id="banner" class="banner-section">
         <img src="<?php echo $_smarty_tpl->getConfigVariable('CONTENT_PATH');?>
 <?php echo $_smarty_tpl->tpl_vars['aConfig']->value['home1'];?>
-" />
+" /> 
 		<div class="overlay">
 			<div class="banner-text text-right">
 				<div id="main-slider" class="carousel slide" data-ride="carousel">
@@ -36,36 +40,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner text-right" role="listbox">
 							<div class="item active">
+								<?php  $_smarty_tpl->tpl_vars['slider'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['slider']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['sliders']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['slider']->key => $_smarty_tpl->tpl_vars['slider']->value){
+$_smarty_tpl->tpl_vars['slider']->_loop = true;
+?>
 								<div class="slider-txt">
-									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">SwissAir
-									</h3>
-									<h2 class="description wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">
-										Air Purifier</h2>
-									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">We Protect The
-										Air You Breathe</p>
-								</div><!-- /.slider-txt -->
-							</div>
+									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s"><?php echo $_smarty_tpl->tpl_vars['slider']->value->getName();?>
 
-							<div class="item">
-								<div class="slider-txt">
-									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">SwissAir
 									</h3>
 									<h2 class="description wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">
-										Air Purifier</h2>
-									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">We Protect The
-										Air You Breathe</p>
+										<?php echo $_smarty_tpl->tpl_vars['slider']->value->getShortDescription();?>
+</h2>
+									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s"><?php echo $_smarty_tpl->tpl_vars['slider']->value->getDescription();?>
+</p>
 								</div><!-- /.slider-txt -->
-							</div>
+								<?php ob_start();?><?php } ?><?php $_tmp1=ob_get_clean();?><?php echo $_tmp1;?>
 
-							<div class="item">
-								<div class="slider-txt">
-									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">SwissAir
-									</h3>
-									<h2 class="description wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">
-										Air Purifier</h2>
-									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">We Protect The
-										Air You Breathe</p>
-								</div><!-- /.slider-txt -->
 							</div>
 						</div><!-- /.carousel-inner -->
 
@@ -84,10 +75,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<div class="tp-banner-container">
 					<div class="tp-banner">
 						<ul>
+						<?php  $_smarty_tpl->tpl_vars['banner'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['banner']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['banners']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['banner']->key => $_smarty_tpl->tpl_vars['banner']->value){
+$_smarty_tpl->tpl_vars['banner']->_loop = true;
+?>
 							<!-- SLIDE 1 -->
 							<li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
 								<!-- MAIN IMAGE -->
-								<img src="/default/images/images-1.jpg" alt="slidebg1" data-bgfit="cover"
+								<img src="<?php echo $_smarty_tpl->tpl_vars['banner']->value->getPictureUrl();?>
+" alt="slidebg1" data-bgfit="cover"
 									data-bgposition="left top" data-bgrepeat="no-repeat">
 								<!-- LAYERS -->
 
@@ -96,7 +93,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 									data-speed="500" data-start="600" data-easing="Power3.easeInOut"
 									data-endspeed="300">
-									<h2>CLEAN AIR</h2>
+									<h2><?php echo $_smarty_tpl->tpl_vars['banner']->value->getName();?>
+</h2>
 								</div>
 
 								<!-- LAYER 2 -->
@@ -104,7 +102,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 									data-speed="500" data-start="900" data-easing="Power3.easeInOut"
 									data-endspeed="300">
-									<h2><span>FOR LIFE</span></h2>
+									<h2><span><?php echo $_smarty_tpl->tpl_vars['banner']->value->getUrl();?>
+</span></h2>
 								</div>
 
 
@@ -113,15 +112,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 									data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 									data-speed="800" data-start="1500" data-easing="Power4.easeOut" data-endspeed="300"
 									data-endeasing="Power1.easeIn" data-captionhidden="on">
-									<p>The UNECE – Switzerland</p>
-									<p>Air pollution harms human health, affect food security, hinders economic
-										development, contributes to climate change and degrades the environment upon
-										which our very livelihoods depend.</p>
-									<p>With no political boundaries: pollution from sources in one country can be
-										transported and deposited in neighbouring countries, sometimes even thousands of
-										kilometres away.</p>
+									<?php echo $_smarty_tpl->tpl_vars['banner']->value->getDescription();?>
+
+									
 								</div>
 							</li>
+						<?php } ?>
 						</ul>
 						<!-- <div class="tp-bannertimer"></div> -->
 					</div>

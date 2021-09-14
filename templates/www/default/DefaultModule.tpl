@@ -189,7 +189,7 @@
     </section>
 *}
 	<div id="banner" class="banner-section">
-        <img src="{#CONTENT_PATH#}{$aConfig.home1}" />
+        <img src="{#CONTENT_PATH#}{$aConfig.home1}" /> 
 		<div class="overlay">
 			<div class="banner-text text-right">
 				<div id="main-slider" class="carousel slide" data-ride="carousel">
@@ -198,36 +198,15 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner text-right" role="listbox">
 							<div class="item active">
+								{foreach $sliders as $slider }
 								<div class="slider-txt">
-									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">SwissAir
+									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">{$slider->getName()}
 									</h3>
 									<h2 class="description wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">
-										Air Purifier</h2>
-									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">We Protect The
-										Air You Breathe</p>
+										{$slider->getShortDescription()}</h2>
+									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">{$slider->getDescription()}</p>
 								</div><!-- /.slider-txt -->
-							</div>
-
-							<div class="item">
-								<div class="slider-txt">
-									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">SwissAir
-									</h3>
-									<h2 class="description wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">
-										Air Purifier</h2>
-									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">We Protect The
-										Air You Breathe</p>
-								</div><!-- /.slider-txt -->
-							</div>
-
-							<div class="item">
-								<div class="slider-txt">
-									<h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">SwissAir
-									</h3>
-									<h2 class="description wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">
-										Air Purifier</h2>
-									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">We Protect The
-										Air You Breathe</p>
-								</div><!-- /.slider-txt -->
+								{{/foreach}}
 							</div>
 						</div><!-- /.carousel-inner -->
 
@@ -246,10 +225,11 @@
 				<div class="tp-banner-container">
 					<div class="tp-banner">
 						<ul>
+						{foreach $banners as $banner}
 							<!-- SLIDE 1 -->
 							<li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
 								<!-- MAIN IMAGE -->
-								<img src="/default/images/images-1.jpg" alt="slidebg1" data-bgfit="cover"
+								<img src="{$banner->getPictureUrl()}" alt="slidebg1" data-bgfit="cover"
 									data-bgposition="left top" data-bgrepeat="no-repeat">
 								<!-- LAYERS -->
 
@@ -258,7 +238,7 @@
 									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 									data-speed="500" data-start="600" data-easing="Power3.easeInOut"
 									data-endspeed="300">
-									<h2>CLEAN AIR</h2>
+									<h2>{$banner->getName()}</h2>
 								</div>
 
 								<!-- LAYER 2 -->
@@ -266,7 +246,7 @@
 									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 									data-speed="500" data-start="900" data-easing="Power3.easeInOut"
 									data-endspeed="300">
-									<h2><span>FOR LIFE</span></h2>
+									<h2><span>{$banner->getUrl()}</span></h2>
 								</div>
 
 
@@ -275,15 +255,11 @@
 									data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 									data-speed="800" data-start="1500" data-easing="Power4.easeOut" data-endspeed="300"
 									data-endeasing="Power1.easeIn" data-captionhidden="on">
-									<p>The UNECE – Switzerland</p>
-									<p>Air pollution harms human health, affect food security, hinders economic
-										development, contributes to climate change and degrades the environment upon
-										which our very livelihoods depend.</p>
-									<p>With no political boundaries: pollution from sources in one country can be
-										transported and deposited in neighbouring countries, sometimes even thousands of
-										kilometres away.</p>
+									{$banner->getDescription()}
+									
 								</div>
 							</li>
+						{/foreach}
 						</ul>
 						<!-- <div class="tp-bannertimer"></div> -->
 					</div>

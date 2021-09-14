@@ -1,0 +1,167 @@
+Sep 14 08:52:22 BannerModule [error] Syntax Error in template "templates/cms-admin\ajax\BannerModule.tpl"  on line 18 "{if !smarty.get.mode == 'sliding'}"  - Unexpected "."
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: banner
+mode: sliding
+_sort: 
+_page: 
+ajax: form
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(58, '.')
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(58, '.')
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('{if $sAjax == '...')
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 D:\laragon\www\swissairtech\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/BannerModu...', NULL, NULL, NULL, NULL, Array, 0)
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613f058dd8bd81_10000899(Object(Smarty_Internal_Template))
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#10 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#11 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(BannerModule))
+#12 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#13 {main}
+******************************************************
+Sep 14 08:52:38 BannerModule [error] Syntax Error in template "templates/cms-admin\ajax\BannerModule.tpl"  on line 18 "{if !(smarty.get.mode == 'sliding')}"  - Unexpected "."
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: banner
+mode: sliding
+_sort: 
+_page: 
+ajax: form
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(58, '.')
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(58, '.')
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('{if $sAjax == '...')
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 D:\laragon\www\swissairtech\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/BannerModu...', NULL, NULL, NULL, NULL, Array, 0)
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613f058dd8bd81_10000899(Object(Smarty_Internal_Template))
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#10 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#11 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(BannerModule))
+#12 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#13 {main}
+******************************************************
+Sep 14 08:52:52 BannerModule [error] Syntax Error in template "templates/cms-admin\ajax\BannerModule.tpl"  on line 18 "{if smarty.get.mode != 'sliding'}"  - Unexpected "."
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: banner
+mode: sliding
+_sort: 
+_page: 
+ajax: form
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(58, '.')
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(58, '.')
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('{if $sAjax == '...')
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 D:\laragon\www\swissairtech\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/BannerModu...', NULL, NULL, NULL, NULL, Array, 0)
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613f058dd8bd81_10000899(Object(Smarty_Internal_Template))
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#10 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#11 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(BannerModule))
+#12 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#13 {main}
+******************************************************
+Sep 14 08:52:54 BannerModule [error] Syntax Error in template "templates/cms-admin\ajax\BannerModule.tpl"  on line 18 "{if smarty.get.mode != 'sliding'}"  - Unexpected "."
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: banner
+mode: sliding
+_sort: 
+_page: 
+ajax: form
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(58, '.')
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(58, '.')
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('{if $sAjax == '...')
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 D:\laragon\www\swissairtech\templates_c\cms-admin\58ab9f8cbbe7ea9032ce4762d37c7d6c02f2b5d9.file.blank.tpl.php(33): Smarty_Internal_Template->getSubTemplate('ajax/BannerModu...', NULL, NULL, NULL, NULL, Array, 0)
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613f058dd8bd81_10000899(Object(Smarty_Internal_Template))
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/blank.tp...', NULL, NULL, NULL, true)
+#10 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/blank.tp...')
+#11 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(BannerModule))
+#12 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#13 {main}
+******************************************************
+Sep 14 09:25:30 BannerModule [error] Unable to execute INSERT statement. [wrapped: SQLSTATE[HY000]: General error: 1364 Field 'language' doesn't have a default value]
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: banner
+mode: slider
+ajax: form
+oBanner-index: 1
+oBanner-name: CLEAN AIR
+oBanner-description: 
+save: 1
+===================
+#0 D:\laragon\www\swissairtech\classes\orm\om\BaseBannerPeer.php(493): BasePeer::doInsert(Object(Criteria), Object(DebugPDO))
+#1 D:\laragon\www\swissairtech\classes\orm\om\BaseBanner.php(594): BaseBannerPeer::doInsert(Object(Banner), Object(DebugPDO))
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseBanner.php(560): BaseBanner->doSave(Object(DebugPDO))
+#3 D:\laragon\www\swissairtech\classes\modules\cms-admin\BannerModule.php(127): BaseBanner->save()
+#4 D:\laragon\www\swissairtech\classes\modules\cms-admin\BannerModule.php(40): BannerModule->doSave()
+#5 D:\laragon\www\swissairtech\classes\core\AbstractModule.php(481): BannerModule->ajaxHandler('form')
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(375): AbstractModule->doProcess()
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(BannerModule))
+#8 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#9 {main}
+******************************************************
+Sep 14 09:29:18 BannerModule [error] Unable to execute UPDATE statement. [wrapped: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'description' at row 1]
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+p: cms-admin
+x: banner
+mode: slider
+select: 7
+ajax: form
+oBanner-index: 1
+picture: 
+oBanner-name: CLEAN AIR
+oBanner-url: FOR LIFE
+oBanner-description: <p>The UNECE – Switzerland</p> 									<p>Air pollution harms human health, affect food security, hinders economic 										development, contributes to climate change and degrades the environment upon 										which our very livelihoods depend.</p> 									<p>With no political boundaries: pollution from sources in one country can be 										transported and deposited in neighbouring countries, sometimes even thousands of 										kilometres away.</p>
+save: 1
+===================
+#0 D:\laragon\www\swissairtech\classes\orm\om\BaseBannerPeer.php(534): BasePeer::doUpdate(Object(Criteria), Object(Criteria), Object(DebugPDO))
+#1 D:\laragon\www\swissairtech\classes\orm\om\BaseBanner.php(603): BaseBannerPeer::doUpdate(Object(Banner), Object(DebugPDO))
+#2 D:\laragon\www\swissairtech\classes\orm\om\BaseBanner.php(560): BaseBanner->doSave(Object(DebugPDO))
+#3 D:\laragon\www\swissairtech\classes\modules\cms-admin\BannerModule.php(127): BaseBanner->save()
+#4 D:\laragon\www\swissairtech\classes\modules\cms-admin\BannerModule.php(40): BannerModule->doSave()
+#5 D:\laragon\www\swissairtech\classes\core\AbstractModule.php(481): BannerModule->ajaxHandler('form')
+#6 D:\laragon\www\swissairtech\classes\core\Application.php(375): AbstractModule->doProcess()
+#7 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(BannerModule))
+#8 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#9 {main}
+******************************************************

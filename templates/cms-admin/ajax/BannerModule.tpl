@@ -19,6 +19,7 @@
 		     <label class="control-label">{loc k=picture}
 		     	<a href="#" data-toggle="tooltip" title="" data-original-title="Make sure size is fitted enough within the area used on this image" class="help"><i class="icon-question-sign"></i></a>
 		     </label>
+			 
 		     <div class="controls">
 		       <input type="file" class="" name="picture" id="picture"/>
 		       <span class="help-inline" style="margin-left: 50px"><a href="{$oBanner->getPictureUrl()}" target="_blank">{$oBanner->getPicture()}</a></span>
@@ -36,28 +37,36 @@
 		       	</span>
 		     </div>
 		   </div>
-		   <div class="control-group">
-		     <label class="control-label">{loc k=url}</label>
-		     <div class="controls">
-		       <input type="text" class="span12" name="oBanner-url" value="{$oBanner->getUrl()}" />
-           {*
-	       		<input type="hidden" name="oBanner-new_tab" value="0" />
-		       <label class="checkbox help-inline" style="padding-left: 25px;">
-					<input type="checkbox" name="oBanner-new_tab" value="true" {if $oBanner->getNewTab()}checked="checked"{/if}> {loc k=open_in_new_tab}
-				</label>
-           *}
-		     </div>
-		   </div>
+		              
 			<div class="control-group">
 		     <label class="control-label">{loc k=name}</label>
 		     <div class="controls">
 		       <input type="text" name="oBanner-name" value="{$oBanner->getName()}" class="span12"/>
 		     </div>
 		   </div>
+           
+		   <div class="control-group">
+		     <label class="control-label">Sub Heading</label>
+		     <div class="controls">
+		       <input type="text" class="span12" name="oBanner-url" value="{$oBanner->getUrl()}" />
+			   {*
+
+	       		<input type="hidden" name="oBanner-new_tab" value="0" />
+		       <label class="checkbox help-inline" style="padding-left: 25px;">
+					<input type="checkbox" name="oBanner-new_tab" value="true" {if $oBanner->getNewTab()}checked="checked"{/if}> {loc k=open_in_new_tab}
+				</label>
+			   *}
+		     </div>
+		   </div>
+
 		   <div class="control-group">
 		     <label class="control-label">{loc k=description}</label>
 		     <div class="controls">
-		     	<input type="text" name="oBanner-description" value="{$oBanner->getDescription()}" class="span12"/>
+			 <input type="hidden" id="fixDescription" value="1" />
+			 	{fckeditor name="description" value=$oBanner->getDescription()}
+				 {* 
+					<input type="text" name="oBanner-description" value="{$oBanner->getDescription()}" class="span12"/>
+				 *}
 		     </div>
 		   </div>
 		   <div class="clearfix"></div>

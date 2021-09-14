@@ -15,12 +15,6 @@
 	<div class="modal-body">
 	{include file="core/feedback.tpl" source=$oMod->getModule()}
 		<div class="form-unit form-horizontal">
-		  <div class="control-group">
-		     <label class="control-label">{loc k=date}</label>
-		     <div class="controls">
-		       <input type="text" name="oNews-date" value="{$oNews->getDate('m/d/Y')}" id="date"/>
-		     </div>
-		   </div>
 		   {*
 		   {if !$oNews->isNew()}
 		    <div class="control-group">
@@ -34,6 +28,33 @@
 		   {/if}
 		   *}
 		   
+		   {if $smarty.get.mode == 'sliding'}
+		   	<div class="control-group">
+		     <label class="control-label" for="name">Heading 1</label>
+		     <div class="controls">
+		       <input type="text" name="oNews-name" id="name" value="{$oNews->getName()}" class="span12"/>
+		     </div>
+		   </div>
+		   <div class="control-group">
+		     <label class="control-label" for="shortdescription">Sub Heading</label>
+		     <div class="controls">
+		       <input type="text" name="shortDescription" id="shortdescription" value="{$oNews->getShortDescription()}" class="span12"/>
+			</div>
+		   </div>	
+		   <div class="control-group">
+		     <label class="control-label" for="description">description</label>
+		     <div class="controls">
+		       <input type="text" name="description" id="description" value="{$oNews->getDescription()}" class="span12"/>
+		     </div>
+		   {else}
+		   {if $smarty.get.mode != 'Products'}
+		   	<div class="control-group">
+		     <label class="control-label">{loc k=date}</label>
+		     <div class="controls">
+		       <input type="text" name="oNews-date" value="{$oNews->getDate('m/d/Y')}" id="date"/>
+		     </div>
+		   </div>
+		   {/if}
 		   <div class="control-group">
 		     <label class="control-label">{loc k=picture}</label>
 		     <div class="controls">
@@ -41,20 +62,21 @@
 		       <span class="help-inline" style="margin-left: 50px"><a href="{$oNews->getPictureUrl()}" target="_blank">{$oNews->getPicture()}</a></span>
 		     </div>
 		   </div>
-		   
 		   <div class="control-group">
 		     <label class="control-label" for="name">{loc k=name}</label>
 		     <div class="controls">
 		       <input type="text" name="oNews-name" id="name" value="{$oNews->getName()}" class="span12"/>
 		     </div>
 		   </div>
+			{if $smarty.get.mode != 'Products'}
 		   <div class="control-group">
 		     <label class="control-label" for="shortdescription">{loc k=shortDescription}</label>
 		     <div class="controls">
 		     <input type="hidden" id="fixShortDescription" value="1"/>
 		       {fckeditor name=shortDescription value=$oNews->getShortDescription()}
 		     </div>
-		   </div>	
+		   </div>
+		   {/if}	
 		   <div class="control-group">
 		     <label class="control-label" for="description">{loc k=description}</label>
 		     <div class="controls">
@@ -62,6 +84,7 @@
 		       {fckeditor name=description value=$oNews->getDescription()}
 		     </div>
 		   </div>		   
+		   {/if}
 		   <div class="clearfix"></div>
 		</div>
 	</div>

@@ -115,6 +115,7 @@ class BannerModule extends AbstractAdminModule
 				$this->oBanner->setPicture($sFilename);
 			}
 		}
+		$this->oBanner->setDescription($this->oData->get('description'));
 		$this->doValidate($this->oBanner);
 		if($this->noError())
 		{

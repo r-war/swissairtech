@@ -118,6 +118,10 @@ class ConfigurationModule extends AbstractAdminModule
 						'name'	=> 'Home Banner',
 						'type'	=> 'picture'
 					),
+					'product'=>array(
+						'name'	=> 'Products Banner',
+						'type'	=> 'picture'
+					),
 					'news' => array(
 						'name'	=> 'news banner',
 						'type'	=> 'picture',

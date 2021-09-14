@@ -1,3 +1,6 @@
+<script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/ckfinder/ckfinder.js"></script>
+
 {include file="core/add_search.tpl"}
 {if $smarty.get.back}
 <div class="row-fluid">
