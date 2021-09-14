@@ -20,9 +20,11 @@
 	<td>{$oObj->getName()}</td>
 	<td>{$oMod->getBaseDomain()}{$oMod->getBasePage('Page',null,true)}{$oObj->getUrl()}</td>
 	<td class="center">
+	{*
 		<a href="{$oMod->getBasePage(PageTab,$sSubUrl)}" role="button" class="btn btn-primary" title="Page Tab">Page Tab</a>
-		<a href="{$oMod->getPage($oMod->getModule(),$sSelectUrl)}" role="button" class="btn btn-primary" data-toggle="modal" data-target="#myForm">{loc k=edit}</a>
+	*}
 		{*<a href="{$oMod->getPage(Banner,$sBannerUrl)}" role="button" class="btn btn-info">{loc k=banner}</a>*}
+		<a href="{$oMod->getPage($oMod->getModule(),$sSelectUrl)}" role="button" class="btn btn-primary" data-toggle="modal" data-target="#myForm">{loc k=edit}</a>
 		<input name="delete_{$oObj->getName()}" type="button" value="{loc k=delete}" class="btn btn-danger" onclick="doDelete('{$oObj->getPrimaryKey()}','{val v=$oObj->getName() parsequote=true}')"/>
 	</td>
 </tr>

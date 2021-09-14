@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2021-09-14 09:35:36
+<?php /* Smarty version Smarty-3.1.8, created on 2021-09-14 17:56:06
          compiled from "templates/cms-admin\PageModule.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:218161400a78a3ea31-43313790%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9194f688434b88e3f035600613886ddd8060e394' => 
     array (
       0 => 'templates/cms-admin\\PageModule.tpl',
-      1 => 1527250292,
+      1 => 1631616963,
       2 => 'file',
     ),
   ),
@@ -15,19 +15,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_61400a78d2d523_84192596',
   'variables' => 
   array (
     'oMod' => 0,
     '_sortable' => 0,
     'aPage' => 0,
     'oObj' => 0,
-    'sSubUrl' => 0,
     'sSelectUrl' => 0,
     '_pager' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_61400a78d2d523_84192596',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_61400a78d2d523_84192596')) {function content_61400a78d2d523_84192596($_smarty_tpl) {?><?php if (!is_callable('smarty_function_loc')) include 'D:\\laragon\\www\\swissairtech\\classes\\smarty\\plugins\\function.loc.php';
 if (!is_callable('smarty_function_val')) include 'D:\\laragon\\www\\swissairtech\\classes\\smarty\\plugins\\function.val.php';
@@ -69,12 +68,11 @@ $_smarty_tpl->tpl_vars['oObj']->_loop = true;
 <?php echo $_smarty_tpl->tpl_vars['oObj']->value->getUrl();?>
 </td>
 	<td class="center">
-		<a href="<?php echo $_smarty_tpl->tpl_vars['oMod']->value->getBasePage('PageTab',$_smarty_tpl->tpl_vars['sSubUrl']->value);?>
-" role="button" class="btn btn-primary" title="Page Tab">Page Tab</a>
+	
+		
 		<a href="<?php echo $_smarty_tpl->tpl_vars['oMod']->value->getPage($_smarty_tpl->tpl_vars['oMod']->value->getModule(),$_smarty_tpl->tpl_vars['sSelectUrl']->value);?>
 " role="button" class="btn btn-primary" data-toggle="modal" data-target="#myForm"><?php echo smarty_function_loc(array('k'=>'edit'),$_smarty_tpl);?>
 </a>
-		
 		<input name="delete_<?php echo $_smarty_tpl->tpl_vars['oObj']->value->getName();?>
 " type="button" value="<?php echo smarty_function_loc(array('k'=>'delete'),$_smarty_tpl);?>
 " class="btn btn-danger" onclick="doDelete('<?php echo $_smarty_tpl->tpl_vars['oObj']->value->getPrimaryKey();?>
