@@ -1,0 +1,22 @@
+Sep 16 17:02:30 DefaultModule [error] Syntax Error in template "templates/www/default\DefaultModule.tpl"  on line 160 "&lt;p&gt;{news-&gt;getShortDescription()}&lt;/p&gt;"  - Unexpected "(", expected one of: "}" , " "
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3154): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3219): Smarty_Internal_Templateparser->yy_syntax_error(37, '(')
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(37, '(')
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('\t<div id="banne...')
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#7 D:\laragon\www\swissairtech\templates_c\www\default\a93eb856d51fe41f95addc301c9fbd21debfb028.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('DefaultModule.t...', NULL, NULL, NULL, NULL, Array, 0)
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_613efd5b4d8396_37477000(Object(Smarty_Internal_Template))
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#10 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#11 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(DefaultModule))
+#12 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#13 {main}
+******************************************************

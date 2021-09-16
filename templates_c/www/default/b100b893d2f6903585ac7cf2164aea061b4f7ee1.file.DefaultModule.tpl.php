@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2021-09-14 09:30:27
+<?php /* Smarty version Smarty-3.1.8, created on 2021-09-16 17:23:02
          compiled from "templates/www/default\DefaultModule.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:8533613efd5f8ec603-43484363%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b100b893d2f6903585ac7cf2164aea061b4f7ee1' => 
     array (
       0 => 'templates/www/default\\DefaultModule.tpl',
-      1 => 1631586624,
+      1 => 1631787775,
       2 => 'file',
     ),
   ),
@@ -24,11 +24,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'slider' => 0,
     'banners' => 0,
     'banner' => 0,
+    'products' => 0,
+    'product' => 0,
+    'news_list' => 0,
+    'news' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_613efd606d0811_27877592')) {function content_613efd606d0811_27877592($_smarty_tpl) {?>
-	<div id="banner" class="banner-section">
+<?php if ($_valid && !is_callable('content_613efd606d0811_27877592')) {function content_613efd606d0811_27877592($_smarty_tpl) {?>	<div id="banner" class="banner-section">
         <img src="<?php echo $_smarty_tpl->getConfigVariable('CONTENT_PATH');?>
 <?php echo $_smarty_tpl->tpl_vars['aConfig']->value['home1'];?>
 " /> 
@@ -55,12 +58,9 @@ $_smarty_tpl->tpl_vars['slider']->_loop = true;
 									<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s"><?php echo $_smarty_tpl->tpl_vars['slider']->value->getDescription();?>
 </p>
 								</div><!-- /.slider-txt -->
-								<?php ob_start();?><?php } ?><?php $_tmp1=ob_get_clean();?><?php echo $_tmp1;?>
-
+								<?php } ?>
 							</div>
 						</div><!-- /.carousel-inner -->
-
-
 						<div class="next-section">
 							<button id="go-to-next" class="btn"><i class="fa fa-angle-double-down"></i></button>
 						</div>
@@ -137,20 +137,20 @@ $_smarty_tpl->tpl_vars['banner']->_loop = true;
 				<div id="product-tab" class="tab-content">
 					<div role="tabpanel" class="tab-pane fade active in" id="all">
 						<div class="row">
+						<?php  $_smarty_tpl->tpl_vars['product'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['product']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['products']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['product']->key => $_smarty_tpl->tpl_vars['product']->value){
+$_smarty_tpl->tpl_vars['product']->_loop = true;
+?>
 							<div class="col-sm-4">
 								<div class="colmd4">
 									<div class="product-tab-img">
-										<img src="images/produk-1.jpg" class="img-responsive" alt="Tab Product Image">
+										<img src="<?php echo $_smarty_tpl->tpl_vars['product']->value->getPictureUrl();?>
+" class="img-responsive" alt="Tab Product Image">
 									</div>
 								</div>
 							</div><!-- /.col-sm-4 -->
-							<div class="col-sm-4">
-								<div class="colmd4">
-									<div class="product-tab-img">
-										<img src="images/produk-2.jpg" class="img-responsive" alt="Tab Product Image">
-									</div>
-								</div>
-							</div><!-- /.col-sm-4 -->\
+							<?php } ?>
 						</div>
 					</div><!-- /#all -->
 				</div>
@@ -163,21 +163,8 @@ $_smarty_tpl->tpl_vars['banner']->_loop = true;
 	<div id="big-sale" class="big-sale padding-bottom100">
 		<div class="container">
 			<div class="section-content">
-				<div class="col-md-5 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".6s">
-					<div class="section-head text-center">
-						<h2>SwissAir Technology AG </h2>
-						<p>was founded on the firm belief that the freedom to breathe Clear and Healthy Air is The
-							Greatest Gift. Using the micron mesh filter to effectively block 2.5mm fibrous particulate
-							matter, the air can be cleaned easily by ten of thousands times. Preventing large particles
-							such as pet fur, dander, and coarse dust, etc. In technical ways, it can increase the life
-							of the following filters.</p>
-					</div>
-				</div><!-- /.col-md-4 -->
-				<div class="col-md-7 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".8s">
-					<div class="big-sale-img">
-						<img src="images/technology.jpg" class="img-responsive" alt="">
-					</div>
-				</div><!-- /.col-md-8 -->
+				<?php echo $_smarty_tpl->tpl_vars['aConfig']->value['content_home'];?>
+
 			</div>
 		</div><!-- /.container -->
 	</div>
@@ -192,7 +179,7 @@ $_smarty_tpl->tpl_vars['banner']->_loop = true;
 						<div class="quote-info">
 							<p>“Clean Air For Next Generation”</p>
 							<a href="#" class="font-Montserrat">We love our planet</a>
-							<span>Limo Corp</span>
+							
 						</div><!-- /.quote-info -->
 					</div>
 				</div>
@@ -204,84 +191,8 @@ $_smarty_tpl->tpl_vars['banner']->_loop = true;
 	<!-- /#service -->
 	<section id="service" class="service-section padding-top100">
 		<div class="container">
-			<div class="section-head padding-bottom55 text-center wow fadeInUp" data-wow-duration=".8s"
-				data-wow-delay=".3s">
-				<h2>7 SHIELD PROTECTION</h2>
-			</div>
-			<div class="section-content">
-				<div class="col-md-4">
-					<div class="colmd4 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".6s">
-						<img src="images/produk-3.jpg" class="img-responsive" alt="">
-					</div>
-				</div><!-- /.col-md-4 -->
-				<div class="col-md-8 d-grid grid-column-2 grid-column-xs">
-					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".9s">
-						<div class="single-item">
-							<div class="icon"><img src="images/home-light/service/1.png" alt=""></div>
-							<div class="mm-small-box">
-								<h4>1st: Pre-filter</h4>
-								<p>Made of white nylon to be washed repeatedly</p>
-							</div>
-						</div><!-- /.single-service -->
-					</div>
-					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1s">
-						<div class="single-item">
-							<div class="icon"><img src="images/home-light/service/2.png" alt=""></div>
-							<div class="mm-small-box">
-								<h4>2nd: HEPA filter</h4>
-								<p>HEPA filter widely used for medical use, to strongly absord particles PM 2.5</p>
-							</div>
-						</div><!-- /.single-service -->
-					</div>
-					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.1s">
-						<div class="single-item">
-							<div class="icon"><img src="images/home-light/service/3.png" alt=""></div>
-							<div class="mm-small-box">
-								<h4>3rd: Antibacterial Filter</h4>
-								<p>5-10 Times powerful than traditional carbon filter</p>
-							</div>
-						</div><!-- /.single-service -->
-					</div>
-					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.2s">
-						<div class="single-item">
-							<div class="icon"><img src="images/home-light/service/4.png" alt=""></div>
-							<div class="mm-small-box">
-								<h4>4th: Activated Carbon</h4>
-								<p>5-10 Times powerful than traditional carbon filter</p>
-							</div>
-						</div><!-- /.single-service -->
-					</div>
-					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.3s">
-						<div class="single-item">
-							<div class="icon"><img src="images/home-light/service/5.png" alt=""></div>
-							<div class="mm-small-box">
-								<h4>5th: Photocatalyst filter</h4>
-								<p>Nano TIO2 as representative materials</p>
-							</div>
-						</div><!-- /.single-service -->
-					</div>
-					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.4s">
-						<div class="single-item">
-							<div class="icon"><img src="images/home-light/service/6.png" alt=""></div>
-							<div class="mm-small-box">
-								<h4>6th: Ion Generator</h4>
-								<p>Produce Large Amount of Negative ION</p>
-							</div>
-						</div><!-- /.single-service -->
-					</div>
-					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.4s">
+				<?php echo $_smarty_tpl->tpl_vars['aConfig']->value['content_home_protect'];?>
 
-						<div class="single-item">
-							<div class="icon"><img src="images/home-light/service/6.png" alt=""></div>
-							<div class="mm-small-box">
-								<h4>7th: UV Light</h4>
-								<p>Cold cathode ultraviolet lamp with a wavelength of 235.7nm can effectively kill a
-									variety of common bacteria and viruses</p>
-							</div>
-						</div><!-- /.single-service -->
-					</div>
-				</div><!-- /.col-md-8 -->
-			</div><!-- /.section-content -->
 		</div>
 	</section>
 	<!-- /#service -->
@@ -294,20 +205,30 @@ $_smarty_tpl->tpl_vars['banner']->_loop = true;
 				<h2>Latest <span>News</span></h2>
 			</div>
 			<div class="section-content">
-				<div class="col-md-6 wow fadeInUp animated" data-wow-duration=".8s" data-wow-delay="0.4s">
-					<div class="post-item">
-						<div class="col-sm-6"><img src="images/articles.jpg" class="img-responsive" alt=""></div>
-						<div class="col-sm-6">
-							<div class="mm-small-box">
-								<h4><a href="#" class="black">SwissAir Air Purifier</a></h4>
-								<span>07 Jan 2016</span>
-								<p>With UV Light, the use of a cold cathode ultraviolet lamp with a wavelength of
-									235.7nm</p>
-								<a href="#" class="more-btn">Read More</a>
+				<?php  $_smarty_tpl->tpl_vars['news'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['news']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['news_list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['news']->key => $_smarty_tpl->tpl_vars['news']->value){
+$_smarty_tpl->tpl_vars['news']->_loop = true;
+?>	
+					<div class="col-md-6 wow fadeInUp animated" data-wow-duration=".8s" data-wow-delay="0.4s">
+						<div class="post-item">
+							<div class="col-sm-6"><img src="<?php echo $_smarty_tpl->tpl_vars['news']->value->getPictureUrl();?>
+" class="img-responsive" alt=""></div>
+							<div class="col-sm-6">
+								<div class="mm-small-box">
+									<h4><a href="#" class="black"><?php echo $_smarty_tpl->tpl_vars['news']->value->getName();?>
+</a></h4>
+									<span><?php echo $_smarty_tpl->tpl_vars['news']->value->getDate();?>
+</span>
+									<p><?php echo $_smarty_tpl->tpl_vars['news']->value->getShortDescription();?>
+</p>
+									<a href="/news/<?php echo $_smarty_tpl->tpl_vars['news']->value->getCode();?>
+" class="more-btn">Read More</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				<?php } ?>
 			</div><!-- /.section-content -->
 		</div>
 	</section>
@@ -334,7 +255,7 @@ $_smarty_tpl->tpl_vars['banner']->_loop = true;
 						</div>
 
 						<div class="col-md-4">
-							<input class="form-control user-web" type="url" name="website" placeholder="Subject*">
+							<input class="form-control user-web" type="url" name="subject" placeholder="Subject*">
 						</div>
 					</div><!-- /.input-box -->
 

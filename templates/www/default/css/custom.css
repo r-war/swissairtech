@@ -18,6 +18,10 @@
     height: 100%;
     z-index: -1;
 }
+.contact-section {
+    background-image: none;
+    background-color: #bbb;
+}
 .feature-lsit li:after {
     content: '\f30f';
 }

@@ -16,17 +16,18 @@ class DefaultModule extends AbstractCommonModule
 		$this->doSubscribe();
 		$this->handleConsults();
 
-		if (!empty($_POST['contact']))
+		if ($this->oData->isExists('send'))
 			$this->contactUs();
 
 		$param = null;
 
 		$view = [
-			"news_list" 		=> NewsPeer::getAll($param, null, -1, $param, 5),
+			"news_list" 		=> NewsPeer::getByType('news', $this->doHandleParameter(), null, $this->getPageList(), $oPager, 5),
 			
 			"testimonials" 		=> TestimonialPeer::getNewest(),
 			"banners" 			=> BannerPeer::getByGroup("slider"),
 			'sliders'			=> NewsPeer::getByType('sliding', $this->doHandleParameter(), null, $this->getPageList(), $oPager, 10),
+			'products'			=> NewsPeer::getByType('Products', $this->doHandleParameter(), null, $this->getPageList(), $oPager, 10),
 			"source"			=> 'Default'
 		];
 		$this->aContext += $view;
@@ -136,7 +137,7 @@ class DefaultModule extends AbstractCommonModule
 
 	public function contactUs()
 	{
-		$fullname   = $_POST['fullname'];
+		$fullname   = $_POST['name'];
 		$mailaddr   = $_POST['email'];
 		$subjects   = $_POST['subject'];
 		$messages   = $_POST['message'];
