@@ -1,0 +1,12 @@
+Sep 17 17:52:22 DefaultModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.swissairtechnology.com:25
+SENDER      : noreply@swissairtechnology.com
+FROM        : noreply@swissairtechnology.com
+TO          : rivwar25@gmail.com
+SUBJECT     : Contact from rivwar25@gmail.com
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+

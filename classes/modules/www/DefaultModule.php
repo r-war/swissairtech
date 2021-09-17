@@ -146,7 +146,7 @@ class DefaultModule extends AbstractCommonModule
 		$captcha    = $_POST['g-recaptcha-response'];
 		$error = false;
 
-		if ( empty($fullname) || empty($subjects) || empty($mailaddr) || empty($messages) || empty($captcha) ) {
+		if ( empty($fullname) || empty($subjects) || empty($mailaddr) || empty($messages) ) {
 			$error = true;
 			$this->error('All fields are mandatory');
 		}
@@ -167,18 +167,18 @@ class DefaultModule extends AbstractCommonModule
 				'verify' => false
 			]);
 
-			$response = $client->post('https://www.google.com/recaptcha/api/siteverify', [
-				'form_params' => [
-				  'secret' => '6LdykDQUAAAAACPzItFAAjxrl4lm5dBCY4IF0PB3',
-				  'response' => $captcha
-				]
-			]);
+			// $response = $client->post('https://www.google.com/recaptcha/api/siteverify', [
+			// 	'form_params' => [
+			// 	  'secret' => '6LdykDQUAAAAACPzItFAAjxrl4lm5dBCY4IF0PB3',
+			// 	  'response' => $captcha
+			// 	]
+			// ]);
 
-			$item = json_decode($response->getBody());
-			if ( !$item->success ) {
-				$error = true;
-				$this->error('Captcha verification failed');
-			}
+			// $item = json_decode($response->getBody());
+			// if ( !$item->success ) {
+			// 	$error = true;
+			// 	$this->error('Captcha verification failed');
+			// }
 		}
 
 		if (!$error) {
