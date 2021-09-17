@@ -154,7 +154,7 @@
 							<div class="col-sm-6"><img src="{$news->getPictureUrl()}" class="img-responsive" alt=""></div>
 							<div class="col-sm-6">
 								<div class="mm-small-box">
-									<h4><a href="#" class="black">{$news->getName()}</a></h4>
+									<h4><a href="/news/{$news->getCode()}" class="black">{$news->getName()}</a></h4>
 									<span>{$news->getDate()}</span>
 									<p>{$news->getShortDescription()}</p>
 									<a href="/news/{$news->getCode()}" class="more-btn">Read More</a>
@@ -176,7 +176,8 @@
 				<h2 class="color-white">Contact <span>us</span></h2>
 			</div>
 			<div class="section-content wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
-				<form action="#" method="post">
+			{include file='core/feedback.tpl'}
+				<form  method="post" action="" name="contact">
 					<div class="input-box">
 						<div class="col-md-4">
 							<input class="form-control user-name" type="text" name="name" placeholder="Your Name*"
@@ -189,7 +190,7 @@
 						</div>
 
 						<div class="col-md-4">
-							<input class="form-control user-web" type="url" name="subject" placeholder="Subject*">
+							<input class="form-control user-web" type="text" name="subject" placeholder="Subject*">
 						</div>
 					</div><!-- /.input-box -->
 
@@ -199,7 +200,7 @@
 						</div>
 					</div><!-- /.message-box -->
 
-					<p class="submit-box text-center"><input type="submit" class="base-bg" value="Send Message"></p>
+					<p class="submit-box text-center"><input type="submit" name="send" class="base-bg" value="Send Message"></p>
 				</form>
 			</div><!-- /.section-content -->
 		</div>

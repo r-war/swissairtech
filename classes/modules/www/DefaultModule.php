@@ -16,8 +16,10 @@ class DefaultModule extends AbstractCommonModule
 		$this->doSubscribe();
 		$this->handleConsults();
 
-		if ($this->oData->isExists('send'))
+		if ( $this->oData->isExists('send') )
+		{
 			$this->contactUs();
+		}
 
 		$param = null;
 

@@ -1,0 +1,51 @@
+Sep 17 09:35:06 NewsModule [error] Syntax Error in template "templates/www/default\NewsModule.tpl"  on line 96 "{/if}" unclosed {foreach} tag
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+x: news
+id: swissair-air-purifier
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {forea...')
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_compile_if.php(85): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(429): Smarty_Internal_Compile_Else->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(227): Smarty_Internal_TemplateCompilerBase->callTagCompiler('else', Array, Array)
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(2418): Smarty_Internal_TemplateCompilerBase->compileTag('else', Array)
+#5 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3111): Smarty_Internal_Templateparser->yy_r37()
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templateparser.php(3211): Smarty_Internal_Templateparser->yy_reduce(37)
+#7 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\n  <div class="...')
+#8 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('\t<!-- Limo Car ...')
+#9 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#10 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(155): Smarty_Internal_Template->compileTemplateSource()
+#11 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#12 D:\laragon\www\swissairtech\templates_c\www\default\a93eb856d51fe41f95addc301c9fbd21debfb028.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('NewsModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#13 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_614322934adbf8_62807610(Object(Smarty_Internal_Template))
+#14 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#15 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#16 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#17 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#18 {main}
+******************************************************
+Sep 17 09:35:49 NewsModule [error] Syntax Error in template "templates/www/default\NewsModule.tpl"  on line 50 "&lt;/div&gt;" unclosed {else} tag
+===================
+Server Addr: 127.0.0.1
+Server Host: swissairtech.dev
+Remote Addr: 127.0.0.1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+x: news
+id: swissair-air-purifier
+===================
+#0 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {else}...')
+#1 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatecompilerbase.php(171): Smarty_Internal_SmartyTemplateCompiler->doCompile('\t<!-- Limo Car ...')
+#2 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#4 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_template.php(285): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#5 D:\laragon\www\swissairtech\templates_c\www\default\a93eb856d51fe41f95addc301c9fbd21debfb028.file.default.tpl.php(33): Smarty_Internal_Template->getSubTemplate('NewsModule.tpl', NULL, NULL, NULL, NULL, Array, 0)
+#6 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(180): content_614322934adbf8_62807610(Object(Smarty_Internal_Template))
+#7 D:\laragon\www\swissairtech\classes\smarty\sysplugins\smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('layout/default....', NULL, NULL, NULL, true)
+#8 D:\laragon\www\swissairtech\classes\core\Application.php(388): Smarty_Internal_TemplateBase->display('layout/default....')
+#9 D:\laragon\www\swissairtech\classes\core\Application.php(308): Application->executeModule(Object(NewsModule))
+#10 D:\laragon\www\swissairtech\index.php(10): Application->process()
+#11 {main}
+******************************************************

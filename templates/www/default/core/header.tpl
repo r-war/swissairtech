@@ -148,11 +148,24 @@
       <div class="menu-right-part">
         <div class="social-btn">
           <ul>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+            {if $aConfig.facebook_link}
+            <li><a href="{$aConfig.facebook_link}" target=_blank><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            {/if}
+            {if $aConfig.youtube_link}
+            <li><a href="{$aConfig.youtube_link}" target=_blank><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            {/if}
+            {if $aConfig.twitter_link}
+            <li><a href="{$aConfig.twitter_link}" target=_blank><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            {/if}
+            {if $aConfig.instagram_link}
+            <li><a href="{$aConfig.instagram_link}" target=_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            {/if}
+            {if $aConfig.linkedin_link}
+            <li><a href="{$aConfig.linkedin_link}" target=_blank><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            {/if}
+            {if $aConfig.mail_link}
+            <li><a href="mailto:{$aConfig.mail_link}" target=_blank><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            {/if}
           </ul>
         </div>
       </div><!-- /.menu-right-part -->
