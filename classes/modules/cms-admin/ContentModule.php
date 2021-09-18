@@ -15,6 +15,8 @@ class ContentModule extends AbstractAdminModule
 			'content_home' => 'Home Content',
 			'content_home_protect' => 'Home Protect section',
 			'contact' => 'Contact footer',
+			'contact_detail'	=> 'Contact Module Address',
+			'contact_hour'	=> 'Contact Module Operation Hours',
 			#'content_sidebar' => 'Sidebar Content',
 			#'content_address' => 'Address Content',
 			//'content_home_jp' => 'Home Content (JP)',

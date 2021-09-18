@@ -1,4 +1,4 @@
-<div style="letter-spacing: 596px; line-height: 0; mso-hide: all">&nbsp;</div>
+ <div style="letter-spacing: 596px; line-height: 0; mso-hide: all">&nbsp;</div>
 <div style="padding:0px;margin:20px 0px 20px 0px;font-family:helvetica, tahoma;font-size:13px;line-height: 140%;">
     <div align="center">
         <div align="left" style="min-width: 99%;border-width: 1px;background-color:#FFFFFF;border-color: #BED1BD;border-style: solid;">
@@ -20,28 +20,13 @@
                     <td style="border-width: 0px 0px 1px 0px;border-color: #BED1BD;border-style: solid;">
 				<table width="100%" cellpadding="5">
 					<tbody>
+                    {foreach $data as $key=>$value}
 						<tr>
-							<th width="30%" align="right">Full Name:</th>
-							<td width="70%">{$data->fullname}</td>
+							<th width="30%" align="right">{$key}:</th>
+							<td width="70%">{$value}</td>
 						</tr>
-						<tr>
-							<th align="right">Email:</th>
-							<td>{$data->mailaddr}</td>
-						</tr>
-						<tr>
-							<th align="right">phone:</th>
-							<td>{$data->phone}</td>
-						</tr>
-                        {if isset($data->type)}
-                        <tr>
-                            <th align="right">Message Type:</th>
-                            <td>{$data->type}</td>
-                        </tr>
-                        {/if}
-						<tr>
-							<th align="right">Notes:</th>
-							<td>{$data->messages}</td>
-						</tr>
+                    {/foreach}
+
 					</tbody>
 				</table>
                     </td>

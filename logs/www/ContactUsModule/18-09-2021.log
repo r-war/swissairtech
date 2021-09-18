@@ -1,0 +1,24 @@
+Sep 18 09:45:29 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.swissairtechnology.com:25
+SENDER      : noreply@swissairtechnology.com
+FROM        : noreply@swissairtechnology.com
+TO          : rivwar25@gmail.com
+SUBJECT     : Contact from rivwar25@gmail.com
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+
+Sep 18 09:46:32 ContactUsModule [error] 
+SEND MAIL FAILED
+==================
+SMTP HOST   : mail.swissairtechnology.com:25
+SENDER      : noreply@swissairtechnology.com
+FROM        : noreply@swissairtechnology.com
+TO          : rivwar25@gmail.com
+SUBJECT     : Contact from rivwar25@gmail.com
+ERROR #     : 1
+PROBLEMS    : - SMTP Error: Could not connect to SMTP host.
+==================
+

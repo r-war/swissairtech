@@ -43,6 +43,13 @@
     padding: 26px 0px;
 }
 
+.main-contact-form p {
+    margin-bottom: 5px;
+}
+.single-icon-item {
+    margin-bottom: 20px;
+}
+
 .about .quote-section {
     background-image: url(../../images/testi-section.jpg);
 }

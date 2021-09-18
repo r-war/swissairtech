@@ -5,7 +5,7 @@
     <h2 class="background-text">News{if $news} / {$news->getName()} {/if}</h2>
 </div>
 	<!-- End of Limo Car Breatcume -->
-        <!--# content #-->
+<!--# content #-->
 <div class="page-container">
   <div class="container">
     {if $news}

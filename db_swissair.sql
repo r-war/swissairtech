@@ -13,10 +13,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Dumping database structure for db_swissair
-CREATE DATABASE IF NOT EXISTS `db_swissair` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `db_swissair`;
-
 -- Dumping structure for table db_swissair.admin
 CREATE TABLE IF NOT EXISTS `admin` (
   `id` int(10) NOT NULL AUTO_INCREMENT,

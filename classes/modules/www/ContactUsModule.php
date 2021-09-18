@@ -22,16 +22,15 @@ class ContactUsModule extends AbstractCommonModule
 
   public function contactUs()
   {
-    $type       = $_POST['type'];
-    $fullname   = $_POST['fullname'];
+    // $type       = $_POST['type'];
+    $fullname   = $_POST['name'];
     $mailaddr   = $_POST['email'];
-    $phone      = $_POST['phone'];
     //$subjects   = $_POST['subject'];
     $messages   = $_POST['message'];
     $captcha    = $_POST['g-recaptcha-response'];
     $error = false;
 
-    if ( empty($type) || empty($fullname)|| empty($mailaddr) || empty($messages) ) {
+    if ( empty($fullname)|| empty($mailaddr) || empty($messages) ) {
       $error = true;
       $this->error('All fields are mandatory');
     }
@@ -48,34 +47,34 @@ class ContactUsModule extends AbstractCommonModule
       }
 
       # validate google recaptcha
-      $client = new Client([
-        'verify' => false
-      ]);
+      // $client = new Client([
+      //   'verify' => false
+      // ]);
 
-      $response = $client->post('https://www.google.com/recaptcha/api/siteverify', [
-        'form_params' => [
-          'secret' => '6LfdvbYZAAAAAHMAIZ6omLxi3HTKec_ekGJNrdW0',
-          'response' => $captcha
-        ]
-      ]);
+      // $response = $client->post('https://www.google.com/recaptcha/api/siteverify', [
+      //   'form_params' => [
+      //     'secret' => '6LfdvbYZAAAAAHMAIZ6omLxi3HTKec_ekGJNrdW0',
+      //     'response' => $captcha
+      //   ]
+      // ]);
 
-      $item = json_decode($response->getBody());
-      if ( !$item->success ) {
-        $error = true;
-        $this->error('Captcha verification failed');
-      }
+      // $item = json_decode($response->getBody());
+      // if ( !$item->success ) {
+      //   $error = true;
+      //   $this->error('Captcha verification failed');
+      // }
     }
 
     if (!$error) {
 
       # set mail data
       $maildata = new stdClass();
-      $maildata->type       = $type;
-      $maildata->fullname   = $fullname;
-      $maildata->mailaddr   = $mailaddr;
-      $maildata->subjects   = $subjects;
+      // $maildata->type       = $type;
+      $maildata->name   = $fullname;
+      $maildata->email   = $mailaddr;
+      // $maildata->subjects   = $subjects;
       $maildata->messages   = $messages;
-      $maildata->phone      = $phone;
+      // $maildata->phone      = $phone;
 
       #set mail from
       $mailfrom = array(

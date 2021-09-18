@@ -185,8 +185,8 @@ class DefaultModule extends AbstractCommonModule
 
 			# set mail data
 			$maildata = new stdClass();
-			$maildata->fullname   = $fullname;
-			$maildata->mailaddr   = $mailaddr;
+			$maildata->name   = $fullname;
+			$maildata->email   = $mailaddr;
 			$maildata->subjects   = $subjects;
 			$maildata->messages   = $messages;
 
