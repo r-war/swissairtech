@@ -95,7 +95,7 @@ class ContactUsModule extends AbstractCommonModule
       }
 
       #set subject
-      $subject = "Contact from " . $maildata->mailaddr;
+      $subject = "Contact from " . $maildata->email;
 
       #set template used
       $template = "contact.tpl";
